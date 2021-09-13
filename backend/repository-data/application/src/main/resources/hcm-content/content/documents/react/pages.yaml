@@ -1,0 +1,76 @@
+/content/documents/react/pages:
+  .meta:order-before: news
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippo:named', 'hippostd:xpagefolder', 'hippotranslation:translated',
+    'mix:versionable']
+  jcr:uuid: 8060c09a-d2fc-4227-ad3b-63cdab84ec04
+  hippo:name: Pages
+  hippostd:channelid: react
+  hippostd:foldertype: [new-experiencePage-document, new-experiencePage-folder]
+  hippotranslation:id: c17bd7ca-443b-4cbb-9e8e-5e70c1447333
+  hippotranslation:locale: en
+  /homepage:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 543bc2aa-7bb5-435b-9598-928481adf265
+    hippo:name: Homepage
+    hippo:versionHistory: b9efe1d2-16fb-4e7d-ae29-9336b60054eb
+    /homepage[1]:
+      jcr:primaryType: myproject:experiencePage
+      jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable']
+      jcr:uuid: ee616475-1315-4bf3-98a8-d728e832e41d
+      hippo:availability: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-09-12T19:04:55.890-04:00
+      hippostdpubwf:lastModificationDate: 2021-09-12T19:05:05.775-04:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 658f2f01-1822-4e9c-9d8d-e23a741e4635
+      hippotranslation:locale: en
+      myproject:pageTitle: React Homepage
+    /homepage[2]:
+      jcr:primaryType: myproject:experiencePage
+      jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable', 'mix:versionable']
+      jcr:uuid: 6ac2862f-3cc1-4410-a063-790db05454ef
+      hippo:availability: [preview]
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-09-12T19:04:55.890-04:00
+      hippostdpubwf:lastModificationDate: 2021-09-12T19:05:08.494-04:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 658f2f01-1822-4e9c-9d8d-e23a741e4635
+      hippotranslation:locale: en
+      myproject:pageTitle: React Homepage
+      /hst:xpage:
+        jcr:primaryType: hst:xpage
+        jcr:uuid: 1c9316aa-35b9-4c38-b159-a5c52c92b3d1
+        hst:pageref: single-column
+        /17891158-a805-4fa0-a5c8-80dc4b3274ff:
+          jcr:primaryType: hst:containercomponent
+          jcr:uuid: d9c62e4f-7ce5-4e76-bf02-539f1d3037a8
+          hippo:identifier: 221593d9-2e6f-40c9-a6e0-eabc982b820f
+    /homepage[3]:
+      jcr:primaryType: myproject:experiencePage
+      jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable']
+      jcr:uuid: 0533e286-bb48-4e5a-b75d-dbeb5b52cb02
+      hippo:availability: [live]
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-09-12T19:04:55.890-04:00
+      hippostdpubwf:lastModificationDate: 2021-09-12T19:05:08.494-04:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2021-09-12T19:05:10.060-04:00
+      hippotranslation:id: 658f2f01-1822-4e9c-9d8d-e23a741e4635
+      hippotranslation:locale: en
+      myproject:pageTitle: React Homepage
+      /hst:xpage:
+        jcr:primaryType: hst:xpage
+        jcr:uuid: ed0ecf88-9c66-42cb-9982-dd7cfd960fc3
+        hst:pageref: single-column
+        /17891158-a805-4fa0-a5c8-80dc4b3274ff:
+          jcr:primaryType: hst:containercomponent
+          jcr:uuid: ec6aa931-c388-45ec-b6ae-1e8675fc1627
+          hippo:identifier: 221593d9-2e6f-40c9-a6e0-eabc982b820f

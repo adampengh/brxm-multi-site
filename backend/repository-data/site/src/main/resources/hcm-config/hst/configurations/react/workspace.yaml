@@ -1,0 +1,53 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/react/hst:workspace:
+      jcr:primaryType: hst:workspace
+      jcr:mixinTypes: ['dxphst:mergeable']
+      dxphst:treehash: 9BF397628C17AC6990F489975E563F0D
+      /hst:containers:
+        jcr:primaryType: hst:containercomponentfolder
+        /base:
+          jcr:primaryType: hst:containercomponentfolder
+          /top:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hippo:identifier: df393b40-a382-4522-96c9-c54374813e64
+            hst:label: Top
+            hst:xtype: hst.vbox
+          /footer:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hippo:identifier: 12cb4b82-2e88-4116-834c-a18f2a099fea
+            hst:label: Footer
+            hst:xtype: hst.vbox
+        /pagenotfound:
+          jcr:primaryType: hst:containercomponentfolder
+          /main:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hippo:identifier: 246600a5-5697-4fb5-8bbb-935f35a8ab5f
+            hst:label: Page-Not-Found Main
+            hst:xtype: hst.vbox
+            hst:lastmodified: 2021-09-12T19:11:08.545-04:00
+        /newslist:
+          jcr:primaryType: hst:containercomponentfolder
+          /main:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hippo:identifier: 584905b9-5175-4338-8a6c-46e1cba5ba22
+            hst:label: News List Main
+            hst:xtype: hst.vbox
+            hst:lastmodified: 2021-09-12T19:08:26.733-04:00
+        /newspage:
+          jcr:primaryType: hst:containercomponentfolder
+          /main:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:containercomponent
+            hippo:identifier: 5ba8604b-f675-4b32-9b4f-b87db0faea5d
+            hst:label: News Page Main
+            hst:xtype: hst.vbox
+      /hst:sitemenus:
+        jcr:primaryType: hst:sitemenus
+        /main:
+          .meta:residual-child-node-category: content
+          jcr:primaryType: hst:sitemenu

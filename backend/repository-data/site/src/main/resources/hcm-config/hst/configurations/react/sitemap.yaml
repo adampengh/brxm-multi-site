@@ -1,0 +1,31 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/react/hst:sitemap:
+      jcr:primaryType: hst:sitemap
+      /_any_:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/pagenotfound
+        hst:relativecontentpath: pages/${1}
+      /pagenotfound:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/pagenotfound
+        hst:pagetitle: Not Found Page
+        hst:refId: pagenotfound
+      /news:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/newslist
+        hst:pagetitle: List of News Items
+        hst:relativecontentpath: news
+        /_any_.html:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:pages/newspage
+          hst:relativecontentpath: ${parent}/${1}
+        /_any_:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:pages/newslist
+          hst:relativecontentpath: ${parent}/${1}
+      /homepage:
+        jcr:primaryType: hst:sitemapitem
+        hst:pagetitle: Home Page
+        hst:refId: homepage
+        hst:relativecontentpath: pages/homepage
