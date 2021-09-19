@@ -1,0 +1,301 @@
+/content/documents/react/sample-components:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: ae1e8fb3-bcc8-4011-9d63-8e6973b00e09
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: d754987e-7693-473c-ba8e-f3d660dff79b
+  hippotranslation:locale: en
+  /slider:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+    jcr:uuid: 845a5313-a009-4294-bc77-0749fd626834
+    hippostd:foldertype: [new-translated-folder, new-document]
+    hippotranslation:id: 9027e84d-e355-4551-b7e4-d555e883f93e
+    hippotranslation:locale: en
+    /sample-slider:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+      jcr:uuid: 293bedbb-5d7f-44e1-8f7f-dc955e431aad
+      hippo:name: Sample Slider
+      hippo:versionHistory: 2c6942fa-b5e4-44be-bf7d-3be02d07170a
+      /sample-slider[1]:
+        jcr:primaryType: myproject:slickSlider
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: f2a2e6f9-0438-4e17-a304-3a225ae6b6e5
+        hippo:availability: []
+        hippostd:retainable: false
+        hippostd:state: draft
+        hippostd:transferable: false
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2021-09-18T19:00:42.632-04:00
+        hippostdpubwf:lastModificationDate: 2021-09-19T12:04:17.638-04:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 7f27caba-2d39-400a-802d-b7ffb9ef15c0
+        hippotranslation:locale: en
+        /myproject:slide[1]:
+          jcr:primaryType: myproject:slickSliderCompound
+          /myproject:image:
+            jcr:primaryType: myproject:imageCompound
+            myproject:altText: Hot air balloons
+            /myproject:mobileImage:
+              jcr:primaryType: hippogallerypicker:imagelink
+              hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+            /myproject:desktopImage:
+              jcr:primaryType: hippogallerypicker:imagelink
+              hippo:docbase: 2a6ba0d2-b026-4765-a70f-b851b50f055b
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+          /myproject:text:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+        /myproject:slide[2]:
+          jcr:primaryType: myproject:slickSliderCompound
+          /myproject:image:
+            jcr:primaryType: myproject:imageCompound
+            myproject:altText: Canoe on a lake
+            /myproject:mobileImage:
+              jcr:primaryType: hippogallerypicker:imagelink
+              hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+            /myproject:desktopImage:
+              jcr:primaryType: hippogallerypicker:imagelink
+              hippo:docbase: 0ca0c1fb-9281-4583-8886-6c9f08ffb29e
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+          /myproject:text:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <h2>Your Next Adventure Awaits</h2>
+        /myproject:slide[3]:
+          jcr:primaryType: myproject:slickSliderCompound
+          /myproject:image:
+            jcr:primaryType: myproject:imageCompound
+            myproject:altText: Sunset on a beach
+            /myproject:mobileImage:
+              jcr:primaryType: hippogallerypicker:imagelink
+              hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+            /myproject:desktopImage:
+              jcr:primaryType: hippogallerypicker:imagelink
+              hippo:docbase: 17ea53ac-0561-423b-8270-0cedf106d0d5
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+          /myproject:text:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+        /myproject:slide[4]:
+          jcr:primaryType: myproject:slickSliderCompound
+          /myproject:image:
+            jcr:primaryType: myproject:imageCompound
+            myproject:altText: Sunset behind palm trees
+            /myproject:mobileImage:
+              jcr:primaryType: hippogallerypicker:imagelink
+              hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+            /myproject:desktopImage:
+              jcr:primaryType: hippogallerypicker:imagelink
+              hippo:docbase: 6857ca04-af06-479b-a844-c2530feac653
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+          /myproject:text:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+      /sample-slider[2]:
+        jcr:primaryType: myproject:slickSlider
+        jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+        jcr:uuid: f84077a6-e241-469d-957e-534ff02f6599
+        hippo:availability: [preview]
+        hippostd:retainable: false
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2021-09-18T19:00:42.632-04:00
+        hippostdpubwf:lastModificationDate: 2021-09-19T12:04:16.092-04:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 7f27caba-2d39-400a-802d-b7ffb9ef15c0
+        hippotranslation:locale: en
+        /myproject:slide[1]:
+          jcr:primaryType: myproject:slickSliderCompound
+          /myproject:image:
+            jcr:primaryType: myproject:imageCompound
+            myproject:altText: Hot air balloons
+            /myproject:mobileImage:
+              jcr:primaryType: hippogallerypicker:imagelink
+              hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+            /myproject:desktopImage:
+              jcr:primaryType: hippogallerypicker:imagelink
+              hippo:docbase: 2a6ba0d2-b026-4765-a70f-b851b50f055b
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+          /myproject:text:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+        /myproject:slide[2]:
+          jcr:primaryType: myproject:slickSliderCompound
+          /myproject:image:
+            jcr:primaryType: myproject:imageCompound
+            myproject:altText: Canoe on a lake
+            /myproject:mobileImage:
+              jcr:primaryType: hippogallerypicker:imagelink
+              hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+            /myproject:desktopImage:
+              jcr:primaryType: hippogallerypicker:imagelink
+              hippo:docbase: 0ca0c1fb-9281-4583-8886-6c9f08ffb29e
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+          /myproject:text:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <h2>Your Next Adventure Awaits</h2>
+        /myproject:slide[3]:
+          jcr:primaryType: myproject:slickSliderCompound
+          /myproject:image:
+            jcr:primaryType: myproject:imageCompound
+            myproject:altText: Sunset on a beach
+            /myproject:mobileImage:
+              jcr:primaryType: hippogallerypicker:imagelink
+              hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+            /myproject:desktopImage:
+              jcr:primaryType: hippogallerypicker:imagelink
+              hippo:docbase: 17ea53ac-0561-423b-8270-0cedf106d0d5
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+          /myproject:text:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+        /myproject:slide[4]:
+          jcr:primaryType: myproject:slickSliderCompound
+          /myproject:image:
+            jcr:primaryType: myproject:imageCompound
+            myproject:altText: Sunset behind palm trees
+            /myproject:mobileImage:
+              jcr:primaryType: hippogallerypicker:imagelink
+              hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+            /myproject:desktopImage:
+              jcr:primaryType: hippogallerypicker:imagelink
+              hippo:docbase: 6857ca04-af06-479b-a844-c2530feac653
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+          /myproject:text:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+      /sample-slider[3]:
+        jcr:primaryType: myproject:slickSlider
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 068d3e6d-517c-4e19-9d34-26f3b8c13345
+        hippo:availability: [live]
+        hippostd:retainable: false
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2021-09-18T19:00:42.632-04:00
+        hippostdpubwf:lastModificationDate: 2021-09-19T12:04:16.092-04:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2021-09-19T12:04:17.500-04:00
+        hippotranslation:id: 7f27caba-2d39-400a-802d-b7ffb9ef15c0
+        hippotranslation:locale: en
+        /myproject:slide[1]:
+          jcr:primaryType: myproject:slickSliderCompound
+          /myproject:image:
+            jcr:primaryType: myproject:imageCompound
+            myproject:altText: Hot air balloons
+            /myproject:mobileImage:
+              jcr:primaryType: hippogallerypicker:imagelink
+              hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+            /myproject:desktopImage:
+              jcr:primaryType: hippogallerypicker:imagelink
+              hippo:docbase: 2a6ba0d2-b026-4765-a70f-b851b50f055b
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+          /myproject:text:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+        /myproject:slide[2]:
+          jcr:primaryType: myproject:slickSliderCompound
+          /myproject:image:
+            jcr:primaryType: myproject:imageCompound
+            myproject:altText: Canoe on a lake
+            /myproject:mobileImage:
+              jcr:primaryType: hippogallerypicker:imagelink
+              hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+            /myproject:desktopImage:
+              jcr:primaryType: hippogallerypicker:imagelink
+              hippo:docbase: 0ca0c1fb-9281-4583-8886-6c9f08ffb29e
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+          /myproject:text:
+            jcr:primaryType: hippostd:html
+            hippostd:content: <h2>Your Next Adventure Awaits</h2>
+        /myproject:slide[3]:
+          jcr:primaryType: myproject:slickSliderCompound
+          /myproject:image:
+            jcr:primaryType: myproject:imageCompound
+            myproject:altText: Sunset on a beach
+            /myproject:mobileImage:
+              jcr:primaryType: hippogallerypicker:imagelink
+              hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+            /myproject:desktopImage:
+              jcr:primaryType: hippogallerypicker:imagelink
+              hippo:docbase: 17ea53ac-0561-423b-8270-0cedf106d0d5
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+          /myproject:text:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+        /myproject:slide[4]:
+          jcr:primaryType: myproject:slickSliderCompound
+          /myproject:image:
+            jcr:primaryType: myproject:imageCompound
+            myproject:altText: Sunset behind palm trees
+            /myproject:mobileImage:
+              jcr:primaryType: hippogallerypicker:imagelink
+              hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+            /myproject:desktopImage:
+              jcr:primaryType: hippogallerypicker:imagelink
+              hippo:docbase: 6857ca04-af06-479b-a844-c2530feac653
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+          /myproject:text:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''

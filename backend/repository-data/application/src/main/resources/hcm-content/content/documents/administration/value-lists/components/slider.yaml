@@ -1,0 +1,53 @@
+/content/documents/administration/value-lists/components/slider:
+  jcr:primaryType: hippo:handle
+  jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+  jcr:uuid: f0bdd38a-e39d-439a-9c9d-ea0bcccd10af
+  hippo:name: Slider
+  hippo:versionHistory: 794259fa-b206-4de9-99f6-b9fc4c9e89c1
+  /slider[1]:
+    jcr:primaryType: resourcebundle:resourcebundle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: e831a97c-9b7e-4ca7-8eed-f9a525f55691
+    hippo:availability: []
+    hippostd:retainable: false
+    hippostd:state: draft
+    hippostd:transferable: false
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2021-09-19T11:37:23.601-04:00
+    hippostdpubwf:lastModificationDate: 2021-09-19T11:41:03.081-04:00
+    hippostdpubwf:lastModifiedBy: admin
+    resourcebundle:descriptions: ['', '']
+    resourcebundle:id: dotsStyle
+    resourcebundle:keys: [dots, bars]
+    resourcebundle:messages: [Dots, Bars]
+  /slider[2]:
+    jcr:primaryType: resourcebundle:resourcebundle
+    jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+    jcr:uuid: f432d0db-cad0-4f1b-af5e-2dc74cc4ed2a
+    hippo:availability: [preview]
+    hippostd:retainable: false
+    hippostd:state: unpublished
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2021-09-19T11:37:23.601-04:00
+    hippostdpubwf:lastModificationDate: 2021-09-19T11:37:49.072-04:00
+    hippostdpubwf:lastModifiedBy: admin
+    resourcebundle:descriptions: ['', '']
+    resourcebundle:id: dotsStyle
+    resourcebundle:keys: [dots, bars]
+    resourcebundle:messages: [Dots, Bars]
+  /slider[3]:
+    jcr:primaryType: resourcebundle:resourcebundle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 6f397d24-d54b-46eb-aa74-732a4a2824ab
+    hippo:availability: [live]
+    hippostd:retainable: false
+    hippostd:state: published
+    hippostdpubwf:createdBy: admin
+    hippostdpubwf:creationDate: 2021-09-19T11:37:23.601-04:00
+    hippostdpubwf:lastModificationDate: 2021-09-19T11:37:49.072-04:00
+    hippostdpubwf:lastModifiedBy: admin
+    hippostdpubwf:publicationDate: 2021-09-19T11:41:27.242-04:00
+    resourcebundle:descriptions: ['', '']
+    resourcebundle:id: dotsStyle
+    resourcebundle:keys: [dots, bars]
+    resourcebundle:messages: [Dots, Bars]

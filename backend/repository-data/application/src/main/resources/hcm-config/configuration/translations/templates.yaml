@@ -16,6 +16,8 @@ definitions:
       new-news-folder: new news item folder
       new-experiencePage-folder: New Experience Page Folder
       new-experiencePage-document: New Experience Page Document
+      new-slider-document: New Slider Document
+      new-slider-folder: New Slider Folder
     /hippo:configuration/hippo:translations/hippo:templates/fr:
       new-resource-bundle: nouveau resource bundle
       new-untranslated-folder: nouveau dossier non traduit

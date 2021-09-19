@@ -16,5 +16,8 @@
 
 export * from './Banner';
 export * from './Content';
+export * from './Footer';
+export * from './Header';
 export * from './Menu';
 export * from './NewsList';
+export * from './SlickSlider';

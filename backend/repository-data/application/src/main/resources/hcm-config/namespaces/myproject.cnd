@@ -13,6 +13,15 @@
 [myproject:experiencePage] > hippostd:relaxed, hippotranslation:translated, myproject:basedocument
   orderable
 
+[myproject:imageCompound] > hippo:compound, hippostd:relaxed
+  orderable
+
 [myproject:newsdocument] > hippostd:relaxed, hippotranslation:translated, myproject:basedocument
+  orderable
+
+[myproject:slickSlider] > hippostd:relaxed, hippotranslation:translated, myproject:basedocument
+  orderable
+
+[myproject:slickSliderCompound] > hippo:compound, hippostd:relaxed
   orderable
 

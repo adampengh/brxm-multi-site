@@ -1,0 +1,7 @@
+/content/gallery/react:
+  jcr:primaryType: hippogallery:stdImageGallery
+  jcr:mixinTypes: ['hippo:named', 'mix:versionable']
+  jcr:uuid: a3cf4e99-58b2-4b22-bd1a-1d38c3aae5f7
+  hippo:name: React
+  hippostd:foldertype: [new-image-folder]
+  hippostd:gallerytype: ['hippogallery:imageset']

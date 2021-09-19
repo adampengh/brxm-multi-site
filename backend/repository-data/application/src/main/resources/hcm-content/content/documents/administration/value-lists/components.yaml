@@ -1,0 +1,6 @@
+/content/documents/administration/value-lists/components:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippo:named', 'mix:versionable']
+  jcr:uuid: de34b61c-a331-4f7e-8f54-ea07a744b931
+  hippo:name: Components
+  hippostd:foldertype: [new-resource-bundle, new-untranslated-folder]

@@ -14,7 +14,7 @@
     jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
     jcr:uuid: 543bc2aa-7bb5-435b-9598-928481adf265
     hippo:name: Homepage
-    hippo:versionHistory: b9efe1d2-16fb-4e7d-ae29-9336b60054eb
+    hippo:versionHistory: 8f9e7134-d8d7-4e66-9f08-90837b0b30b4
     /homepage[1]:
       jcr:primaryType: myproject:experiencePage
       jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable']
@@ -38,7 +38,7 @@
       hippostd:state: unpublished
       hippostdpubwf:createdBy: admin
       hippostdpubwf:creationDate: 2021-09-12T19:04:55.890-04:00
-      hippostdpubwf:lastModificationDate: 2021-09-12T19:05:08.494-04:00
+      hippostdpubwf:lastModificationDate: 2021-09-19T12:02:24.010-04:00
       hippostdpubwf:lastModifiedBy: admin
       hippotranslation:id: 658f2f01-1822-4e9c-9d8d-e23a741e4635
       hippotranslation:locale: en
@@ -51,6 +51,17 @@
           jcr:primaryType: hst:containercomponent
           jcr:uuid: d9c62e4f-7ce5-4e76-bf02-539f1d3037a8
           hippo:identifier: 221593d9-2e6f-40c9-a6e0-eabc982b820f
+          hst:lastmodified: 2021-09-19T16:02:24.009Z
+          /SlickSlider:
+            jcr:primaryType: hst:containeritemcomponent
+            jcr:uuid: e9fcb072-ca6e-4237-a382-92e47ffac509
+            hst:componentdefinition: hst:components/common-catalog/SlickSlider
+            hst:parameternames: [dots, infinite, document, arrows, vertical, rows,
+              pauseOnDotsHover, autoplay, slidesPerRow, dotsStyle, fade, pauseOnFocus,
+              pauseOnHover, slidesToScroll, slidesToShow, autoplaySpeed]
+            hst:parametervalues: ['on', 'on', sample-components/slider/sample-slider,
+              'on', 'off', '1', 'off', 'off', '1', dots, 'off', 'off', 'off', '1',
+              '1', '3000']
     /homepage[3]:
       jcr:primaryType: myproject:experiencePage
       jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable']
@@ -60,17 +71,28 @@
       hippostd:state: published
       hippostdpubwf:createdBy: admin
       hippostdpubwf:creationDate: 2021-09-12T19:04:55.890-04:00
-      hippostdpubwf:lastModificationDate: 2021-09-12T19:05:08.494-04:00
+      hippostdpubwf:lastModificationDate: 2021-09-19T12:02:24.010-04:00
       hippostdpubwf:lastModifiedBy: admin
-      hippostdpubwf:publicationDate: 2021-09-12T19:05:10.060-04:00
+      hippostdpubwf:publicationDate: 2021-09-19T12:02:26.694-04:00
       hippotranslation:id: 658f2f01-1822-4e9c-9d8d-e23a741e4635
       hippotranslation:locale: en
       myproject:pageTitle: React Homepage
       /hst:xpage:
         jcr:primaryType: hst:xpage
-        jcr:uuid: ed0ecf88-9c66-42cb-9982-dd7cfd960fc3
+        jcr:uuid: 828ba1e5-6ffb-4f30-98aa-ad2d9d67d976
         hst:pageref: single-column
         /17891158-a805-4fa0-a5c8-80dc4b3274ff:
           jcr:primaryType: hst:containercomponent
-          jcr:uuid: ec6aa931-c388-45ec-b6ae-1e8675fc1627
+          jcr:uuid: 9dba2c41-4f28-48ef-9ae4-8bc58f50ce47
           hippo:identifier: 221593d9-2e6f-40c9-a6e0-eabc982b820f
+          hst:lastmodified: 2021-09-19T16:02:24.009Z
+          /SlickSlider:
+            jcr:primaryType: hst:containeritemcomponent
+            jcr:uuid: f86a8316-8618-4c57-85bf-106e21c1609d
+            hst:componentdefinition: hst:components/common-catalog/SlickSlider
+            hst:parameternames: [dots, infinite, document, arrows, vertical, rows,
+              pauseOnDotsHover, autoplay, slidesPerRow, dotsStyle, fade, pauseOnFocus,
+              pauseOnHover, slidesToScroll, slidesToShow, autoplaySpeed]
+            hst:parametervalues: ['on', 'on', sample-components/slider/sample-slider,
+              'on', 'off', '1', 'off', 'off', '1', dots, 'off', 'off', 'off', '1',
+              '1', '3000']
