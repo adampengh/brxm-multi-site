@@ -18,6 +18,8 @@ definitions:
       new-experiencePage-document: New Experience Page Document
       new-slider-document: New Slider Document
       new-slider-folder: New Slider Folder
+      new-navigationBanner-document: New Navigation Banner
+      new-navigationBanner-folder: New Navigation Banner Folder
     /hippo:configuration/hippo:translations/hippo:templates/fr:
       new-resource-bundle: nouveau resource bundle
       new-untranslated-folder: nouveau dossier non traduit

@@ -1,7 +1,7 @@
 <#include "../include/imports.ftl">
 
 <#-- @ftlvariable name="componentId" type="java.lang.String" -->
-<#-- @ftlvariable name="item" type="org.example.beans.Banner" -->
+<#-- @ftlvariable name="item" type="com.myproject.beans.Banner" -->
 <#-- @ftlvariable name="pageable" type="org.onehippo.cms7.essentials.components.paging.Pageable" -->
 <#-- @ftlvariable name="cparam" type="org.onehippo.cms7.essentials.components.info.EssentialsCarouselComponentInfo" -->
 <#if pageable?? && pageable.items?has_content>
@@ -99,7 +99,7 @@
             .carousel-inner > .item > img {
                 margin: 0 auto;
             }
-          
+
             /* order CC-buttons next to each other */
             .item-button {
               float: left;

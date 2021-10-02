@@ -1,0 +1,5 @@
+/hst:hst/hst:configurations/react/hst:workspace/hst:sitemenus/main/Customize:
+  jcr:primaryType: hst:sitemenuitem
+  hst:parameternames: [Banner Name]
+  hst:parametervalues: ['']
+  hst:repobased: false

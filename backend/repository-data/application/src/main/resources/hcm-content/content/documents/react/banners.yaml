@@ -79,7 +79,7 @@
     jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
     jcr:uuid: 479a9514-c92e-4605-a26e-de445cedb733
     hippo:name: Page Not Found
-    hippo:versionHistory: 3d9fc6f4-9eee-49cd-a425-946d68a3b1cf
+    hippo:versionHistory: 8a75a87d-5904-4d19-ac64-d259c7c732e8
     /page-not-found[1]:
       jcr:primaryType: myproject:bannerdocument
       jcr:mixinTypes: ['mix:referenceable']
@@ -91,15 +91,15 @@
       hippostd:transferable: false
       hippostdpubwf:createdBy: admin
       hippostdpubwf:creationDate: 2021-09-12T19:10:45.955-04:00
-      hippostdpubwf:lastModificationDate: 2021-09-13T08:07:57.818-04:00
+      hippostdpubwf:lastModificationDate: 2021-09-30T14:43:26.852-04:00
       hippostdpubwf:lastModifiedBy: admin
       hippotranslation:id: bfa28b57-1150-45d1-998b-112ba4728058
       hippotranslation:locale: en
       myproject:title: 404 - Page Not Found
       /myproject:content:
         jcr:primaryType: hippostd:html
-        hippostd:content: <p><img src="https://www.fillmurray.com/1000/400" alt="Fill
-          Murray" /></p>
+        hippostd:content: <p><img src="https://via.placeholder.com/1600x900" alt="Placeholder"
+          /></p>
       /myproject:image:
         jcr:primaryType: hippogallerypicker:imagelink
         hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
@@ -119,15 +119,15 @@
       hippostd:state: unpublished
       hippostdpubwf:createdBy: admin
       hippostdpubwf:creationDate: 2021-09-12T19:10:45.955-04:00
-      hippostdpubwf:lastModificationDate: 2021-09-13T08:07:53.062-04:00
+      hippostdpubwf:lastModificationDate: 2021-09-30T14:42:56.228-04:00
       hippostdpubwf:lastModifiedBy: admin
       hippotranslation:id: bfa28b57-1150-45d1-998b-112ba4728058
       hippotranslation:locale: en
       myproject:title: 404 - Page Not Found
       /myproject:content:
         jcr:primaryType: hippostd:html
-        hippostd:content: <p><img src="https://www.fillmurray.com/1000/400" alt="Fill
-          Murray" /></p>
+        hippostd:content: <p><img src="https://via.placeholder.com/1600x900" alt="Placeholder"
+          /></p>
       /myproject:image:
         jcr:primaryType: hippogallerypicker:imagelink
         hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
@@ -147,16 +147,16 @@
       hippostd:state: published
       hippostdpubwf:createdBy: admin
       hippostdpubwf:creationDate: 2021-09-12T19:10:45.955-04:00
-      hippostdpubwf:lastModificationDate: 2021-09-13T08:07:53.062-04:00
+      hippostdpubwf:lastModificationDate: 2021-09-30T14:42:56.228-04:00
       hippostdpubwf:lastModifiedBy: admin
-      hippostdpubwf:publicationDate: 2021-09-13T08:07:57.679-04:00
+      hippostdpubwf:publicationDate: 2021-09-30T14:43:26.676-04:00
       hippotranslation:id: bfa28b57-1150-45d1-998b-112ba4728058
       hippotranslation:locale: en
       myproject:title: 404 - Page Not Found
       /myproject:content:
         jcr:primaryType: hippostd:html
-        hippostd:content: <p><img src="https://www.fillmurray.com/1000/400" alt="Fill
-          Murray" /></p>
+        hippostd:content: <p><img src="https://via.placeholder.com/1600x900" alt="Placeholder"
+          /></p>
       /myproject:image:
         jcr:primaryType: hippogallerypicker:imagelink
         hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe

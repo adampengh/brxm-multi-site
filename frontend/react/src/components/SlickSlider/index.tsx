@@ -11,6 +11,24 @@ interface SlideProps {
     slide: any;
 };
 
+interface SliderParameters {
+    arrows?: boolean;
+    autoplay?: boolean;
+    autoplaySpeed?: number;
+    dots?: boolean;
+    dotsStyle?: string;
+    fade?: boolean;
+    infinite?: boolean;
+    pauseOnDotsHover?: boolean;
+    pauseOnFocus?: boolean;
+    pauseOnHover?: boolean;
+    rows?: number;
+    slidesPerRow?: number;
+    slidesToScroll?: number;
+    slidesToShow?: number;
+    vertical?: boolean;
+}
+
 export const SlickSlider = ({ component, page }: BrProps) => {
     // Get Component Parameters
     const {
@@ -29,7 +47,7 @@ export const SlickSlider = ({ component, page }: BrProps) => {
         slidesToScroll,
         slidesToShow,
         vertical,
-    } = component.getParameters();
+    } = component.getParameters<SliderParameters>();
 
     // Get Slides Document
     const { document: documentRef } = component.getModels();

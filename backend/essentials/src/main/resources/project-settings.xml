@@ -10,10 +10,10 @@
     <hstRoot>/hst:myproject</hstRoot>
     <projectNamespace>myproject</projectNamespace>
     <repositoryDataModule>repository-data</repositoryDataModule>
-    <selectedBeansPackage>org.example.beans</selectedBeansPackage>
-    <selectedComponentsPackage>org.example.components</selectedComponentsPackage>
-    <selectedProjectPackage>org.example</selectedProjectPackage>
-    <selectedRestPackage>org.example.rest</selectedRestPackage>
+    <selectedBeansPackage>com.myproject.beans</selectedBeansPackage>
+    <selectedComponentsPackage>com.myproject.components</selectedComponentsPackage>
+    <selectedProjectPackage>com.myproject</selectedProjectPackage>
+    <selectedRestPackage>com.myproject.rest</selectedRestPackage>
     <setupDone>true</setupDone>
     <siteContextPath>/site</siteContextPath>
     <siteModule>site</siteModule>

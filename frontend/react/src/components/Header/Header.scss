@@ -1,0 +1,84 @@
+.header {
+    background-color: white;
+    display: block;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    border-bottom: 1px solid #d8d8d8;
+
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    &__primary {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        position: relative; // Necessary for the mega-menu positioning
+        &--inner {
+            align-items: center;
+            align-content: center;
+            display: flex;
+            flex-direction: row-reverse;
+            flex-wrap: nowrap;
+            margin: 0 auto;
+            max-width: 1160px;
+            width: 100%;
+            @media screen and (min-width: 1025px) {
+                flex-direction: row;
+                justify-content: flex-start;
+            }
+        }
+    }
+
+    &__logo {
+        min-width: 160px;
+        font-size: 24px;
+        min-height: 60px;
+        width: 100%;
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        @media screen and (min-width: 1025px) {
+            justify-content: flex-start;
+            width: auto;
+            flex: 0 1 auto;
+        }
+    }
+
+    &__nav {
+        @media screen and (min-width: 1025px) {
+            align-items: center;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            flex: 1 1 100%;
+        }
+    }
+
+    &__menu-toggle {
+        @media screen and (min-width: 1025px) {
+            display: none;
+        }
+        button {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            background: none;
+            border: none;
+        }
+    }
+}
+
+.promo-bar {
+    background: #e8e8e8;
+    padding: 12px;
+    text-align: center;
+}

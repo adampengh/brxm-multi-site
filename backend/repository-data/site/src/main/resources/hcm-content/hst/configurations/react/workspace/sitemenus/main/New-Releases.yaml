@@ -1,0 +1,7 @@
+/hst:hst/hst:configurations/react/hst:workspace/hst:sitemenus/main/New Releases:
+  .meta:order-before: Men
+  jcr:primaryType: hst:sitemenuitem
+  hst:parameternames: [Banner Name]
+  hst:parametervalues: ['']
+  hst:referencesitemapitem: homepage
+  hst:repobased: false

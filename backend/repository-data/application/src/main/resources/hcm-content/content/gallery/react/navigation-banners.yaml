@@ -1,0 +1,63 @@
+/content/gallery/react/navigation-banners:
+  jcr:primaryType: hippogallery:stdImageGallery
+  jcr:mixinTypes: ['hippo:named', 'mix:versionable']
+  jcr:uuid: 4956a434-4bc3-49c5-98e7-dbb64be26a15
+  hippo:name: navigation banners
+  hippostd:foldertype: [new-image-folder]
+  hippostd:gallerytype: ['hippogallery:imageset']
+  /clique-images-hsb2hmjyato-unsplash.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: b04a1853-0b78-4802-b610-4cb8a2a371b3
+    hippo:name: clique-images-hSB2HmJYaTo-unsplash.jpg
+    /clique-images-hsb2hmjyato-unsplash.jpg:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: clique-images-hSB2HmJYaTo-unsplash.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: clique-images-hSB2HmJYaTo-unsplash.jpg
+        hippogallery:height: 60
+        hippogallery:width: 40
+        jcr:data:
+          type: binary
+          resource: /content/gallery/react/navigation-banners/clique-images-hsb2hmjyato-unsplash.jpg/clique-images-hSB2HmJYaTo-unsplash_thumbnail.jpg
+        jcr:lastModified: 2021-10-01T08:48:24.253-04:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 959
+        hippogallery:width: 640
+        jcr:data:
+          type: binary
+          resource: /content/gallery/react/navigation-banners/clique-images-hsb2hmjyato-unsplash.jpg/clique-images-hSB2HmJYaTo-unsplash_original.jpg
+        jcr:lastModified: 2021-10-01T08:48:24.253-04:00
+        jcr:mimeType: image/jpeg
+  /tyler-nix-y1drf0y3oe0-unsplash.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: cbf82abb-09cb-4adf-b67e-a867fbd477a1
+    hippo:name: tyler-nix-Y1drF0Y3Oe0-unsplash.jpg
+    /tyler-nix-y1drf0y3oe0-unsplash.jpg:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: tyler-nix-Y1drF0Y3Oe0-unsplash.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: tyler-nix-Y1drF0Y3Oe0-unsplash.jpg
+        hippogallery:height: 60
+        hippogallery:width: 40
+        jcr:data:
+          type: binary
+          resource: /content/gallery/react/navigation-banners/tyler-nix-y1drf0y3oe0-unsplash.jpg/tyler-nix-Y1drF0Y3Oe0-unsplash_thumbnail.jpg
+        jcr:lastModified: 2021-10-01T18:38:01.368-04:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 960
+        hippogallery:width: 640
+        jcr:data:
+          type: binary
+          resource: /content/gallery/react/navigation-banners/tyler-nix-y1drf0y3oe0-unsplash.jpg/tyler-nix-Y1drF0Y3Oe0-unsplash_original.jpg
+        jcr:lastModified: 2021-10-01T18:38:01.368-04:00
+        jcr:mimeType: image/jpeg

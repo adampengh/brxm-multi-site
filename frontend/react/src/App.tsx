@@ -30,7 +30,6 @@ import {
 import './App.scss';
 
 export default function App(props: RouteComponentProps) {
-
     const configuration = {
         endpoint: process.env.REACT_APP_BRXM_ENDPOINT,
         endpointQueryParameter: 'endpoint',
@@ -49,7 +48,7 @@ export default function App(props: RouteComponentProps) {
     return (
         <BrPage configuration={configuration} mapping={mapping}>
             <Header />
-            <main className="">
+            <main id='main' className="">
                 <BrComponent path="main" />
             </main>
             <Footer />

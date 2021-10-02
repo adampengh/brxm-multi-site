@@ -1,4 +1,5 @@
 /content/documents/react/sample-components:
+  .meta:order-before: navigation-banners
   jcr:primaryType: hippostd:folder
   jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
   jcr:uuid: ae1e8fb3-bcc8-4011-9d63-8e6973b00e09

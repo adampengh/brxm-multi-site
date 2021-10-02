@@ -1,0 +1,241 @@
+/content/documents/react/navigation-banners:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: cfbb95e2-afb8-4a03-8e52-01d501e1e639
+  hippo:name: Navigation Banners
+  hippostd:foldertype: [new-navigationBanner-document]
+  hippotranslation:id: 47708ec0-a386-4261-baea-8b1aa233d984
+  hippotranslation:locale: en
+  /mens-navigation-banner:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 09aefdba-16fc-4140-845a-185b44c751ca
+    hippo:name: Mens Navigation Banner
+    hippo:versionHistory: f8f5e61e-d259-4b99-bd0f-aba2466e111d
+    /mens-navigation-banner[1]:
+      jcr:primaryType: myproject:navigationBanner
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 47741c70-887c-4923-b9ea-ef0ad35ea48a
+      hippo:availability: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-10-01T08:45:17.718-04:00
+      hippostdpubwf:lastModificationDate: 2021-10-01T19:20:15.901-04:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 9299bbd9-2ebc-4ad5-a3f4-e28d6a4daa64
+      hippotranslation:locale: en
+      myproject:heading: New Mens Styles
+      /myproject:imageCompound[1]:
+        jcr:primaryType: myproject:imageCompound
+        myproject:altText: Man running up stairs
+        /myproject:mobileImage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /myproject:desktopImage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: b04a1853-0b78-4802-b610-4cb8a2a371b3
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+      /myproject:imageCompound[2]:
+        jcr:primaryType: myproject:imageCompound
+        myproject:altText: Woman running up stairs
+        /myproject:mobileImage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /myproject:desktopImage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: cbf82abb-09cb-4adf-b67e-a867fbd477a1
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+    /mens-navigation-banner[2]:
+      jcr:primaryType: myproject:navigationBanner
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: b4552fb1-7515-4fa2-8a44-ab3fd72e2ae5
+      hippo:availability: [preview]
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-10-01T08:45:17.718-04:00
+      hippostdpubwf:lastModificationDate: 2021-10-01T19:20:28.305-04:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 9299bbd9-2ebc-4ad5-a3f4-e28d6a4daa64
+      hippotranslation:locale: en
+      myproject:heading: New Mens Styles
+      /myproject:imageCompound[1]:
+        jcr:primaryType: myproject:imageCompound
+        myproject:altText: Man running up stairs
+        /myproject:mobileImage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /myproject:desktopImage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: b04a1853-0b78-4802-b610-4cb8a2a371b3
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+      /myproject:imageCompound[2]:
+        jcr:primaryType: myproject:imageCompound
+        myproject:altText: Woman running up stairs
+        /myproject:mobileImage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /myproject:desktopImage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: cbf82abb-09cb-4adf-b67e-a867fbd477a1
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+    /mens-navigation-banner[3]:
+      jcr:primaryType: myproject:navigationBanner
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 9391469d-260c-4d0d-b13a-4555cabd2143
+      hippo:availability: [live]
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-10-01T08:45:17.718-04:00
+      hippostdpubwf:lastModificationDate: 2021-10-01T19:20:28.305-04:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2021-10-01T19:20:29.752-04:00
+      hippotranslation:id: 9299bbd9-2ebc-4ad5-a3f4-e28d6a4daa64
+      hippotranslation:locale: en
+      myproject:heading: New Mens Styles
+      /myproject:imageCompound[1]:
+        jcr:primaryType: myproject:imageCompound
+        myproject:altText: Man running up stairs
+        /myproject:mobileImage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /myproject:desktopImage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: b04a1853-0b78-4802-b610-4cb8a2a371b3
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+      /myproject:imageCompound[2]:
+        jcr:primaryType: myproject:imageCompound
+        myproject:altText: Woman running up stairs
+        /myproject:mobileImage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /myproject:desktopImage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: cbf82abb-09cb-4adf-b67e-a867fbd477a1
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+  /womens-navigation-banner:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 6590ad91-62be-4d88-9071-216e36b8002d
+    hippo:name: Womens Navigation Banner
+    hippo:versionHistory: 7ff5b34c-6a68-435d-952b-0cbe7d941ce8
+    /womens-navigation-banner[1]:
+      jcr:primaryType: myproject:navigationBanner
+      jcr:mixinTypes: ['mix:versionable']
+      jcr:uuid: 602b4bf1-71a4-439e-b091-67c4fde4063a
+      hippo:availability: [preview]
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-10-01T08:45:17.718-04:00
+      hippostdpubwf:lastModificationDate: 2021-10-01T18:38:40.694-04:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 14f4a1d5-3060-468d-bfa9-598a0c55232c
+      hippotranslation:locale: en
+      myproject:heading: New Womens Styles
+      /myproject:imageCompound:
+        jcr:primaryType: myproject:imageCompound
+        myproject:altText: Woman running up stairs
+        /myproject:mobileImage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /myproject:desktopImage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: cbf82abb-09cb-4adf-b67e-a867fbd477a1
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+    /womens-navigation-banner[2]:
+      jcr:primaryType: myproject:navigationBanner
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: e8ab4526-a6f3-4196-8eb5-ddaabf22ca34
+      hippo:availability: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-10-01T08:45:17.718-04:00
+      hippostdpubwf:lastModificationDate: 2021-10-01T18:38:40.767-04:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 14f4a1d5-3060-468d-bfa9-598a0c55232c
+      hippotranslation:locale: en
+      myproject:heading: New Womens Styles
+      /myproject:imageCompound:
+        jcr:primaryType: myproject:imageCompound
+        myproject:altText: Woman running up stairs
+        /myproject:mobileImage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /myproject:desktopImage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: cbf82abb-09cb-4adf-b67e-a867fbd477a1
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+    /womens-navigation-banner[3]:
+      jcr:primaryType: myproject:navigationBanner
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: f5aa60c5-16b4-4ca9-b3da-35fab0666135
+      hippo:availability: [live]
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-10-01T08:45:17.718-04:00
+      hippostdpubwf:lastModificationDate: 2021-10-01T18:38:40.694-04:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2021-10-01T18:38:42.679-04:00
+      hippotranslation:id: 14f4a1d5-3060-468d-bfa9-598a0c55232c
+      hippotranslation:locale: en
+      myproject:heading: New Womens Styles
+      /myproject:imageCompound:
+        jcr:primaryType: myproject:imageCompound
+        myproject:altText: Woman running up stairs
+        /myproject:mobileImage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /myproject:desktopImage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: cbf82abb-09cb-4adf-b67e-a867fbd477a1
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []

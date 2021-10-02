@@ -1,0 +1,221 @@
+/hst:hst/hst:configurations/react/hst:workspace/hst:sitemenus/main/Men:
+  .meta:order-before: Kids
+  jcr:primaryType: hst:sitemenuitem
+  hst:parameternames: [Banner Name]
+  hst:parametervalues: [mens-navigation-banner]
+  hst:repobased: false
+  /Column 1:
+    jcr:primaryType: hst:sitemenuitem
+    hst:parameternames: [Banner Name]
+    hst:parametervalues: ['']
+    hst:repobased: false
+    /Men:
+      jcr:primaryType: hst:sitemenuitem
+      hst:parameternames: [Banner Name]
+      hst:parametervalues: ['']
+      hst:repobased: false
+      /New Releases:
+        jcr:primaryType: hst:sitemenuitem
+        hst:parameternames: [Banner Name]
+        hst:parametervalues: ['']
+        hst:repobased: false
+      /Best Sellers:
+        jcr:primaryType: hst:sitemenuitem
+        hst:parameternames: [Banner Name]
+        hst:parametervalues: ['']
+        hst:repobased: false
+      /Trending:
+        jcr:primaryType: hst:sitemenuitem
+        hst:parameternames: [Banner Name]
+        hst:parametervalues: ['']
+        hst:repobased: false
+      /Sale:
+        jcr:primaryType: hst:sitemenuitem
+        hst:parameternames: [Banner Name]
+        hst:parametervalues: ['']
+        hst:repobased: false
+  /Column 2:
+    jcr:primaryType: hst:sitemenuitem
+    hst:parameternames: [Banner Name]
+    hst:parametervalues: ['']
+    hst:repobased: false
+    /Clothing:
+      jcr:primaryType: hst:sitemenuitem
+      hst:parameternames: [Banner Name]
+      hst:parametervalues: ['']
+      hst:repobased: false
+      /Pants & Leggings:
+        jcr:primaryType: hst:sitemenuitem
+        hst:parameternames: [Banner Name]
+        hst:parametervalues: ['']
+        hst:repobased: false
+      /Sports Bras:
+        jcr:primaryType: hst:sitemenuitem
+        hst:parameternames: [Banner Name]
+        hst:parametervalues: ['']
+        hst:repobased: false
+      /Top & T-Shirts:
+        jcr:primaryType: hst:sitemenuitem
+        hst:parameternames: [Banner Name]
+        hst:parametervalues: ['']
+        hst:repobased: false
+      /Matching Sets:
+        jcr:primaryType: hst:sitemenuitem
+        hst:parameternames: [Banner Name]
+        hst:parametervalues: ['']
+        hst:repobased: false
+      /Shorts:
+        jcr:primaryType: hst:sitemenuitem
+        hst:parameternames: [Banner Name]
+        hst:parametervalues: ['']
+        hst:repobased: false
+      /Hoodies & Sweatshirts:
+        jcr:primaryType: hst:sitemenuitem
+        hst:parameternames: [Banner Name]
+        hst:parametervalues: ['']
+        hst:repobased: false
+      /Jackets & Vests:
+        jcr:primaryType: hst:sitemenuitem
+        hst:parameternames: [Banner Name]
+        hst:parametervalues: ['']
+        hst:repobased: false
+      /Swimwear:
+        jcr:primaryType: hst:sitemenuitem
+        hst:parameternames: [Banner Name]
+        hst:parametervalues: ['']
+        hst:repobased: false
+      /Sustainable Materials:
+        jcr:primaryType: hst:sitemenuitem
+        hst:parameternames: [Banner Name]
+        hst:parametervalues: ['']
+        hst:repobased: false
+      /Plus Size:
+        jcr:primaryType: hst:sitemenuitem
+        hst:parameternames: [Banner Name]
+        hst:parametervalues: ['']
+        hst:repobased: false
+      /Skirts & Dresses:
+        jcr:primaryType: hst:sitemenuitem
+        hst:parameternames: [Banner Name]
+        hst:parametervalues: ['']
+        hst:repobased: false
+      /Yoga:
+        jcr:primaryType: hst:sitemenuitem
+        hst:parameternames: [Banner Name]
+        hst:parametervalues: ['']
+        hst:repobased: false
+      /All Clothing:
+        jcr:primaryType: hst:sitemenuitem
+        hst:parameternames: [Banner Name]
+        hst:parametervalues: ['']
+        hst:repobased: false
+  /Column 3:
+    jcr:primaryType: hst:sitemenuitem
+    hst:parameternames: [Banner Name]
+    hst:parametervalues: ['']
+    hst:repobased: false
+    /Shoes:
+      jcr:primaryType: hst:sitemenuitem
+      hst:parameternames: [Banner Name]
+      hst:parametervalues: ['']
+      hst:repobased: false
+      /Lifestyle:
+        jcr:primaryType: hst:sitemenuitem
+        hst:parameternames: [Banner Name]
+        hst:parametervalues: ['']
+        hst:repobased: false
+      /Running:
+        jcr:primaryType: hst:sitemenuitem
+        hst:parameternames: [Banner Name]
+        hst:parametervalues: ['']
+        hst:repobased: false
+      /Training & Gym:
+        jcr:primaryType: hst:sitemenuitem
+        hst:parameternames: [Banner Name]
+        hst:parametervalues: ['']
+        hst:repobased: false
+      /Basketball:
+        jcr:primaryType: hst:sitemenuitem
+        hst:parameternames: [Banner Name]
+        hst:parametervalues: ['']
+        hst:repobased: false
+      /Jordan:
+        jcr:primaryType: hst:sitemenuitem
+        hst:parameternames: [Banner Name]
+        hst:parametervalues: ['']
+        hst:repobased: false
+      /Soccer:
+        jcr:primaryType: hst:sitemenuitem
+        hst:parameternames: [Banner Name]
+        hst:parametervalues: ['']
+        hst:repobased: false
+      /Tennis:
+        jcr:primaryType: hst:sitemenuitem
+        hst:parameternames: [Banner Name]
+        hst:parametervalues: ['']
+        hst:repobased: false
+      /Track & Field:
+        jcr:primaryType: hst:sitemenuitem
+        hst:parameternames: [Banner Name]
+        hst:parametervalues: ['']
+        hst:repobased: false
+      /Sandals & Slides:
+        jcr:primaryType: hst:sitemenuitem
+        hst:parameternames: [Banner Name]
+        hst:parametervalues: ['']
+        hst:repobased: false
+      /Sustainable Materials:
+        jcr:primaryType: hst:sitemenuitem
+        hst:parameternames: [Banner Name]
+        hst:parametervalues: ['']
+        hst:repobased: false
+      /Shoes $100 & Under:
+        jcr:primaryType: hst:sitemenuitem
+        hst:parameternames: [Banner Name]
+        hst:parametervalues: ['']
+        hst:repobased: false
+      /All Shoes:
+        jcr:primaryType: hst:sitemenuitem
+        hst:parameternames: [Banner Name]
+        hst:parametervalues: ['']
+        hst:repobased: false
+    /New Section:
+      jcr:primaryType: hst:sitemenuitem
+      hst:parameternames: [Banner Name]
+      hst:parametervalues: ['']
+      hst:repobased: false
+      /Link 1:
+        jcr:primaryType: hst:sitemenuitem
+        hst:parameternames: [Banner Name]
+        hst:parametervalues: ['']
+        hst:repobased: false
+      /Link 2:
+        jcr:primaryType: hst:sitemenuitem
+        hst:parameternames: [Banner Name]
+        hst:parametervalues: ['']
+        hst:repobased: false
+  /Column 4:
+    jcr:primaryType: hst:sitemenuitem
+    hst:parameternames: [Banner Name]
+    hst:parametervalues: ['']
+    hst:repobased: false
+    /Accessories & Equipment:
+      jcr:primaryType: hst:sitemenuitem
+      hst:parameternames: [Banner Name]
+      hst:parametervalues: ['']
+      hst:repobased: false
+      /Socks:
+        jcr:primaryType: hst:sitemenuitem
+        hst:parameternames: [Banner Name]
+        hst:parametervalues: ['']
+        hst:repobased: false
+      /Bags & Backpacks:
+        jcr:primaryType: hst:sitemenuitem
+        hst:parameternames: [Banner Name]
+        hst:parametervalues: ['']
+        hst:repobased: false
+      /Water Bottles:
+        jcr:primaryType: hst:sitemenuitem
+        hst:parameternames: [Banner Name]
+        hst:parametervalues: ['']
+        hst:repobased: false

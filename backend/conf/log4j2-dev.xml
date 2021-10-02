@@ -141,7 +141,6 @@
     <Logger name="org.hippoecm.hst.content.beans.builder" level="info"/>
 
     <!-- project logging -->
-    <Logger name="org.example" level="debug"/>
     <Logger name="com.onehippo.cms.wpm.hst.configuration.branch" level="warn"/>
     <Logger name="com.onehippo.cms7.services.wpm.project" level="warn"/>
 
@@ -150,6 +149,8 @@
       <AppenderRef ref="cms"/>
       <AppenderRef ref="console"/>
     </Root>
+
+    <Logger name="com.myproject" level="debug"/>
 
   </Loggers>
 

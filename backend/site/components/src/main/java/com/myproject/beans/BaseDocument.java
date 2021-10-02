@@ -1,4 +1,4 @@
-package org.example.beans;
+package com.myproject.beans;
 
 import org.hippoecm.hst.content.beans.Node;
 import org.hippoecm.hst.content.beans.standard.HippoDocument;

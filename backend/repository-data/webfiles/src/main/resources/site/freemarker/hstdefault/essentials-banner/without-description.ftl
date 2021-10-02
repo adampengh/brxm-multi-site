@@ -1,6 +1,6 @@
 <#include "../../include/imports.ftl">
 
-<#-- @ftlvariable name="document" type="org.example.beans.Banner" -->
+<#-- @ftlvariable name="document" type="com.myproject.beans.Banner" -->
 <#if document??>
   <div>
     <a href="<@hst.link hippobean=document.link />">

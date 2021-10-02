@@ -10,7 +10,7 @@
 
   <name>My Project</name>
   <description>My Project</description>
-  <groupId>org.example</groupId>
+  <groupId>com.myproject</groupId>
   <artifactId>myproject</artifactId>
   <version>0.1.0-SNAPSHOT</version>
   <packaging>pom</packaging>

@@ -98,7 +98,7 @@
     <Logger name="org.hippoecm.hst.content.beans.builder" level="info"/>
 
     <!-- project logging -->
-    <Logger name="org.example" level="info"/>
+    <Logger name="com.myproject" level="info"/>
     <Logger name="com.onehippo.cms.wpm.hst.configuration.branch" level="warn"/>
     <Logger name="com.onehippo.cms7.services.wpm.project" level="warn"/>
 

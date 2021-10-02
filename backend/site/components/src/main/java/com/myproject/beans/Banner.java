@@ -1,4 +1,4 @@
-package org.example.beans;
+package com.myproject.beans;
 /*
  * Copyright 2014-2019 Hippo B.V. (http://www.onehippo.com)
  *

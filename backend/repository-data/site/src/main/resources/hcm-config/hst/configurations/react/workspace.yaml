@@ -3,7 +3,7 @@ definitions:
     /hst:hst/hst:configurations/react/hst:workspace:
       jcr:primaryType: hst:workspace
       jcr:mixinTypes: ['dxphst:mergeable']
-      dxphst:treehash: 9BF397628C17AC6990F489975E563F0D
+      dxphst:treehash: 47A79126A8635F388E4E4D1AE111265E
       /hst:containers:
         jcr:primaryType: hst:containercomponentfolder
         /base:
@@ -51,3 +51,4 @@ definitions:
         /main:
           .meta:residual-child-node-category: content
           jcr:primaryType: hst:sitemenu
+          hst:lastmodified: 2021-10-01T21:19:33.709-04:00

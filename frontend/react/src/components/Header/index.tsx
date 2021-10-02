@@ -1,27 +1,35 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { BrComponent, BrPageContext } from '@bloomreach/react-sdk';
-import { Menu } from '../Menu';
+import React, { useEffect } from 'react';
+import { BrComponent } from '@bloomreach/react-sdk';
+import { Navigation } from '../Navigation';
+
+import './Header.scss';
 
 export const Header = () => {
+
+    useEffect(() => {
+        const header = document.getElementById('header');
+        if (header) {
+            document.body.style.paddingTop = String(header.offsetHeight) + 'px';
+        }
+
+        window.addEventListener('resize', () => document.body.style.paddingTop = String(header?.offsetHeight) + 'px')
+        return () => {
+            window.addEventListener('resize', () => document.body.style.paddingTop = String(header?.offsetHeight) + 'px')
+        };
+    });
+
     return (
-        <header>
-            <nav className="navbar navbar-expand-sm navbar-dark sticky-top bg-dark" role="navigation">
-                <div className="container">
-                    <BrPageContext.Consumer>
-                        { page => (
-                            <Link to={page!.getUrl('/')} className="navbar-brand">
-                            { page!.getTitle() || 'brXM + React = ♥️'}
-                            </Link>
-                        ) }
-                    </BrPageContext.Consumer>
-                    <div className="collapse navbar-collapse">
-                        <BrComponent path="menu">
-                            <Menu />
-                        </BrComponent>
-                    </div>
+        <header className='header' id='header'>
+            <section className='promo-bar'>Promo Bar</section>
+
+            <section className='header__primary'>
+                <div className='header__primary--inner'>
+                    <div className='header__logo'>Brand</div>
+                    <BrComponent path="menu">
+                        <Navigation />
+                    </BrComponent>
                 </div>
-            </nav>
+            </section>
         </header>
     );
 }

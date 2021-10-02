@@ -1,9 +1,20 @@
 body {
-    -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    font-size: 14px;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+
+    &[data-menu-open="true"] {
+        overflow-y: hidden;
+    }
 }
 
-.has-edit-button {
+* {
+    box-sizing: border-box;
+}
+
+.has-edit-button:not(.navigation) {
     position: relative;
 }
 
@@ -13,4 +24,12 @@ img {
 
 main {
     padding-bottom: 100px;
+    min-height: 1000px;
+}
+
+
+footer {
+    background-color: #333;
+    padding: 1rem;
+    color: #fff;
 }

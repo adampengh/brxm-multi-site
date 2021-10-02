@@ -1,0 +1,84 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:update/hippo:registry/Site Menu Add Prototypeitem:
+      jcr:primaryType: hipposys:updaterinfo
+      hipposys:batchsize: 10
+      hipposys:description: ''
+      hipposys:dryrun: false
+      hipposys:loglevel: DEBUG
+      hipposys:parameters: "{\r\n  \"menuName\": \"main\",\r\n  \"parameterName\"\
+        : \"Banner Name\",\r\n  \"recursive\": true\r\n}"
+      hipposys:query: hst:myproject/hst:configurations/react/hst:workspace/hst:sitemenus
+      hipposys:script: "package org.hippoecm.frontend.plugins.cms.dev.updater\r\n\r\
+        \nimport org.onehippo.repository.update.BaseNodeUpdateVisitor\r\n\r\nimport\
+        \ javax.jcr.*\r\nimport java.util.*\r\n\r\nclass SiteMenuAddPrototypeItem\
+        \ extends BaseNodeUpdateVisitor {\r\n\r\n    String menuName = \"\"\r\n  \
+        \  String parameterName = \"\"\r\n    boolean recursive = false\r\n\r\n  \
+        \  void initialize(Session session) {\r\n        String menu = parametersMap.get(\"\
+        menuName\")\r\n        if (menu != null) {\r\n            menuName = menu\r\
+        \n        }\r\n\r\n        String param = parametersMap.get(\"parameterName\"\
+        )\r\n        if (param != null) {\r\n            parameterName = param\r\n\
+        \        }\r\n\r\n        if (parametersMap.get(\"recursive\") != null) {\r\
+        \n            recursive = parametersMap.get(\"recursive\")\r\n        }\r\n\
+        \r\n        log.info \"SiteMenuAddPrototypeItem initialized with parameter\
+        \ menuName=${menuName}, parameterName=${parameterName}, recursive=${recursive}\"\
+        \r\n    }\r\n\r\n    boolean doUpdate(Node node) {\r\n        log.debug(\"\
+        node \" + node.path);\r\n\r\n        Property parameterNames\r\n        Property\
+        \ parameterValues\r\n\r\n        if (node.hasNode(menuName)) {\r\n       \
+        \     Node menu = node.getNode(menuName)\r\n            log.debug(\"Menu:\
+        \ \" + menu.getName())\r\n\r\n            // Update Sitemenu Items Recursively\r\
+        \n            setMenuItemProperties(menu, parameterNames, parameterValues,\
+        \ recursive)\r\n        }\r\n\r\n        return false\r\n    }\r\n\r\n   \
+        \ private void setMenuItemProperties(Node menu, Property parameterNames, Property\
+        \ parameterValues, boolean recursively) {\r\n        NodeIterator menuItems\
+        \ = menu.getNodes()\r\n        while (menuItems.hasNext()) {\r\n\r\n     \
+        \       Node menuItem = menuItems.nextNode()\r\n            log.debug(\"MENU\
+        \ ITEM: \" + menuItem.getName())\r\n\r\n            // Get Current Parameter\
+        \ Names and Values\r\n            if (menuItem.hasProperty(\"hst:parameternames\"\
+        ) && menuItem.hasProperty(\"hst:parametervalues\")) {\r\n                //\
+        \ Get hst:parameternames\r\n                ArrayList<String> paramNames =\
+        \ new ArrayList<String>();\r\n                Value[] names = menuItem.getProperty(\"\
+        hst:parameternames\").getValues();\r\n                log.debug(\"names: {}\"\
+        , names.size())\r\n                for (int i = 0; i < names.size(); i++)\
+        \ {\r\n                    String name = names[i].getString()\r\n        \
+        \            log.debug(\"name: {}\", name)\r\n                    paramNames.add(name)\r\
+        \n                }\r\n                paramNames.add(parameterName)\r\n \
+        \               log.debug(\"paramNames: {}\", paramNames)\r\n\r\n        \
+        \        // Set hst:parameternames\r\n                String[] namesArray\
+        \ = new String[paramNames.size()];\r\n                for(int j = 0; j < paramNames.size();\
+        \ j++){\r\n                    namesArray[j] = paramNames.get(j);\r\n    \
+        \            }\r\n                menuItem.setProperty(\"hst:parameternames\"\
+        , namesArray)\r\n\r\n\r\n                // Get hst:parametervalues\r\n  \
+        \              ArrayList<String> paramValues = new ArrayList<String>();\r\n\
+        \                Value[] values = menuItem.getProperty(\"hst:parametervalues\"\
+        ).getValues()\r\n                log.debug(\"values: {}\", values.size())\r\
+        \n                for (int i = 0; i < values.size(); i++) {\r\n          \
+        \          String value = values[i].getString()\r\n                    log.debug(\"\
+        value: {} ({})\", value, value.isEmpty())\r\n                    if (value.isEmpty())\
+        \ {\r\n                        paramValues.add(\"\")\r\n                 \
+        \   } else {\r\n                        paramValues.add(value)\r\n       \
+        \             }\r\n                }\r\n                paramValues.add(\"\
+        \")\r\n                log.debug(\"paramValues: {}, {}\", paramValues, paramValues.size())\r\
+        \n\r\n                // Set hst:parametervalues\r\n                String[]\
+        \ valuesArray = new String[paramValues.size()];\r\n                for(int\
+        \ j = 0; j < paramValues.size(); j++){\r\n                    valuesArray[j]\
+        \ = paramValues.get(j);\r\n                }\r\n                menuItem.setProperty(\"\
+        hst:parametervalues\", valuesArray)\r\n\r\n            } else {\r\n      \
+        \          // Set hst:parameternames\r\n                ArrayList<String>\
+        \ paramNames = new ArrayList<String>();\r\n                paramNames.add(parameterName)\r\
+        \n                \r\n                String[] namesArray = new String[paramNames.size()];\r\
+        \n                for(int j = 0; j < paramNames.size(); j++){\r\n        \
+        \            namesArray[j] = paramNames.get(j);\r\n                }\r\n \
+        \               menuItem.setProperty(\"hst:parameternames\", namesArray)\r\
+        \n\r\n\r\n                // Set hst:parametervalues\r\n                ArrayList<String>\
+        \ paramValues = new ArrayList<String>();\r\n                paramValues.add(\"\
+        \")\r\n\r\n                String[] valuesArray = new String[paramValues.size()];\r\
+        \n                for(int j = 0; j < paramValues.size(); j++){\r\n       \
+        \             valuesArray[j] = paramValues.get(j);\r\n                }\r\n\
+        \                menuItem.setProperty(\"hst:parametervalues\", valuesArray)\r\
+        \n            }\r\n\r\n            // Set child nodes recursively\r\n    \
+        \        if (menuItem.hasNodes() && recursively) {\r\n                setMenuItemProperties(menuItem,\
+        \ parameterNames, parameterValues, true)\r\n            }\r\n        }\r\n\
+        \    }\r\n\r\n    boolean undoUpdate(Node node) {\r\n        throw new UnsupportedOperationException('Updater\
+        \ does not implement undoUpdate method')\r\n    }\r\n\r\n}"
+      hipposys:throttle: 1000
