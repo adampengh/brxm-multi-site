@@ -16,8 +16,8 @@
 
 import React, { useContext, useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { MenuItem, Menu, TYPE_LINK_EXTERNAL, isMenu, ImageSet } from '@bloomreach/spa-sdk';
-import { BrComponentContext, BrManageMenuButton, BrPageContext } from '@bloomreach/react-sdk';
+import { MenuItem, Menu, TYPE_LINK_EXTERNAL, isMenu, ImageSet, Document } from '@bloomreach/spa-sdk';
+import { BrComponentContext, BrManageMenuButton, BrManageContentButton, BrPageContext } from '@bloomreach/react-sdk';
 import { ReactComponent as MenuIcon } from '../../assets/icons/menu.svg';
 import { ReactComponent as CloseIcon } from '../../assets/icons/close.svg';
 import { ReactComponent as ArrowDownIcon } from '../../assets/icons/arrow-down.svg';
@@ -28,14 +28,16 @@ interface MenuLinkProps {
   item: MenuItem;
 }
 
-
 export function Navigation() {
+    const [menuOpen, setMenuOpen] = useState(false);
+
     const component = React.useContext(BrComponentContext);
     const page = React.useContext(BrPageContext);
     const menuRef = component?.getModels<MenuModels>()?.menu;
     const menu = menuRef && page?.getContent<Menu>(menuRef);
+
+    // Get the MenuItemBanners Model
     const menuItemBanners = component?.getModels<any>()?.MenuItemBanners;
-    const [menuOpen, setMenuOpen] = useState(false);
 
     useEffect(() => {
         document.body.setAttribute('data-menu-open', String(menuOpen));
@@ -65,6 +67,7 @@ export function Navigation() {
             <ul className={`navigation ${page!.isPreview() ? 'has-edit-button' : ''}`} data-menu-open={menuOpen}>
                 <BrManageMenuButton menu={menu} />
                 { menu.getItems().map((item, index) => {
+                    // Check if there is a corresponding MenuItemBanner for the top-level category
                     if (menuItemBanners[item.getName()]) {
                         return (
                             <MegaMenu item={item} key={index} category={item.getName()} bannerRef={menuItemBanners[item.getName()]} />
@@ -97,12 +100,12 @@ const MegaMenu = ({ item, bannerRef }: any) => {
                 <div className='mega-menu' data-show-menu={showSecondLevel}>
                     <button className='back-button' onClick={() => setShowSecondLevel(false)}>&lt;&nbsp;Back</button>
                     <ul className='columns'>
-                    { item.getChildren().map((item: any, index: number) => (
-                        <li className='column' key={index}>
-                            <Column item={item} />
-                        </li>
-                    )) }
-                    { bannerRef !== undefined && <NavigationBanner bannerRef={ bannerRef } /> }
+                        { item.getChildren().map((item: any, index: number) => (
+                            <li className='column' key={index}>
+                                <Column item={item} />
+                            </li>
+                        )) }
+                        { bannerRef !== undefined && <NavigationBanner bannerRef={ bannerRef } /> }
                     </ul>
                 </div>
             }
@@ -130,6 +133,18 @@ const SecondLevelMenu = ({ item }: any) => {
         setAccordionOpen(!accordionOpen);
     }
 
+    const ColumnHeading = () => {
+        if (item.getLink()) {
+            return (
+                <h2 data-accordion-open={accordionOpen}>
+                    <Link to={item.getUrl()}>{item.getName()}</Link>
+                </h2>
+            );
+        }
+
+        return <h2 data-accordion-open={accordionOpen}>{ item.getName() }</h2>;
+    }
+
     return (
         <div className="second-level">
             <div
@@ -137,7 +152,7 @@ const SecondLevelMenu = ({ item }: any) => {
                 data-accordion-open={accordionOpen}
                 onClick={(e) => setAccordionStatus(e)}
             >
-                <h2 data-accordion-open={accordionOpen}>{ item.getName() }</h2>
+                <ColumnHeading />
                 <span className="second-level__icon">
                     <ArrowDownIcon />
                 </span>
@@ -163,16 +178,17 @@ const NavigationLink = ({ item }: MenuLinkProps) => {
     }
 
     if (item.getLink()?.type === TYPE_LINK_EXTERNAL) {
-      return <a className="navigagion-link text-capitalize" href={url}>{item.getName()}</a>;
+      return <Link to={url} className="navigagion-link text-capitalize">{item.getName()}</Link>;
     }
 
     return <Link to={url} className="navigagion-link text-capitalize">{item.getName()}</Link>;
 }
 
 
+
 const NavigationBanner = ({ bannerRef }: any) => {
     const page = useContext(BrPageContext);
-    const banner = bannerRef && page?.getContent(bannerRef);
+    const banner = bannerRef && page?.getContent<Document>(bannerRef);
 
     if (!banner) {
         return null;
@@ -181,23 +197,35 @@ const NavigationBanner = ({ bannerRef }: any) => {
     const {
         heading,
         imageCompound,
+        link,
     } = banner.getData();
+
+    const Image = ({ image }: any) => {
+        const { altText, desktopImage } = image;
+        const desktopImg = desktopImage && page?.getContent<ImageSet>(desktopImage);
+
+        if (link) {
+            return (
+                <Link to={link}>
+                    { desktopImg && <img src={desktopImg?.getOriginal()?.getUrl()} alt={altText} />}
+                </Link>
+            )
+        }
+
+        return (
+            <span>
+                { desktopImg && <img src={desktopImg?.getOriginal()?.getUrl()} alt={altText} />}
+            </span>
+        )
+    }
 
     return (
         <li className='column navigation-banner'>
+            <BrManageContentButton content={banner} />
             { heading && <h2>{ heading }</h2> }
             <div className='navigation-banner__img'>
-                { imageCompound && imageCompound.map((image: any, index: any) => {
-                    const { altText, desktopImage } = image;
-                    const desktopImg = desktopImage && page?.getContent<ImageSet>(desktopImage);
-                    return(
-                        <span key={index}>
-                            { desktopImg && <img src={desktopImg?.getOriginal()?.getUrl()} alt={altText} />}
-                        </span>
-                    );
-                })}
+                { imageCompound && imageCompound.map((image: any, index: any) => <Image image={image} key={index} /> )}
             </div>
-            <a className='navigation-banner__link' href="/">Link</a>
         </li>
     )
 }

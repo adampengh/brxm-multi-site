@@ -144,3 +144,87 @@
           resource: /content/gallery/react/large/tyler-casey-thl9qzxezjy-unsplash.jpg/tyler-casey-THL9QZxEZJY-unsplash_original.jpg
         jcr:lastModified: 2021-09-13T09:16:29.785-04:00
         jcr:mimeType: image/jpeg
+  /harry-grout-dk9szjp6x5q-unsplash-1.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: f50d7597-f6c6-4ad2-b604-dbf785f1bdcf
+    hippo:name: harry-grout-dk9sZJp6X5Q-unsplash (1).jpg
+    /harry-grout-dk9szjp6x5q-unsplash-1.jpg:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: harry-grout-dk9sZJp6X5Q-unsplash (1).jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: harry-grout-dk9sZJp6X5Q-unsplash (1).jpg
+        hippogallery:height: 39
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/react/large/harry-grout-dk9szjp6x5q-unsplash-1.jpg/harry-grout-dk9sZJp6X5Q-unsplash-(1)_thumbnail.jpg
+        jcr:lastModified: 2021-10-15T09:50:09.793-04:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 1278
+        hippogallery:width: 1920
+        jcr:data:
+          type: binary
+          resource: /content/gallery/react/large/harry-grout-dk9szjp6x5q-unsplash-1.jpg/harry-grout-dk9sZJp6X5Q-unsplash-(1)_original.jpg
+        jcr:lastModified: 2021-10-15T09:50:09.793-04:00
+        jcr:mimeType: image/jpeg
+  /sven-scheuermeier-4r1ypmgo52i-unsplash.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 206f11e2-7b82-4f54-bda6-84b4e49e2833
+    hippo:name: sven-scheuermeier-4R1YpmGO52I-unsplash.jpg
+    /sven-scheuermeier-4r1ypmgo52i-unsplash.jpg:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: sven-scheuermeier-4R1YpmGO52I-unsplash.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: sven-scheuermeier-4R1YpmGO52I-unsplash.jpg
+        hippogallery:height: 39
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/react/large/sven-scheuermeier-4r1ypmgo52i-unsplash.jpg/sven-scheuermeier-4R1YpmGO52I-unsplash_thumbnail.jpg
+        jcr:lastModified: 2021-10-16T18:54:51.083-04:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 1275
+        hippogallery:width: 1920
+        jcr:data:
+          type: binary
+          resource: /content/gallery/react/large/sven-scheuermeier-4r1ypmgo52i-unsplash.jpg/sven-scheuermeier-4R1YpmGO52I-unsplash_original.jpg
+        jcr:lastModified: 2021-10-16T18:54:51.083-04:00
+        jcr:mimeType: image/jpeg
+  /waldemar-brandt-kpqaqug998y-unsplash.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: b3aea921-2dc7-4ec6-8ec7-633ad11b900a
+    hippo:name: waldemar-brandt-kPqaqug998Y-unsplash.jpg
+    /waldemar-brandt-kpqaqug998y-unsplash.jpg:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: waldemar-brandt-kPqaqug998Y-unsplash.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: waldemar-brandt-kPqaqug998Y-unsplash.jpg
+        hippogallery:height: 40
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/react/large/waldemar-brandt-kpqaqug998y-unsplash.jpg/waldemar-brandt-kPqaqug998Y-unsplash_thumbnail.jpg
+        jcr:lastModified: 2021-10-16T18:56:31.084-04:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 1280
+        hippogallery:width: 1920
+        jcr:data:
+          type: binary
+          resource: /content/gallery/react/large/waldemar-brandt-kpqaqug998y-unsplash.jpg/waldemar-brandt-kPqaqug998Y-unsplash_original.jpg
+        jcr:lastModified: 2021-10-16T18:56:31.084-04:00
+        jcr:mimeType: image/jpeg

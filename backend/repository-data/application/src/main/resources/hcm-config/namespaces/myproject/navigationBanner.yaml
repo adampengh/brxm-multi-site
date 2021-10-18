@@ -11,7 +11,7 @@ definitions:
         /hipposysedit:nodetype:
           jcr:primaryType: hipposysedit:nodetype
           jcr:mixinTypes: ['mix:referenceable', 'hipposysedit:remodel']
-          jcr:uuid: c134e952-9262-4cf1-ae00-9dc6f8da2782
+          jcr:uuid: d10913d6-5059-4028-84d4-c46bf9cdd96d
           hipposysedit:node: true
           hipposysedit:supertype: ['myproject:basedocument', 'hippostd:relaxed', 'hippotranslation:translated']
           hipposysedit:uri: http://www.myproject.com/myproject/nt/1.0
@@ -32,6 +32,14 @@ definitions:
             hipposysedit:path: myproject:imageCompound
             hipposysedit:primary: false
             hipposysedit:type: myproject:imageCompound
+          /link:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: myproject:link
+            hipposysedit:primary: false
+            hipposysedit:type: String
       /hipposysedit:prototypes:
         jcr:primaryType: hipposysedit:prototypeset
         /hipposysedit:prototype:
@@ -44,9 +52,10 @@ definitions:
           hippotranslation:locale: document-type-locale
           jcr:mixinTypes: ['mix:referenceable']
           myproject:heading: ''
-          jcr:uuid: cf6f2c4f-d39b-4da0-b31b-466620b2447e
+          jcr:uuid: 336bb15c-ba67-46e9-8516-cb269d5a3b78
           hippostdpubwf:lastModificationDate: 2021-10-01T08:43:16.041-04:00
           hippostdpubwf:creationDate: 2021-10-01T08:43:16.041-04:00
+          myproject:link: ''
           /myproject:imageCompound:
             jcr:primaryType: myproject:imageCompound
             myproject:altText: ''
@@ -77,6 +86,15 @@ definitions:
             jcr:primaryType: frontend:plugin
             caption: Heading
             field: heading
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
+            wicket.id: ${cluster.id}.field
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /link:
+            jcr:primaryType: frontend:plugin
+            caption: Link
+            field: link
+            hint: ''
             plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
             wicket.id: ${cluster.id}.field
             /cluster.options:

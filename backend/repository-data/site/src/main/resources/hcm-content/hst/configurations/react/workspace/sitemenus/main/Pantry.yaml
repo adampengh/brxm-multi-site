@@ -1,0 +1,96 @@
+/hst:hst/hst:configurations/react/hst:workspace/hst:sitemenus/main/Pantry:
+  .meta:order-before: New Releases
+  jcr:primaryType: hst:sitemenuitem
+  hst:parameternames: [Banner Name]
+  hst:parametervalues: [pantry-navigation-banner]
+  hst:referencesitemapitem: pantry
+  hst:repobased: false
+  /Column1:
+    jcr:primaryType: hst:sitemenuitem
+    hst:parameternames: [Banner Name]
+    hst:parametervalues: ['']
+    hst:repobased: false
+    /Baking & Cooking Needs:
+      jcr:primaryType: hst:sitemenuitem
+      hst:externallink: /c/2-9u/baking-cooking-needs
+      hst:parameternames: [Banner Name]
+      hst:parametervalues: ['']
+      hst:repobased: false
+  /Column 2:
+    jcr:primaryType: hst:sitemenuitem
+    hst:parameternames: [Banner Name]
+    hst:parametervalues: ['']
+    hst:repobased: false
+    /Breakfast & Cereal:
+      jcr:primaryType: hst:sitemenuitem
+      hst:parameternames: [Banner Name]
+      hst:parametervalues: ['']
+      hst:repobased: false
+      /Breakfast Bars:
+        jcr:primaryType: hst:sitemenuitem
+        hst:externallink: /c/3-169u/breakfast-bars
+        hst:parameternames: [Banner Name]
+        hst:parametervalues: ['']
+        hst:repobased: false
+      /Cereal:
+        jcr:primaryType: hst:sitemenuitem
+        hst:externallink: /c/3-168u/cereal
+        hst:parameternames: [Banner Name]
+        hst:parametervalues: ['']
+        hst:repobased: false
+      /Oatmeal:
+        jcr:primaryType: hst:sitemenuitem
+        hst:externallink: /c/3-259u/oatmeal
+        hst:parameternames: [Banner Name]
+        hst:parametervalues: ['']
+        hst:repobased: false
+  /Column 3:
+    jcr:primaryType: hst:sitemenuitem
+    hst:parameternames: [Banner Name]
+    hst:parametervalues: ['']
+    hst:repobased: false
+    /Baby Store:
+      jcr:primaryType: hst:sitemenuitem
+      hst:externallink: /c/2-17u/baby-store
+      hst:parameternames: [Banner Name]
+      hst:parametervalues: ['']
+      hst:repobased: false
+      /Diapers & Wipes:
+        jcr:primaryType: hst:sitemenuitem
+        hst:externallink: /c/3-214u/diapiers-wipes
+        hst:parameternames: [Banner Name]
+        hst:parametervalues: ['']
+        hst:repobased: false
+      /Baby & Toddler Wipes:
+        jcr:primaryType: hst:sitemenuitem
+        hst:externallink: /c/4-499u
+        hst:parameternames: [Banner Name]
+        hst:parametervalues: ['']
+        hst:repobased: false
+  /Column 4:
+    jcr:primaryType: hst:sitemenuitem
+    hst:parameternames: [Banner Name]
+    hst:parametervalues: ['']
+    hst:repobased: false
+    /Snacks:
+      jcr:primaryType: hst:sitemenuitem
+      hst:parameternames: [Banner Name]
+      hst:parametervalues: ['']
+      hst:repobased: false
+      /Candy, Gum & Mints:
+        jcr:primaryType: hst:sitemenuitem
+        hst:externallink: /c/3-150u
+        hst:parameternames: [Banner Name]
+        hst:parametervalues: ['']
+        hst:repobased: false
+      /Chocolate Candy:
+        jcr:primaryType: hst:sitemenuitem
+        hst:externallink: /c/4-286u
+        hst:parameternames: [Banner Name]
+        hst:parametervalues: ['']
+        hst:repobased: false
+  /Column 5:
+    jcr:primaryType: hst:sitemenuitem
+    hst:parameternames: [Banner Name]
+    hst:parametervalues: ['']
+    hst:repobased: false

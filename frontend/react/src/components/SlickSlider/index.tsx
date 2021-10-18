@@ -85,7 +85,7 @@ export const SlickSlider = ({ component, page }: BrProps) => {
     };
 
     return (
-        <section className={`${page.isPreview() ? 'has-edit-button' : ''}`}>
+        <section className={`carousel ${page.isPreview() ? 'has-edit-button' : ''}`}>
             <BrManageContentButton
                 content={document}
                 documentTemplateQuery="new-slider-document"

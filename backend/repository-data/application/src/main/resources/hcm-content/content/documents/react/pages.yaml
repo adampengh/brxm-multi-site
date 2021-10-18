@@ -6,7 +6,8 @@
   jcr:uuid: 8060c09a-d2fc-4227-ad3b-63cdab84ec04
   hippo:name: Pages
   hippostd:channelid: react
-  hippostd:foldertype: [new-experiencePage-document, new-experiencePage-folder]
+  hippostd:foldertype: [new-experiencePage-document, new-experiencePage-folder, new-CategoryPage-document,
+    new-CategoryPage-folder]
   hippotranslation:id: c17bd7ca-443b-4cbb-9e8e-5e70c1447333
   hippotranslation:locale: en
   /homepage:
@@ -14,7 +15,7 @@
     jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
     jcr:uuid: 543bc2aa-7bb5-435b-9598-928481adf265
     hippo:name: Homepage
-    hippo:versionHistory: 8f9e7134-d8d7-4e66-9f08-90837b0b30b4
+    hippo:versionHistory: 24e1654f-677e-4bb1-8509-e1d029968a1a
     /homepage[1]:
       jcr:primaryType: myproject:experiencePage
       jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable']
@@ -38,7 +39,7 @@
       hippostd:state: unpublished
       hippostdpubwf:createdBy: admin
       hippostdpubwf:creationDate: 2021-09-12T19:04:55.890-04:00
-      hippostdpubwf:lastModificationDate: 2021-09-19T12:02:24.010-04:00
+      hippostdpubwf:lastModificationDate: 2021-10-18T08:56:24.755-04:00
       hippostdpubwf:lastModifiedBy: admin
       hippotranslation:id: 658f2f01-1822-4e9c-9d8d-e23a741e4635
       hippotranslation:locale: en
@@ -51,7 +52,7 @@
           jcr:primaryType: hst:containercomponent
           jcr:uuid: d9c62e4f-7ce5-4e76-bf02-539f1d3037a8
           hippo:identifier: 221593d9-2e6f-40c9-a6e0-eabc982b820f
-          hst:lastmodified: 2021-09-19T16:02:24.009Z
+          hst:lastmodified: 2021-10-18T12:56:24.754Z
           /SlickSlider:
             jcr:primaryType: hst:containeritemcomponent
             jcr:uuid: e9fcb072-ca6e-4237-a382-92e47ffac509
@@ -60,8 +61,18 @@
               pauseOnDotsHover, autoplay, slidesPerRow, dotsStyle, fade, pauseOnFocus,
               pauseOnHover, slidesToScroll, slidesToShow, autoplaySpeed]
             hst:parametervalues: ['on', 'on', sample-components/slider/sample-slider,
-              'on', 'off', '1', 'off', 'off', '1', dots, 'off', 'off', 'off', '1',
+              'on', 'off', '1', 'off', 'off', '1', bars, 'off', 'off', 'off', '1',
               '1', '3000']
+          /CategorySlider:
+            jcr:primaryType: hst:containeritemcomponent
+            jcr:uuid: 1dea1875-e983-4a87-9c84-bc8a7d5caaa1
+            hst:componentdefinition: hst:components/common-catalog/CategorySlider
+            hst:parameternames: [dots, infinite, document, arrows, vertical, rows,
+              pauseOnDotsHover, autoplay, dotsStyle, slidesPerRow, fade, pauseOnFocus,
+              pauseOnHover, slidesToScroll, slidesToShow, autoplaySpeed]
+            hst:parametervalues: ['on', 'off', sample-components/category-slider/produce,
+              'on', 'off', '1', 'off', 'off', dots, '1', 'off', 'off', 'off', '1',
+              '3', '3000']
     /homepage[3]:
       jcr:primaryType: myproject:experiencePage
       jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable']
@@ -71,28 +82,280 @@
       hippostd:state: published
       hippostdpubwf:createdBy: admin
       hippostdpubwf:creationDate: 2021-09-12T19:04:55.890-04:00
-      hippostdpubwf:lastModificationDate: 2021-09-19T12:02:24.010-04:00
+      hippostdpubwf:lastModificationDate: 2021-10-18T08:56:24.755-04:00
       hippostdpubwf:lastModifiedBy: admin
-      hippostdpubwf:publicationDate: 2021-09-19T12:02:26.694-04:00
+      hippostdpubwf:publicationDate: 2021-10-18T08:56:27.826-04:00
       hippotranslation:id: 658f2f01-1822-4e9c-9d8d-e23a741e4635
       hippotranslation:locale: en
       myproject:pageTitle: React Homepage
       /hst:xpage:
         jcr:primaryType: hst:xpage
-        jcr:uuid: 828ba1e5-6ffb-4f30-98aa-ad2d9d67d976
+        jcr:uuid: bb7e5498-d8e9-4f12-ab07-cae263bdc459
         hst:pageref: single-column
         /17891158-a805-4fa0-a5c8-80dc4b3274ff:
           jcr:primaryType: hst:containercomponent
-          jcr:uuid: 9dba2c41-4f28-48ef-9ae4-8bc58f50ce47
+          jcr:uuid: 087d33c9-7a35-4e84-b2e6-4812f0f9db76
           hippo:identifier: 221593d9-2e6f-40c9-a6e0-eabc982b820f
-          hst:lastmodified: 2021-09-19T16:02:24.009Z
+          hst:lastmodified: 2021-10-18T12:56:24.754Z
           /SlickSlider:
             jcr:primaryType: hst:containeritemcomponent
-            jcr:uuid: f86a8316-8618-4c57-85bf-106e21c1609d
+            jcr:uuid: 74d2e85e-7a9b-4c01-8a8a-d42ec435ca28
             hst:componentdefinition: hst:components/common-catalog/SlickSlider
             hst:parameternames: [dots, infinite, document, arrows, vertical, rows,
               pauseOnDotsHover, autoplay, slidesPerRow, dotsStyle, fade, pauseOnFocus,
               pauseOnHover, slidesToScroll, slidesToShow, autoplaySpeed]
             hst:parametervalues: ['on', 'on', sample-components/slider/sample-slider,
-              'on', 'off', '1', 'off', 'off', '1', dots, 'off', 'off', 'off', '1',
+              'on', 'off', '1', 'off', 'off', '1', bars, 'off', 'off', 'off', '1',
               '1', '3000']
+          /CategorySlider:
+            jcr:primaryType: hst:containeritemcomponent
+            jcr:uuid: 4e11e7d7-075f-4638-b9d1-93691bfeb78b
+            hst:componentdefinition: hst:components/common-catalog/CategorySlider
+            hst:parameternames: [dots, infinite, document, arrows, vertical, rows,
+              pauseOnDotsHover, autoplay, dotsStyle, slidesPerRow, fade, pauseOnFocus,
+              pauseOnHover, slidesToScroll, slidesToShow, autoplaySpeed]
+            hst:parametervalues: ['on', 'off', sample-components/category-slider/produce,
+              'on', 'off', '1', 'off', 'off', dots, '1', 'off', 'off', 'off', '1',
+              '3', '3000']
+  /men:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 0d98e119-1bb2-434f-a871-57f3679e9696
+    hippo:name: Men
+    hippo:versionHistory: bc65d370-e81e-45a4-ac5d-06be08b83968
+    /men[1]:
+      jcr:primaryType: myproject:experiencePage
+      jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable']
+      jcr:uuid: 6f180996-cbaf-445b-98a1-456ba5e61b0d
+      hippo:availability: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostd:transferable: false
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-10-02T18:35:47.571-04:00
+      hippostdpubwf:lastModificationDate: 2021-10-02T18:36:10.223-04:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 119a6ce6-3325-4996-a1ed-233f80e8c142
+      hippotranslation:locale: en
+      myproject:pageTitle: Men Homepage
+    /men[2]:
+      jcr:primaryType: myproject:experiencePage
+      jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable', 'mix:versionable']
+      jcr:uuid: 2fda1989-1556-4651-b4d5-5009a396d02e
+      hippo:availability: [preview]
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-10-02T18:35:47.571-04:00
+      hippostdpubwf:lastModificationDate: 2021-10-03T11:44:35.346-04:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 119a6ce6-3325-4996-a1ed-233f80e8c142
+      hippotranslation:locale: en
+      myproject:pageTitle: Men Homepage
+      /hst:xpage:
+        jcr:primaryType: hst:xpage
+        jcr:uuid: d7334244-dc3e-4aa6-b8fc-c951eae8302b
+        hst:pageref: single-column
+        /17891158-a805-4fa0-a5c8-80dc4b3274ff:
+          jcr:primaryType: hst:containercomponent
+          jcr:uuid: 732cdf91-f307-4477-aad2-f65348971ee5
+          hippo:identifier: 00ed6e27-5fbe-4184-ae08-38de3772183c
+          hst:lastmodified: 2021-10-03T15:44:35.346Z
+          /banner:
+            jcr:primaryType: hst:containeritemcomponent
+            jcr:uuid: 842eb385-d44e-4b4e-933b-6a8fa187b588
+            hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsBannerComponent
+            hst:iconpath: images/essentials/catalog-component-icons/banner.svg
+            hst:label: Banner
+            hst:parameternames: [document, org.hippoecm.hst.core.component.template]
+            hst:parametervalues: [banners/banner1, 'webfile:/freemarker/hstdefault/essentials-banner.ftl']
+            hst:template: essentials-banner
+    /men[3]:
+      jcr:primaryType: myproject:experiencePage
+      jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable']
+      jcr:uuid: 3c89f746-8b07-4f66-9b72-1745f71af41b
+      hippo:availability: [live]
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-10-02T18:35:47.571-04:00
+      hippostdpubwf:lastModificationDate: 2021-10-03T11:44:35.346-04:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2021-10-18T09:00:52.683-04:00
+      hippotranslation:id: 119a6ce6-3325-4996-a1ed-233f80e8c142
+      hippotranslation:locale: en
+      myproject:pageTitle: Men Homepage
+      /hst:xpage:
+        jcr:primaryType: hst:xpage
+        jcr:uuid: 871b5dc4-0f54-4687-95c2-1ef64c3ab627
+        hst:pageref: single-column
+        /17891158-a805-4fa0-a5c8-80dc4b3274ff:
+          jcr:primaryType: hst:containercomponent
+          jcr:uuid: 07a8777a-739a-42a8-b160-4803f32416fb
+          hippo:identifier: 00ed6e27-5fbe-4184-ae08-38de3772183c
+          hst:lastmodified: 2021-10-03T15:44:35.346Z
+          /banner:
+            jcr:primaryType: hst:containeritemcomponent
+            jcr:uuid: 52c0ef8a-c3af-4e1a-a561-edb82dd21521
+            hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsBannerComponent
+            hst:iconpath: images/essentials/catalog-component-icons/banner.svg
+            hst:label: Banner
+            hst:parameternames: [document, org.hippoecm.hst.core.component.template]
+            hst:parametervalues: [banners/banner1, 'webfile:/freemarker/hstdefault/essentials-banner.ftl']
+            hst:template: essentials-banner
+  /pantry:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 01b93fb1-5883-4508-8b7b-975c7c7320c1
+    hippo:name: Pantry Category Page
+    hippo:versionHistory: 682495bf-7de6-420e-8677-8a5f63510df7
+    /pantry[1]:
+      jcr:primaryType: myproject:experiencePage
+      jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable']
+      jcr:uuid: e39c5ab8-0485-4b47-9418-8cb6703a2490
+      hippo:availability: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostd:transferable: false
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-10-15T09:44:40.858-04:00
+      hippostdpubwf:lastModificationDate: 2021-10-15T09:44:48.609-04:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 0f56f129-f78d-43b4-b4d6-6fa1e8a6eea4
+      hippotranslation:locale: en
+      myproject:pageTitle: Pantry Category Landing
+    /pantry[2]:
+      jcr:primaryType: myproject:experiencePage
+      jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable', 'mix:versionable']
+      jcr:uuid: ace43a18-85a0-47e1-aab3-2901e5c00868
+      hippo:availability: [preview]
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-10-15T09:44:40.858-04:00
+      hippostdpubwf:lastModificationDate: 2021-10-16T19:22:18.391-04:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 0f56f129-f78d-43b4-b4d6-6fa1e8a6eea4
+      hippotranslation:locale: en
+      myproject:pageTitle: Pantry Category Landing
+      /hst:xpage:
+        jcr:primaryType: hst:xpage
+        jcr:uuid: 6767eee6-c946-45e1-96f9-6b1b3a07aac5
+        hst:pageref: single-column
+        /17891158-a805-4fa0-a5c8-80dc4b3274ff:
+          jcr:primaryType: hst:containercomponent
+          jcr:uuid: b0d4dfa2-f5f8-4a76-8432-986631c2cbe3
+          hippo:identifier: 179a075e-b314-41f7-9d0c-d6bb0c5183a8
+          hst:lastmodified: 2021-10-16T23:22:18.391Z
+          /FlexibleGrid:
+            jcr:primaryType: hst:containeritemcomponent
+            jcr:uuid: ac415297-c227-4fab-bc38-f8da96a752ac
+            hst:componentdefinition: hst:components/common-catalog/FlexibleGrid
+            hst:parameternames: [itemsPerRow, document]
+            hst:parametervalues: ['3', sample-components/flexible-grid/pantry]
+    /pantry[3]:
+      jcr:primaryType: myproject:experiencePage
+      jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable']
+      jcr:uuid: 03bcd6a9-92cc-4899-b251-9f9237ddcbf3
+      hippo:availability: [live]
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-10-15T09:44:40.858-04:00
+      hippostdpubwf:lastModificationDate: 2021-10-16T19:22:18.391-04:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2021-10-16T19:22:21.632-04:00
+      hippotranslation:id: 0f56f129-f78d-43b4-b4d6-6fa1e8a6eea4
+      hippotranslation:locale: en
+      myproject:pageTitle: Pantry Category Landing
+      /hst:xpage:
+        jcr:primaryType: hst:xpage
+        jcr:uuid: 1462e92d-4507-4f73-a0c6-db4851af343c
+        hst:pageref: single-column
+        /17891158-a805-4fa0-a5c8-80dc4b3274ff:
+          jcr:primaryType: hst:containercomponent
+          jcr:uuid: 7798469a-81bd-4eae-b41a-d4f8bb5c5ce2
+          hippo:identifier: 179a075e-b314-41f7-9d0c-d6bb0c5183a8
+          hst:lastmodified: 2021-10-16T23:22:18.391Z
+          /FlexibleGrid:
+            jcr:primaryType: hst:containeritemcomponent
+            jcr:uuid: 674abb12-16f1-4a77-80c0-6f51131c698f
+            hst:componentdefinition: hst:components/common-catalog/FlexibleGrid
+            hst:parameternames: [itemsPerRow, document]
+            hst:parametervalues: ['3', sample-components/flexible-grid/pantry]
+  /categories:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippo:named', 'hippostd:xpagefolder', 'hippotranslation:translated']
+    hippo:name: Categories
+    hippostd:channelid: react
+    hippostd:foldertype: [new-CategoryPage-document, new-CategoryPage-folder]
+    hippotranslation:id: 2dea2fcb-37de-4dfb-8c0e-8bfeb8d9350d
+    hippotranslation:locale: en
+    /fresh-fruit:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+      jcr:uuid: 20e86dec-2a56-4744-8f27-4d3ca8e3f537
+      hippo:name: Fresh Fruit
+      hippo:versionHistory: c7de347b-4d42-4c9e-8f5c-adf1733d3ef0
+      /fresh-fruit[1]:
+        jcr:primaryType: myproject:CategoryPage
+        jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable']
+        jcr:uuid: a1a84c40-a170-4465-87a9-16cd27599a47
+        hippo:availability: []
+        hippostd:retainable: false
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2021-10-18T09:02:01.231-04:00
+        hippostdpubwf:lastModificationDate: 2021-10-18T09:02:21.212-04:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 0534a6dd-e477-435f-b251-445eec5419db
+        hippotranslation:locale: en
+        myproject:connectorid: 2-1
+        myproject:pageTitle: Fresh Fruit
+      /fresh-fruit[2]:
+        jcr:primaryType: myproject:CategoryPage
+        jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable', 'mix:versionable']
+        jcr:uuid: 594407b3-ac85-4635-9c61-a5dacc57296e
+        hippo:availability: [preview]
+        hippostd:retainable: false
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2021-10-18T09:02:01.231-04:00
+        hippostdpubwf:lastModificationDate: 2021-10-18T09:02:21.159-04:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 0534a6dd-e477-435f-b251-445eec5419db
+        hippotranslation:locale: en
+        myproject:connectorid: 2-1
+        myproject:pageTitle: Fresh Fruit
+        /hst:xpage:
+          jcr:primaryType: hst:xpage
+          jcr:uuid: 3117e76b-d3ce-41e7-bd63-9835d5530cfd
+          hst:pageref: single-column
+          /17891158-a805-4fa0-a5c8-80dc4b3274ff:
+            jcr:primaryType: hst:containercomponent
+            jcr:uuid: 259d574d-08c8-403c-8978-173d9646b11a
+            hippo:identifier: 2f0b427c-2c3a-45f8-a123-54575d55048a
+      /fresh-fruit[3]:
+        jcr:primaryType: myproject:CategoryPage
+        jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable']
+        jcr:uuid: 1920961b-9373-4a4d-a645-9e3b95bb4d80
+        hippo:availability: [live]
+        hippostd:retainable: false
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2021-10-18T09:02:01.231-04:00
+        hippostdpubwf:lastModificationDate: 2021-10-18T09:02:21.159-04:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2021-10-18T09:02:23.184-04:00
+        hippotranslation:id: 0534a6dd-e477-435f-b251-445eec5419db
+        hippotranslation:locale: en
+        myproject:connectorid: 2-1
+        myproject:pageTitle: Fresh Fruit
+        /hst:xpage:
+          jcr:primaryType: hst:xpage
+          jcr:uuid: d25916a0-2f79-444a-a7cb-bfb0aab5da35
+          hst:pageref: single-column
+          /17891158-a805-4fa0-a5c8-80dc4b3274ff:
+            jcr:primaryType: hst:containercomponent
+            jcr:uuid: 3c040640-2af3-40aa-96ad-ad6cccecde55
+            hippo:identifier: 2f0b427c-2c3a-45f8-a123-54575d55048a

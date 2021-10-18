@@ -29,3 +29,27 @@ definitions:
         hst:pagetitle: Home Page
         hst:refId: homepage
         hst:relativecontentpath: pages/homepage
+      /c:
+        jcr:primaryType: hst:sitemapitem
+        hst:hiddeninchannelmanager: true
+        hst:componentconfigurationid: hst:pages/pagenotfound
+        /_default_:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:pages/category
+          hst:relativecontentpath: c/${1}
+          /_any_:
+            jcr:primaryType: hst:sitemapitem
+            hst:componentconfigurationid: hst:pages/category
+            hst:relativecontentpath: c/${1}
+      /p:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/pagenotfound
+        hst:hiddeninchannelmanager: true
+        /_default_:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:pages/product-detail
+          hst:relativecontentpath: p/${1}
+          /_any_:
+            jcr:primaryType: hst:sitemapitem
+            hst:componentconfigurationid: hst:pages/product-detail
+            hst:relativecontentpath: p/${1}

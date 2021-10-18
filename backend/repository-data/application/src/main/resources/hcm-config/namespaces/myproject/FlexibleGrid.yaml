@@ -1,0 +1,70 @@
+definitions:
+  config:
+    /hippo:namespaces/myproject/FlexibleGrid:
+      jcr:primaryType: hipposysedit:templatetype
+      jcr:mixinTypes: ['editor:editable', 'mix:referenceable']
+      jcr:uuid: 482e1e3f-2a91-439a-859d-ed904292c7f0
+      /hipposysedit:nodetype:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 21272142-1f9e-40a9-b84b-29a74f8a0d86
+        /hipposysedit:nodetype:
+          jcr:primaryType: hipposysedit:nodetype
+          jcr:mixinTypes: ['mix:referenceable', 'hipposysedit:remodel']
+          jcr:uuid: 2eaaf6e5-0744-4833-ae13-697815a214f4
+          hipposysedit:node: true
+          hipposysedit:supertype: ['myproject:basedocument', 'hippostd:relaxed', 'hippotranslation:translated']
+          hipposysedit:uri: http://www.myproject.com/myproject/nt/1.0
+          /FlexibleGridItem:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: true
+            hipposysedit:ordered: true
+            hipposysedit:path: myproject:FlexibleGridItem
+            hipposysedit:primary: false
+            hipposysedit:type: myproject:FlexibleGridItem
+      /hipposysedit:prototypes:
+        jcr:primaryType: hipposysedit:prototypeset
+        /hipposysedit:prototype:
+          jcr:primaryType: myproject:FlexibleGrid
+          hippostd:holder: holder
+          hippostd:state: draft
+          hippostdpubwf:createdBy: ''
+          hippostdpubwf:lastModifiedBy: ''
+          hippotranslation:id: document-type-locale-id
+          hippotranslation:locale: document-type-locale
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 6798f76d-b1fe-4301-acb9-caebb2efe467
+          hippostdpubwf:lastModificationDate: 2021-10-16T19:17:23.983-04:00
+          hippostdpubwf:creationDate: 2021-10-16T19:17:23.984-04:00
+          /myproject:FlexibleGridItem:
+            jcr:primaryType: myproject:FlexibleGridItem
+            myproject:link: ''
+            myproject:linkText: ''
+            myproject:imageUrl: ''
+            /myproject:image:
+              jcr:primaryType: hippogallerypicker:imagelink
+              hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+      /editor:templates:
+        jcr:primaryType: editor:templateset
+        /_default_:
+          jcr:primaryType: frontend:plugincluster
+          frontend:properties: [mode]
+          frontend:references: [wicket.model, model.compareTo, engine, validator.id]
+          frontend:services: [wicket.id, validator.id]
+          /root:
+            jcr:primaryType: frontend:plugin
+            item: ${cluster.id}.field
+            plugin.class: org.hippoecm.frontend.service.render.ListViewPlugin
+          /FlexibleGridItem:
+            jcr:primaryType: frontend:plugin
+            caption: FlexibleGridItem
+            field: FlexibleGridItem
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
+            wicket.id: ${cluster.id}.field
+            hint: ''
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig

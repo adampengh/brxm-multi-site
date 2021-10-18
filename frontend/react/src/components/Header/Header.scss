@@ -50,6 +50,10 @@
             width: auto;
             flex: 0 1 auto;
         }
+
+        svg {
+            max-width: 108px;
+        }
     }
 
     &__nav {
@@ -78,7 +82,8 @@
 }
 
 .promo-bar {
-    background: #e8e8e8;
+    background: #333;
+    color: #e8e8e8;
     padding: 12px;
     text-align: center;
 }

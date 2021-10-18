@@ -1,0 +1,32 @@
+.flexible-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    position: relative;
+    grid-gap: 64px;
+    padding-top: 64px;
+
+    &__item {
+        position: relative;
+
+        &-link {
+            position: absolute;
+            background: rgba(0, 0, 0, 0.3);
+            bottom: 0px;
+            left: 0;
+            margin: 0;
+            right: 0;
+            padding: 12px 0 12px 16px;
+            color: #fff;
+            font-style: italic;
+            font-size: 16px;
+            &::after {
+                content: "\2192";
+                position: absolute;
+                right: 16px;
+                font-size: 24px;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+        }
+    }
+}

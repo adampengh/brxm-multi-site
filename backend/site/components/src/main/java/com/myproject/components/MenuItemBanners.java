@@ -39,8 +39,10 @@ public class MenuItemBanners extends EssentialsMenuComponent {
         HippoBean scope = requestContext.getSiteContentBaseBean();
         Map<String, HippoBean> menuItemBanners = new HashMap<>();
 
+        // Get the top level menu items
         List<HstSiteMenuItem> menuItems = requestContext.getHstSiteMenus().getSiteMenu("main").getSiteMenuItems();
         for (HstSiteMenuItem menuItem : menuItems) {
+            // Get the banner document name
             String bannerName = menuItem.getParameter(PARAMETER_NAME);
             if (StringUtils.isNotEmpty(bannerName)) {
                 HippoBean bean = executeQuery(bannerName, scope);
@@ -50,8 +52,10 @@ public class MenuItemBanners extends EssentialsMenuComponent {
             }
         }
 
+        // Add the banners to the Page Model API response
         request.setModel("MenuItemBanners", menuItemBanners);
     }
+
 
     private HippoBean executeQuery(final String bannerName, final HippoBean scope) {
         Constraint constraint = ConstraintBuilder.constraint(".").contains(bannerName);

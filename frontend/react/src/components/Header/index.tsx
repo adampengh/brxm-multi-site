@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { BrComponent } from '@bloomreach/react-sdk';
 import { Navigation } from '../Navigation';
+import { ReactComponent as Logo } from '../../assets/logo.svg';
 
 import './Header.scss';
 
@@ -24,7 +26,9 @@ export const Header = () => {
 
             <section className='header__primary'>
                 <div className='header__primary--inner'>
-                    <div className='header__logo'>Brand</div>
+                    <Link to='/' className='header__logo'>
+                        <Logo />
+                    </Link>
                     <BrComponent path="menu">
                         <Navigation />
                     </BrComponent>

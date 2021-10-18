@@ -61,3 +61,31 @@
           resource: /content/gallery/react/navigation-banners/tyler-nix-y1drf0y3oe0-unsplash.jpg/tyler-nix-Y1drF0Y3Oe0-unsplash_original.jpg
         jcr:lastModified: 2021-10-01T18:38:01.368-04:00
         jcr:mimeType: image/jpeg
+  /nathan-dumlao-keiqezjlmus-unsplash.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 43897936-ac11-4966-a2c6-249a850c2373
+    hippo:name: nathan-dumlao-KeiQeZJLmus-unsplash.jpg
+    /nathan-dumlao-keiqezjlmus-unsplash.jpg:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: nathan-dumlao-KeiQeZJLmus-unsplash.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: nathan-dumlao-KeiQeZJLmus-unsplash.jpg
+        hippogallery:height: 60
+        hippogallery:width: 40
+        jcr:data:
+          type: binary
+          resource: /content/gallery/react/navigation-banners/nathan-dumlao-keiqezjlmus-unsplash.jpg/nathan-dumlao-KeiQeZJLmus-unsplash_thumbnail.jpg
+        jcr:lastModified: 2021-10-15T09:54:59.916-04:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 960
+        hippogallery:width: 640
+        jcr:data:
+          type: binary
+          resource: /content/gallery/react/navigation-banners/nathan-dumlao-keiqezjlmus-unsplash.jpg/nathan-dumlao-KeiQeZJLmus-unsplash_original.jpg
+        jcr:lastModified: 2021-10-15T09:54:59.916-04:00
+        jcr:mimeType: image/jpeg

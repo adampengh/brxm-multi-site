@@ -3,6 +3,7 @@
   jcr:primaryType: hst:sitemenuitem
   hst:parameternames: [Banner Name]
   hst:parametervalues: [mens-navigation-banner]
+  hst:referencesitemapitem: men
   hst:repobased: false
   /Column 1:
     jcr:primaryType: hst:sitemenuitem

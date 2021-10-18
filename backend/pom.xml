@@ -5,7 +5,7 @@
   <parent>
     <groupId>com.onehippo.cms7</groupId>
     <artifactId>hippo-cms7-enterprise-release</artifactId>
-    <version>14.6.0</version>
+    <version>14.6.3</version>
   </parent>
 
   <name>My Project</name>
@@ -57,19 +57,15 @@
   <!-- End of emptied/overridden metadata from parent hippo-cms7-release pom. -->
 
   <properties>
-
     <!--***START temporary override of versions*** -->
     <!-- ***END temporary override of versions*** -->
-
     <essentials.version>14.6.0</essentials.version>
     <jsp-api.version>2.2</jsp-api.version>
     <taglibs.version>1.2.5</taglibs.version>
-
     <development-module-deploy-dir>shared/lib</development-module-deploy-dir>
-
     <docker.postgres.bind.1>${project.basedir}/target/postgres-data:/var/lib/postgresql/data</docker.postgres.bind.1>
-
     <hippo.cms.locales>nl,de,fr,es,zh</hippo.cms.locales>
+    <starterstore.version>${hippo.cms.version}</starterstore.version>
     <buildNumber>${maven.build.timestamp}</buildNumber>
   </properties>
 

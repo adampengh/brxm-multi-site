@@ -4,7 +4,28 @@
 <'hippostdpubwf'='http://www.onehippo.org/jcr/hippostdpubwf/nt/1.0'>
 <'hippotranslation'='http://www.onehippo.org/jcr/hippotranslation/nt/1.0'>
 
+[myproject:CategoriesSliderSlide] > hippo:compound, hippostd:relaxed
+  orderable
+
 [myproject:basedocument] > hippo:document, hippostd:publishableSummary, hippostdpubwf:document
+  orderable
+
+[myproject:CategoryPage] > hippostd:relaxed, hippotranslation:translated, myproject:basedocument
+  orderable
+
+[myproject:CategorySlider] > hippostd:relaxed, hippotranslation:translated, myproject:basedocument
+  orderable
+
+[myproject:FlexibleGrid] > hippostd:relaxed, hippotranslation:translated, myproject:basedocument
+  orderable
+
+[myproject:FlexibleGridItem] > hippo:compound, hippostd:relaxed
+  orderable
+
+[myproject:ProductDetailCustomContent] > hippostd:relaxed, hippotranslation:translated, myproject:basedocument
+  orderable
+
+[myproject:ProductDetailCustomContentCompound] > hippo:compound, hippostd:relaxed
   orderable
 
 [myproject:bannerdocument] > hippostd:relaxed, hippotranslation:translated, myproject:basedocument

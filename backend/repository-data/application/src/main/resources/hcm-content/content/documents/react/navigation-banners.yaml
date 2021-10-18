@@ -239,3 +239,100 @@
           hippo:facets: []
           hippo:modes: []
           hippo:values: []
+  /pantry-navigation-banner:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 1b6dee85-5986-4706-b0d2-4052ac93198a
+    hippo:name: Pantry Navigation Banner
+    hippo:versionHistory: e2d4f915-b067-4c4d-82b5-2be22d292497
+    /pantry-navigation-banner[1]:
+      jcr:primaryType: myproject:navigationBanner
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: a7d2136f-3a6f-4a40-a095-671e895b87eb
+      hippo:availability: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-10-15T09:54:49.937-04:00
+      hippostdpubwf:lastModificationDate: 2021-10-15T10:02:34.626-04:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: baf905fd-ca79-4de5-99a9-00eba70aebf7
+      hippotranslation:locale: en
+      myproject:heading: Baby Store
+      myproject:link: /c/2-17u/baby-store
+      /myproject:imageCompound:
+        jcr:primaryType: myproject:imageCompound
+        myproject:altText: Diapers
+        /myproject:mobileImage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /myproject:desktopImage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 43897936-ac11-4966-a2c6-249a850c2373
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+    /pantry-navigation-banner[2]:
+      jcr:primaryType: myproject:navigationBanner
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 4f01f188-ec61-400d-8234-aa4f1a6fa94c
+      hippo:availability: [preview]
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-10-15T09:54:49.937-04:00
+      hippostdpubwf:lastModificationDate: 2021-10-15T10:02:34.589-04:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: baf905fd-ca79-4de5-99a9-00eba70aebf7
+      hippotranslation:locale: en
+      myproject:heading: Baby Store
+      myproject:link: /c/2-17u/baby-store
+      /myproject:imageCompound:
+        jcr:primaryType: myproject:imageCompound
+        myproject:altText: Diapers
+        /myproject:mobileImage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /myproject:desktopImage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 43897936-ac11-4966-a2c6-249a850c2373
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+    /pantry-navigation-banner[3]:
+      jcr:primaryType: myproject:navigationBanner
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 5520cb86-dd83-42b9-b0ce-4c408adfe7ea
+      hippo:availability: [live]
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-10-15T09:54:49.937-04:00
+      hippostdpubwf:lastModificationDate: 2021-10-15T10:02:34.589-04:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2021-10-15T10:02:36.675-04:00
+      hippotranslation:id: baf905fd-ca79-4de5-99a9-00eba70aebf7
+      hippotranslation:locale: en
+      myproject:heading: Baby Store
+      myproject:link: /c/2-17u/baby-store
+      /myproject:imageCompound:
+        jcr:primaryType: myproject:imageCompound
+        myproject:altText: Diapers
+        /myproject:mobileImage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /myproject:desktopImage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 43897936-ac11-4966-a2c6-249a850c2373
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []

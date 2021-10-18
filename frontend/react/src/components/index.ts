@@ -15,9 +15,15 @@
  */
 
 export * from './Banner';
+export * from './CategorySlider';
 export * from './Content';
+export * from './FlexibleGrid';
 export * from './Footer';
 export * from './Header';
 export * from './Menu';
 export * from './NewsList';
 export * from './SlickSlider';
+
+export * from './product-detail/ProductDetail';
+export * from './product-detail/ProductDetailCustomContent';
+export * from './product-listing/ProductGridCategory';

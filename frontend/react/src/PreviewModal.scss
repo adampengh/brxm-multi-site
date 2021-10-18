@@ -1,0 +1,48 @@
+.preview-modal {
+    align-items: center;
+    align-content: center;
+    background: linear-gradient(to bottom, rgba(51, 51, 51, 1), rgba(0, 0, 0, 1.0));
+    border-radius: 4px;
+    border: 1px solid rgba(90, 90, 90, 0.8);
+    bottom: 8px;
+    box-shadow: 2px -2px 4px rgba(0, 0, 0, 0.2);
+    display: grid;
+    grid-template-columns: 1fr;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 60px;
+    justify-content: center;
+    left: 8px;
+    padding: 16px;
+    position: fixed;
+    right: 8px;
+    z-index: 9999;
+
+    p {
+        font-size: 14px;
+        font-weight: 700;
+        margin: 0;
+        text-align: center;
+        color: #fff;
+    }
+    button {
+        background: linear-gradient(to bottom, rgb(255, 100, 0), rgb(255, 0, 0));
+        border: none;
+        color: #f8f8f8;;
+        cursor: pointer;
+        display: inline-block;
+        flex-grow: 0;
+        flex-shrink: 1;
+        font-weight: bold;
+        justify-content: center;
+        padding: 12px;
+        right: 8px;
+        position: absolute;
+        text-transform: uppercase;
+        width: 200px;
+        border-radius: 3px;
+        top: 50%;
+        transform: translateY(-50%);
+        text-shadow: -1px -1px rgba(0, 0, 0, 0.5)
+    }
+}

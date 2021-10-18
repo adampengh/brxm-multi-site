@@ -91,3 +91,13 @@ definitions:
       /en:
         jcr:primaryType: hipposys:resourcebundle
         jcr:name: Navigation Banner
+    /hippo:configuration/hippo:translations/hippo:types/myproject:ProductDetailCustomContent:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Product Detail Custom Content
+    /hippo:configuration/hippo:translations/hippo:types/myproject:CategoryPage:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Category Page
