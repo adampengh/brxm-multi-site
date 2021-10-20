@@ -1,5 +1,5 @@
 /hst:hst/hst:configurations/react/hst:workspace/hst:sitemenus/main/Men:
-  .meta:order-before: Kids
+  .meta:order-before: Women
   jcr:primaryType: hst:sitemenuitem
   hst:parameternames: [Banner Name]
   hst:parametervalues: [mens-navigation-banner]

@@ -29,7 +29,7 @@
         hippostd:transferable: false
         hippostdpubwf:createdBy: admin
         hippostdpubwf:creationDate: 2021-09-18T19:00:42.632-04:00
-        hippostdpubwf:lastModificationDate: 2021-10-16T19:05:30.701-04:00
+        hippostdpubwf:lastModificationDate: 2021-10-19T07:34:50.849-04:00
         hippostdpubwf:lastModifiedBy: admin
         hippotranslation:id: 7f27caba-2d39-400a-802d-b7ffb9ef15c0
         hippotranslation:locale: en
@@ -53,7 +53,7 @@
           /myproject:text:
             jcr:primaryType: hippostd:html
             hippostd:content: |-
-              <h2>The Freshest Produce Year-Round</h2>
+              <h2>The Freshest Produce Year-Round!!!!</h2>
 
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pretium ex at orci cursus, non varius ante consectetur. Praesent commodo erat tempor purus finibus cursus. Nunc lorem metus, condimentum quis ipsum ac, tincidunt congue magna. Maecenas consequat eu elit eu lacinia. Aenean eget elit velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam finibus varius mi id ullamcorper.</p>
 
@@ -104,7 +104,7 @@
         hippostd:state: unpublished
         hippostdpubwf:createdBy: admin
         hippostdpubwf:creationDate: 2021-09-18T19:00:42.632-04:00
-        hippostdpubwf:lastModificationDate: 2021-10-16T19:05:29.086-04:00
+        hippostdpubwf:lastModificationDate: 2021-10-19T07:34:50.656-04:00
         hippostdpubwf:lastModifiedBy: admin
         hippotranslation:id: 7f27caba-2d39-400a-802d-b7ffb9ef15c0
         hippotranslation:locale: en
@@ -128,7 +128,7 @@
           /myproject:text:
             jcr:primaryType: hippostd:html
             hippostd:content: |-
-              <h2>The Freshest Produce Year-Round</h2>
+              <h2>The Freshest Produce Year-Round!!!!</h2>
 
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pretium ex at orci cursus, non varius ante consectetur. Praesent commodo erat tempor purus finibus cursus. Nunc lorem metus, condimentum quis ipsum ac, tincidunt congue magna. Maecenas consequat eu elit eu lacinia. Aenean eget elit velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam finibus varius mi id ullamcorper.</p>
 
@@ -374,9 +374,10 @@
         hippo:availability: []
         hippostd:retainable: false
         hippostd:state: draft
+        hippostd:transferable: false
         hippostdpubwf:createdBy: admin
         hippostdpubwf:creationDate: 2021-10-16T19:19:21.585-04:00
-        hippostdpubwf:lastModificationDate: 2021-10-16T19:40:29.190-04:00
+        hippostdpubwf:lastModificationDate: 2021-10-19T10:01:22.538-04:00
         hippostdpubwf:lastModifiedBy: admin
         hippotranslation:id: 518ff10f-4788-4993-a5a6-e106334a6f36
         hippotranslation:locale: en
@@ -398,24 +399,9 @@
           myproject:linkText: Pasta, Rice, Dry Beans
         /myproject:FlexibleGridItem[3]:
           jcr:primaryType: myproject:FlexibleGridItem
-          myproject:imageUrl: https://res.cloudinary.com/unata/image/fetch/q_auto:eco,f_auto,dpr_2,w_300,h_230/https://assets-prd-ray.unataops.com/web/category_tile/2-9u.jpg
-          myproject:link: /c/2-9u
-          myproject:linkText: Baking & Cooking Needs
-        /myproject:FlexibleGridItem[4]:
-          jcr:primaryType: myproject:FlexibleGridItem
-          myproject:imageUrl: https://res.cloudinary.com/unata/image/fetch/q_auto:eco,f_auto,dpr_2,w_300,h_230/https://assets-prd-ray.unataops.com/web/category_tile/2-10u.jpg
-          myproject:link: /c/2-10u
-          myproject:linkText: Condiments, Sauces & Spreads
-        /myproject:FlexibleGridItem[5]:
-          jcr:primaryType: myproject:FlexibleGridItem
           myproject:imageUrl: https://res.cloudinary.com/unata/image/fetch/q_auto:eco,f_auto,dpr_2,w_300,h_230/https://assets-prd-ray.unataops.com/web/category_tile/2-11u.jpg
           myproject:link: /c/2-11u
           myproject:linkText: Soups, Chili & Canned Goods
-        /myproject:FlexibleGridItem[6]:
-          jcr:primaryType: myproject:FlexibleGridItem
-          myproject:imageUrl: https://res.cloudinary.com/unata/image/fetch/q_auto:eco,f_auto,dpr_2,w_300,h_230/https://assets-prd-ray.unataops.com/web/category_tile/2-12u.jpg
-          myproject:link: /c/2-12u/snacks
-          myproject:linkText: Snacks
       /pantry[2]:
         jcr:primaryType: myproject:FlexibleGrid
         jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
@@ -425,7 +411,7 @@
         hippostd:state: unpublished
         hippostdpubwf:createdBy: admin
         hippostdpubwf:creationDate: 2021-10-16T19:19:21.585-04:00
-        hippostdpubwf:lastModificationDate: 2021-10-16T19:40:29.149-04:00
+        hippostdpubwf:lastModificationDate: 2021-10-19T07:44:23.432-04:00
         hippostdpubwf:lastModifiedBy: admin
         hippotranslation:id: 518ff10f-4788-4993-a5a6-e106334a6f36
         hippotranslation:locale: en
@@ -447,24 +433,9 @@
           myproject:linkText: Pasta, Rice, Dry Beans
         /myproject:FlexibleGridItem[3]:
           jcr:primaryType: myproject:FlexibleGridItem
-          myproject:imageUrl: https://res.cloudinary.com/unata/image/fetch/q_auto:eco,f_auto,dpr_2,w_300,h_230/https://assets-prd-ray.unataops.com/web/category_tile/2-9u.jpg
-          myproject:link: /c/2-9u
-          myproject:linkText: Baking & Cooking Needs
-        /myproject:FlexibleGridItem[4]:
-          jcr:primaryType: myproject:FlexibleGridItem
-          myproject:imageUrl: https://res.cloudinary.com/unata/image/fetch/q_auto:eco,f_auto,dpr_2,w_300,h_230/https://assets-prd-ray.unataops.com/web/category_tile/2-10u.jpg
-          myproject:link: /c/2-10u
-          myproject:linkText: Condiments, Sauces & Spreads
-        /myproject:FlexibleGridItem[5]:
-          jcr:primaryType: myproject:FlexibleGridItem
           myproject:imageUrl: https://res.cloudinary.com/unata/image/fetch/q_auto:eco,f_auto,dpr_2,w_300,h_230/https://assets-prd-ray.unataops.com/web/category_tile/2-11u.jpg
           myproject:link: /c/2-11u
           myproject:linkText: Soups, Chili & Canned Goods
-        /myproject:FlexibleGridItem[6]:
-          jcr:primaryType: myproject:FlexibleGridItem
-          myproject:imageUrl: https://res.cloudinary.com/unata/image/fetch/q_auto:eco,f_auto,dpr_2,w_300,h_230/https://assets-prd-ray.unataops.com/web/category_tile/2-12u.jpg
-          myproject:link: /c/2-12u/snacks
-          myproject:linkText: Snacks
       /pantry[3]:
         jcr:primaryType: myproject:FlexibleGrid
         jcr:mixinTypes: ['mix:referenceable']

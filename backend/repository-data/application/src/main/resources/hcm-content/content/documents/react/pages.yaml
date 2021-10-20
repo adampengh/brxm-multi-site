@@ -304,9 +304,10 @@
         hippo:availability: []
         hippostd:retainable: false
         hippostd:state: draft
+        hippostd:transferable: false
         hippostdpubwf:createdBy: admin
         hippostdpubwf:creationDate: 2021-10-18T09:02:01.231-04:00
-        hippostdpubwf:lastModificationDate: 2021-10-18T09:02:21.212-04:00
+        hippostdpubwf:lastModificationDate: 2021-10-19T14:25:59.318-04:00
         hippostdpubwf:lastModifiedBy: admin
         hippotranslation:id: 0534a6dd-e477-435f-b251-445eec5419db
         hippotranslation:locale: en
