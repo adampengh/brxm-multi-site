@@ -17,7 +17,7 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { Spinner } from 'react-bootstrap';
 import { useCookies } from 'react-cookie';
-import { BrComponent, BrProps } from '@bloomreach/react-sdk';
+import { BrProps } from '@bloomreach/react-sdk';
 import { ItemFragment, ItemVariantFragment, useProductDetail } from '@bloomreach/connector-components-react';
 import { AddToCartButton } from '../cart/AddToCart';
 import { getSmViewId, getConnector } from '../../utils';

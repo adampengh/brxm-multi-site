@@ -182,13 +182,11 @@ interface FilteredProductGridCategoryInputProps extends ProductGridCategoryInput
   filteredCategoryContentRef?: any;
 }
 function ProductGridCategoryHandler(props: FilteredProductGridCategoryInputProps) {
-  const page = useContext(BrPageContext);
   const {
     categoryId,
     brUid2,
     connector,
     smViewId,
-    filteredCategoryContentRef,
   } = props;
   const [sortFields, ] = useState('');
   const [facetFieldFilters, setFacetFieldFilters] = useState<FacetFieldFilterInput[]>();

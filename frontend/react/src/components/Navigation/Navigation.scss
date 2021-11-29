@@ -1,12 +1,14 @@
+@import '../../scss/variables';
+
 .navigation {
     background-color: #fff;
     width: 100%;
     @media screen and (max-width: 1024px) {
         bottom: 0;
         left: 0;
+        overflow-y: scroll;
         position: fixed;
         top: 60px;
-        overflow-y: scroll;
         transform: translateX(-100%);
         transition: all 0.3s ease-in-out;
         &[data-menu-open="true"] {
@@ -19,8 +21,8 @@
         flex-direction: row;
         flex-wrap: nowrap;
         margin: 0;
-        padding: 0;
         min-height: 60px;
+        padding: 0;
     }
     &__item {
         border-bottom: 1px solid #ccc;
@@ -33,10 +35,10 @@
             }
         }
         @media screen and (min-width: 1025px) {
+            align-content: stretch;
+            align-items: stretch;
             border: none;
             display: flex !important;
-            align-items: stretch;
-            align-content: stretch;
             &:first-child {
                 border-top: none;
             }
@@ -46,28 +48,28 @@
             font-size: 18px;
             font-weight: 700;
             @media screen and (min-width: 1025px) {
+                align-content: stretch;
+                align-items: center;
+                display: flex !important;
                 font-size: 14px;
                 font-weight: 500;
-                display: flex !important;
-                align-items: center;
-                align-content: stretch;
             }
         }
     }
 
     &__link {
+        align-content: stretch;
+        align-items: stretch;
+        display: flex;
         position: relative;
         z-index: 0;
-        display: flex;
-        align-items: stretch;
-        align-content: stretch;
         svg {
+            height: 32px;
             position: absolute;
             right: 8px;
             top: 50%;
             transform: translateY(-50%) rotate(-90deg);
             width: 32px;
-            height: 32px;
             @media (min-width: 1025px) {
                 display: none;
             }
@@ -75,7 +77,7 @@
     }
 
     a, span {
-        color: #333;
+        color: $blue;
         cursor: pointer;
         display: block;
         padding: 1rem;
@@ -89,11 +91,11 @@
         @media screen and (max-width: 1024px) {
             bottom: 0;
             left: 0;
+            overflow-y: scroll;
             position: fixed;
             top: 0;
             transform: translateX(-100%);
             transition: all 0.3s ease-in-out;
-            overflow-y: scroll;
             &[data-show-menu="true"] {
                 transform: translateX(0%);
             }
@@ -110,12 +112,12 @@
         }
 
         .back-button {
-            display: block;
-            padding: 12px;
             background-color: transparent;
             border: none;
+            display: block;
             font-size: 18px;
             font-weight: 500;
+            padding: 12px;
             @media (min-width: 1025px) {
                 display: none;
             }
@@ -216,10 +218,11 @@
         }
 
         h2 {
+            color: $blue;
             font-size: 18px;
+            font-weight: 700;
             margin: 0;
             padding: 1rem;
-            font-weight: 700;
             @media screen and (max-width: 1024px) {
                 border-bottom: 1px solid #ccc;
                 overflow: hidden;
@@ -228,9 +231,9 @@
                 }
             }
             @media screen and (min-width: 1025px) {
+                font-size: 14px;
                 padding: 0.5rem;
                 padding-left: 0;
-                font-size: 14px;
             }
 
             a {
@@ -240,11 +243,11 @@
         }
 
         a, span {
-            color: #333;
+            color: $blue;
             display: block;
             font-size: 16px;
-            padding: 0.75rem 1rem;
             font-weight: 500;
+            padding: 0.75rem 1rem;
             @media screen and (max-width: 1024px) {
 
             }
@@ -264,13 +267,13 @@
         display: none !important;
         @media screen and (min-width: 1025px) {
             display: block !important;
-            position: relative;
             flex-basis: calc(100% / 3) !important;
+            position: relative;
         }
         &__img {
             display: grid;
-            grid-template-columns: repeat(2, 1fr);
             grid-gap: 12px;
+            grid-template-columns: repeat(2, 1fr);
         }
     }
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import { BrManageContentButton, BrPageContext, BrProps } from "@bloomreach/react-sdk";
+import { BrManageContentButton, BrProps } from "@bloomreach/react-sdk";
 
 import './FlexibleGrid.scss';
 

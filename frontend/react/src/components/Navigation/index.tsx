@@ -174,14 +174,14 @@ const NavigationLink = ({ item }: MenuLinkProps) => {
     const url = item.getUrl();
 
     if (!url) {
-      return <span className="navigagion-link text-capitalize disabled">{item.getName()}</span>;
+      return <span className="navigagion-link disabled">{item.getName()}</span>;
     }
 
     if (item.getLink()?.type === TYPE_LINK_EXTERNAL) {
-      return <Link to={url} className="navigagion-link text-capitalize">{item.getName()}</Link>;
+      return <Link to={url} className="navigagion-link">{item.getName()}</Link>;
     }
 
-    return <Link to={url} className="navigagion-link text-capitalize">{item.getName()}</Link>;
+    return <Link to={url} className="navigagion-link">{item.getName()}</Link>;
 }
 
 

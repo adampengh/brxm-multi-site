@@ -1,12 +1,14 @@
+@import '../../scss/variables';
+
 .header {
     background-color: white;
+    border-bottom: 1px solid #d8d8d8;
     display: block;
     left: 0;
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1000;
-    border-bottom: 1px solid #d8d8d8;
 
     ul {
         list-style: none;
@@ -21,8 +23,8 @@
         flex-wrap: nowrap;
         position: relative; // Necessary for the mega-menu positioning
         &--inner {
-            align-items: center;
             align-content: center;
+            align-items: center;
             display: flex;
             flex-direction: row-reverse;
             flex-wrap: nowrap;
@@ -37,22 +39,23 @@
     }
 
     &__logo {
-        min-width: 160px;
-        font-size: 24px;
-        min-height: 60px;
-        width: 100%;
-        display: flex;
-        position: relative;
-        justify-content: center;
         align-items: center;
+        display: flex;
+        font-size: 24px;
+        justify-content: center;
+        min-height: 60px;
+        min-width: 160px;
+        position: relative;
+        width: 100%;
         @media screen and (min-width: 1025px) {
-            justify-content: flex-start;
-            width: auto;
             flex: 0 1 auto;
+            justify-content: flex-start;
+            margin-right: 24px;
+            width: auto;
         }
 
         svg {
-            max-width: 108px;
+            max-width: 160px;
         }
     }
 
@@ -60,9 +63,9 @@
         @media screen and (min-width: 1025px) {
             align-items: center;
             display: flex;
+            flex: 1 1 100%;
             flex-direction: row;
             flex-wrap: nowrap;
-            flex: 1 1 100%;
         }
     }
 
@@ -71,19 +74,20 @@
             display: none;
         }
         button {
-            position: absolute;
-            left: 0;
-            top: 50%;
-            transform: translateY(-50%);
             background: none;
             border: none;
+            left: 0;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
         }
     }
 }
 
 .promo-bar {
-    background: #333;
-    color: #e8e8e8;
+    background: $blue;
+    color: #fff;
+    font-weight: bold;
     padding: 12px;
     text-align: center;
 }
