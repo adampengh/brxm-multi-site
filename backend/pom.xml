@@ -67,6 +67,7 @@
     <hippo.cms.locales>nl,de,fr,es,zh</hippo.cms.locales>
     <starterstore.version>${hippo.cms.version}</starterstore.version>
     <buildNumber>${maven.build.timestamp}</buildNumber>
+    <cargo.run.jvmargs>-Xmx1028m</cargo.run.jvmargs>
   </properties>
 
   <repositories>
@@ -288,7 +289,7 @@
             <configuration>
               <configuration>
                 <properties>
-                  <cargo.jvmargs>-agentlib:jdwp=transport=dt_socket,address=8000,server=y,suspend=n -Xmx4096m -XXaltjvm=dcevm -javaagent:${project.basedir}/hotswap-agent-1.4.1.jar</cargo.jvmargs>
+                  <cargo.jvmargs>${cargo.run.jvmargs}</cargo.jvmargs>
                 </properties>
                 <configfiles>
                   <configfile>
@@ -377,6 +378,15 @@
 
         <!-- Comment out Dockerfile instruction that copies development modules to an image -->
         <docker.brxm.copy.dev.libs.cmd>#</docker.brxm.copy.dev.libs.cmd>
+      </properties>
+    </profile>
+
+    <profile>
+      <!-- additional profile to combine with cargo:run to enable hotswap-agent:
+           $ mvn -P cargo.run,with-hotswap-agent-->
+      <id>with-hotswap-agent</id>
+      <properties>
+        <cargo.run.jvmargs>-agentlib:jdwp=transport=dt_socket,address=8000,server=y,suspend=n -Xmx4096m -XXaltjvm=dcevm -javaagent:${project.basedir}/hotswap-agent-1.4.1.jar</cargo.run.jvmargs>
       </properties>
     </profile>
 
