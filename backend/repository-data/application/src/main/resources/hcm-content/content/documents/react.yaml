@@ -1,6 +1,7 @@
 /content/documents/react:
   jcr:primaryType: hippostd:folder
-  jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
+  jcr:mixinTypes: ['frontend:orderChildFolders', 'hippo:named', 'hippotranslation:translated',
+    'mix:versionable']
   jcr:uuid: 6e420afb-175b-41d8-a1f7-ea252583ac02
   hippo:name: React
   hippostd:foldertype: [new-translated-folder, new-document]

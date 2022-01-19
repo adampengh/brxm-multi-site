@@ -30,6 +30,20 @@ interface MenuLinkProps {
 
 export function Navigation() {
     const [menuOpen, setMenuOpen] = useState(false);
+    const [headerHeight, setHeaderHeight] = useState(0);
+
+    useEffect(() => {
+        const header = document.getElementById('header');
+
+        if (header) {
+            setHeaderHeight(header?.offsetHeight || 0);
+        }
+
+        window.addEventListener('resize', () => setHeaderHeight(header?.offsetHeight || 0));
+        return () => {
+            window.addEventListener('resize', () => setHeaderHeight(header?.offsetHeight || 0));
+        };
+    }, [setHeaderHeight]);
 
     const component = React.useContext(BrComponentContext);
     const page = React.useContext(BrPageContext);
@@ -64,7 +78,7 @@ export function Navigation() {
                 </button>
             </div>
 
-            <ul className={`navigation ${page!.isPreview() ? 'has-edit-button' : ''}`} data-menu-open={menuOpen}>
+            <ul className={`navigation ${page!.isPreview() ? 'has-edit-button' : ''}`} data-menu-open={menuOpen} style={{ 'top': headerHeight + 'px'}}>
                 <BrManageMenuButton menu={menu} />
                 { menu.getItems().map((item, index) => {
                     // Check if there is a corresponding MenuItemBanner for the top-level category
@@ -171,17 +185,17 @@ const SecondLevelMenu = ({ item }: any) => {
 
 
 const NavigationLink = ({ item }: MenuLinkProps) => {
-    const url = item.getUrl();
+    const url = item?.getUrl()?.replace('/index', '');
 
     if (!url) {
-      return <span className="navigagion-link disabled">{item.getName()}</span>;
+      return <span className="navigation-link disabled">{item.getName()}</span>;
     }
 
     if (item.getLink()?.type === TYPE_LINK_EXTERNAL) {
-      return <Link to={url} className="navigagion-link">{item.getName()}</Link>;
+      return <Link to={url} className="navigation-link">{item.getName()}</Link>;
     }
 
-    return <Link to={url} className="navigagion-link">{item.getName()}</Link>;
+    return <Link to={url} className="navigation-link">{item.getName()}</Link>;
 }
 
 
@@ -223,7 +237,7 @@ const NavigationBanner = ({ bannerRef }: any) => {
         <li className='column navigation-banner'>
             <BrManageContentButton content={banner} />
             { heading && <h2>{ heading }</h2> }
-            <div className='navigation-banner__img'>
+            <div className={`navigation-banner__img ${imageCompound.length === 2 ? 'double' : ''}`}>
                 { imageCompound && imageCompound.map((image: any, index: any) => <Image image={image} key={index} /> )}
             </div>
         </li>

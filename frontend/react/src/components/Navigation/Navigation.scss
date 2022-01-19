@@ -26,9 +26,9 @@
     }
     &__item {
         border-bottom: 1px solid #ccc;
-        &:first-child {
-            border-top: 1px solid #ccc;
-        }
+        // &:first-child {
+        //     border-top: 1px solid #ccc;
+        // }
         &:hover {
             .mega-menu {
                 display: block;
@@ -109,6 +109,7 @@
             position: absolute;
             top: 100%;
             width: 100%;
+            border-top: 1px solid #d8d8d8;
         }
 
         .back-button {
@@ -269,11 +270,15 @@
             display: block !important;
             flex-basis: calc(100% / 3) !important;
             position: relative;
+            margin-left: auto;
         }
         &__img {
             display: grid;
             grid-gap: 12px;
-            grid-template-columns: repeat(2, 1fr);
+            grid-template-columns: repeat(1, 1fr);
+            &.double {
+                grid-template-columns: repeat(2, 1fr);
+            }
         }
     }
 }

@@ -1,0 +1,27 @@
+/hst:hst/hst:configurations/react/hst:workspace/hst:sitemenus/main/Furniture:
+  jcr:primaryType: hst:sitemenuitem
+  hst:parameternames: [Banner Name]
+  hst:parametervalues: [furniture-navigation-banner]
+  hst:repobased: false
+  /Column 1:
+    jcr:primaryType: hst:sitemenuitem
+    hst:parameternames: [Banner Name]
+    hst:parametervalues: ['']
+    hst:repobased: false
+    /Furniture:
+      jcr:primaryType: hst:sitemenuitem
+      hst:parameternames: [Banner Name]
+      hst:parametervalues: ['']
+      hst:repobased: false
+      /Shop All Furniture:
+        jcr:primaryType: hst:sitemenuitem
+        hst:parameternames: [Banner Name]
+        hst:parametervalues: ['']
+        hst:referencesitemapitem: c/shop-all-furniture
+        hst:repobased: false
+      /Living Room Furniture:
+        jcr:primaryType: hst:sitemenuitem
+        hst:parameternames: [Banner Name]
+        hst:parametervalues: ['']
+        hst:referencesitemapitem: c/living-room-furniture
+        hst:repobased: false

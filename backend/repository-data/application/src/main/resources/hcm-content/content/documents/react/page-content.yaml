@@ -1,0 +1,564 @@
+/content/documents/react/page-content:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 98d82eea-1e94-4a6f-86a4-6c4fbe7a0da3
+  hippo:name: Page Content
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: b9005223-20c4-47ef-b888-a3381e527a17
+  hippotranslation:locale: en
+  /productslider:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 250913b9-2808-4579-8f41-c8fc12770451
+    hippo:name: productSlider
+    hippo:versionHistory: 76ee8ef9-3357-4c0b-a4a7-e31dc0b91e50
+    /productslider[1]:
+      jcr:primaryType: myproject:ProductSlider
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 51b896bd-5fd9-49eb-8a2f-12ddfd77ef2a
+      hippo:availability: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-11-29T20:12:40.957-05:00
+      hippostdpubwf:lastModificationDate: 2022-01-19T10:45:45.705-05:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: dd54e142-2df9-4bcb-b656-994f1601a321
+      hippotranslation:locale: en
+      /myproject:products[1]:
+        jcr:primaryType: myproject:productCompound
+        myproject:productPicker: id=87348;code=574797
+      /myproject:products[2]:
+        jcr:primaryType: myproject:productCompound
+        myproject:productPicker: id=91396;code=57002988
+      /myproject:products[3]:
+        jcr:primaryType: myproject:productCompound
+        myproject:productPicker: id=90628;code=57002913
+    /productslider[2]:
+      jcr:primaryType: myproject:ProductSlider
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 169e627a-9c8e-43e2-8a1a-deaa6770f97b
+      hippo:availability: [preview]
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-11-29T20:12:40.957-05:00
+      hippostdpubwf:lastModificationDate: 2021-11-29T20:13:27.702-05:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: dd54e142-2df9-4bcb-b656-994f1601a321
+      hippotranslation:locale: en
+      /myproject:products[1]:
+        jcr:primaryType: myproject:productCompound
+        myproject:productPicker: id=87348;code=574797
+      /myproject:products[2]:
+        jcr:primaryType: myproject:productCompound
+        myproject:productPicker: id=91396;code=57002988
+      /myproject:products[3]:
+        jcr:primaryType: myproject:productCompound
+        myproject:productPicker: id=90628;code=57002913
+    /productslider[3]:
+      jcr:primaryType: myproject:ProductSlider
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 0f2b0f79-221e-4968-9aff-52eec484d66c
+      hippo:availability: [live]
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-11-29T20:12:40.957-05:00
+      hippostdpubwf:lastModificationDate: 2021-11-29T20:13:27.702-05:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2021-11-29T20:13:30.652-05:00
+      hippotranslation:id: dd54e142-2df9-4bcb-b656-994f1601a321
+      hippotranslation:locale: en
+      /myproject:products[1]:
+        jcr:primaryType: myproject:productCompound
+        myproject:productPicker: id=87348;code=574797
+      /myproject:products[2]:
+        jcr:primaryType: myproject:productCompound
+        myproject:productPicker: id=91396;code=57002988
+      /myproject:products[3]:
+        jcr:primaryType: myproject:productCompound
+        myproject:productPicker: id=90628;code=57002913
+  /category-landing-pages:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
+    jcr:uuid: 9a02d641-e585-49b3-8d3e-8b3608d2909c
+    hippo:name: Category Landing Pages
+    hippostd:foldertype: [new-translated-folder, new-document]
+    hippotranslation:id: 03d9ed0c-fada-407a-b21e-b891c043d05b
+    hippotranslation:locale: en
+    /bed-and-bath:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
+      jcr:uuid: 69aeac61-15ea-4e3e-a7a9-fe8201a8d0ca
+      hippo:name: Bed and Bath
+      hippostd:foldertype: [new-translated-folder, new-document]
+      hippotranslation:id: 30965a9f-dae6-469d-bc1a-435bed4d4205
+      hippotranslation:locale: en
+      /bed-and-bath-banner:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+        jcr:uuid: 58c028ba-bd01-49f2-b4a8-901eba567402
+        hippo:name: Bed and Bath Banner
+        hippo:versionHistory: c1dedcf5-69fb-4d1a-ad57-00280d28f78f
+        /bed-and-bath-banner[1]:
+          jcr:primaryType: myproject:bannerdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: afd64d0a-077e-4278-8b4a-5b3a77528656
+          hippo:availability: []
+          hippo:related___pathreference: []
+          hippostd:retainable: false
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2022-01-19T10:59:18.222-05:00
+          hippostdpubwf:lastModificationDate: 2022-01-19T11:01:33.664-05:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 9b554338-3673-41c2-a4a9-3bdf62af0834
+          hippotranslation:locale: en
+          myproject:title: ''
+          /myproject:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+          /myproject:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: ece5a652-3019-40ae-8fe4-88ad1bb3fe74
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /myproject:link:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: eaf8db8e-898f-451b-a9d9-7662cff037a0
+        /bed-and-bath-banner[2]:
+          jcr:primaryType: myproject:bannerdocument
+          jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+          jcr:uuid: ce650769-edf0-4166-b3be-a1f247b19b5c
+          hippo:availability: [preview]
+          hippo:related___pathreference: []
+          hippostd:retainable: false
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2022-01-19T10:59:18.222-05:00
+          hippostdpubwf:lastModificationDate: 2022-01-19T11:01:41.217-05:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 9b554338-3673-41c2-a4a9-3bdf62af0834
+          hippotranslation:locale: en
+          myproject:title: ''
+          /myproject:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+          /myproject:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: ece5a652-3019-40ae-8fe4-88ad1bb3fe74
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /myproject:link:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: eaf8db8e-898f-451b-a9d9-7662cff037a0
+        /bed-and-bath-banner[3]:
+          jcr:primaryType: myproject:bannerdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 962e60a9-ae55-420d-acaa-b954f4a5455d
+          hippo:availability: [live]
+          hippo:related___pathreference: []
+          hippostd:retainable: false
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2022-01-19T10:59:18.222-05:00
+          hippostdpubwf:lastModificationDate: 2022-01-19T11:01:41.217-05:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2022-01-19T11:01:42.340-05:00
+          hippotranslation:id: 9b554338-3673-41c2-a4a9-3bdf62af0834
+          hippotranslation:locale: en
+          myproject:title: ''
+          /myproject:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+          /myproject:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: ece5a652-3019-40ae-8fe4-88ad1bb3fe74
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /myproject:link:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: eaf8db8e-898f-451b-a9d9-7662cff037a0
+  /category-content:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
+    jcr:uuid: 57923e38-32da-4b6f-a593-88f13ffce022
+    hippo:name: Category Content
+    hippostd:foldertype: [new-translated-folder, new-document]
+    hippotranslation:id: 3e6489e5-f287-42c6-8f02-c68582bdab3c
+    hippotranslation:locale: en
+    /featured-products-all-bed-and-bath:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+      jcr:uuid: e36ab5c3-b94c-45e8-84a2-d75d462970cf
+      hippo:name: Featured Products All Bed and Bath
+      hippo:versionHistory: cb12250f-f91f-4d7a-b444-5d34999f8cef
+      /featured-products-all-bed-and-bath[1]:
+        jcr:primaryType: myproject:ProductSlider
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: f40e3b3d-3ce9-4b4e-a1f6-b049b9568a65
+        hippo:availability: []
+        hippostd:retainable: false
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2022-01-19T11:06:23.270-05:00
+        hippostdpubwf:lastModificationDate: 2022-01-19T11:06:23.270-05:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 6d6c07cf-ee89-4e9d-b71f-a138a3238c41
+        hippotranslation:locale: en
+        /myproject:products[1]:
+          jcr:primaryType: myproject:productCompound
+          myproject:productPicker: id=69993fam;code=69993fam
+        /myproject:products[2]:
+          jcr:primaryType: myproject:productCompound
+          myproject:productPicker: id=86560;code=570455
+        /myproject:products[3]:
+          jcr:primaryType: myproject:productCompound
+          myproject:productPicker: id=41947;code=490505
+        /myproject:products[4]:
+          jcr:primaryType: myproject:productCompound
+          myproject:productPicker: id=97981;code=595915
+        /myproject:products[5]:
+          jcr:primaryType: myproject:productCompound
+          myproject:productPicker: id=70828fam;code=70828fam
+      /featured-products-all-bed-and-bath[2]:
+        jcr:primaryType: myproject:ProductSlider
+        jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+        jcr:uuid: a3ce9126-a77d-4732-a204-48fd4459bb14
+        hippo:availability: [preview]
+        hippostd:retainable: false
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2022-01-19T11:06:23.270-05:00
+        hippostdpubwf:lastModificationDate: 2022-01-19T11:07:26.734-05:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 6d6c07cf-ee89-4e9d-b71f-a138a3238c41
+        hippotranslation:locale: en
+        /myproject:products[1]:
+          jcr:primaryType: myproject:productCompound
+          myproject:productPicker: id=69993fam;code=69993fam
+        /myproject:products[2]:
+          jcr:primaryType: myproject:productCompound
+          myproject:productPicker: id=86560;code=570455
+        /myproject:products[3]:
+          jcr:primaryType: myproject:productCompound
+          myproject:productPicker: id=41947;code=490505
+        /myproject:products[4]:
+          jcr:primaryType: myproject:productCompound
+          myproject:productPicker: id=97981;code=595915
+        /myproject:products[5]:
+          jcr:primaryType: myproject:productCompound
+          myproject:productPicker: id=70828fam;code=70828fam
+      /featured-products-all-bed-and-bath[3]:
+        jcr:primaryType: myproject:ProductSlider
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 44f13582-dca0-4d0a-b6fe-b0b8ab8ee707
+        hippo:availability: [live]
+        hippostd:retainable: false
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2022-01-19T11:06:23.270-05:00
+        hippostdpubwf:lastModificationDate: 2022-01-19T11:07:26.734-05:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2022-01-19T11:07:27.985-05:00
+        hippotranslation:id: 6d6c07cf-ee89-4e9d-b71f-a138a3238c41
+        hippotranslation:locale: en
+        /myproject:products[1]:
+          jcr:primaryType: myproject:productCompound
+          myproject:productPicker: id=69993fam;code=69993fam
+        /myproject:products[2]:
+          jcr:primaryType: myproject:productCompound
+          myproject:productPicker: id=86560;code=570455
+        /myproject:products[3]:
+          jcr:primaryType: myproject:productCompound
+          myproject:productPicker: id=41947;code=490505
+        /myproject:products[4]:
+          jcr:primaryType: myproject:productCompound
+          myproject:productPicker: id=97981;code=595915
+        /myproject:products[5]:
+          jcr:primaryType: myproject:productCompound
+          myproject:productPicker: id=70828fam;code=70828fam
+  /ideas-and-inspiration:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
+    jcr:uuid: 8b82be9b-3e31-4d1a-8ce4-c05a1beb9342
+    hippo:name: Ideas and Inspiration
+    hippostd:foldertype: [new-translated-folder, new-document]
+    hippotranslation:id: 492dcca4-b66e-4d36-a476-731a2471d173
+    hippotranslation:locale: en
+    /ideas-and-inspiration-banner:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+      jcr:uuid: d5fd20cf-c581-430e-8e1b-52507ef6f7fd
+      hippo:name: Ideas and Inspiration Banner
+      hippo:versionHistory: e242ff13-2594-4127-aa84-e8bda4dc2300
+      /ideas-and-inspiration-banner[1]:
+        jcr:primaryType: myproject:bannerdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: e40b0332-4e0c-4722-9270-1207475fafbb
+        hippo:availability: []
+        hippo:related___pathreference: []
+        hippostd:retainable: false
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2022-01-19T11:31:10.224-05:00
+        hippostdpubwf:lastModificationDate: 2022-01-19T11:31:10.224-05:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 4188e307-d4d2-423e-9d09-6edd731c6e96
+        hippotranslation:locale: en
+        myproject:title: Ideas and Inspiration
+        /myproject:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: ''
+        /myproject:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 7f1c6efe-dc30-4354-b65e-2fb2b06bfc25
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /myproject:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+      /ideas-and-inspiration-banner[2]:
+        jcr:primaryType: myproject:bannerdocument
+        jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+        jcr:uuid: 9ef4132a-bab7-4596-8771-6cbd00eef2b3
+        hippo:availability: [preview]
+        hippo:related___pathreference: []
+        hippostd:retainable: false
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2022-01-19T11:31:10.224-05:00
+        hippostdpubwf:lastModificationDate: 2022-01-19T11:31:26.385-05:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 4188e307-d4d2-423e-9d09-6edd731c6e96
+        hippotranslation:locale: en
+        myproject:title: Ideas and Inspiration
+        /myproject:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: ''
+        /myproject:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 7f1c6efe-dc30-4354-b65e-2fb2b06bfc25
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /myproject:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+      /ideas-and-inspiration-banner[3]:
+        jcr:primaryType: myproject:bannerdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 2fd37b41-d20b-4f85-9ed8-68972ef4611d
+        hippo:availability: [live]
+        hippo:related___pathreference: []
+        hippostd:retainable: false
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2022-01-19T11:31:10.224-05:00
+        hippostdpubwf:lastModificationDate: 2022-01-19T11:31:26.385-05:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2022-01-19T11:31:27.410-05:00
+        hippotranslation:id: 4188e307-d4d2-423e-9d09-6edd731c6e96
+        hippotranslation:locale: en
+        myproject:title: Ideas and Inspiration
+        /myproject:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: ''
+        /myproject:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 7f1c6efe-dc30-4354-b65e-2fb2b06bfc25
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /myproject:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /living-room-furniture-ideas:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
+      jcr:uuid: 6f0a9d06-d942-4c95-8921-4d5a3cf55297
+      hippo:name: Living Room Furniture Ideas
+      hippostd:foldertype: [new-translated-folder, new-document]
+      hippotranslation:id: 22e94a32-a4b6-4fef-b382-2905dc3093ea
+      hippotranslation:locale: en
+      /living-room-furniture-ideas-banner:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+        jcr:uuid: e8d6b588-a8ab-42d9-acd0-793f7690707a
+        hippo:name: Living Room Furniture Ideas Banner
+        hippo:versionHistory: 91e65cfa-92c5-4488-8017-1c68cbd2be3e
+        /living-room-furniture-ideas-banner[1]:
+          jcr:primaryType: myproject:bannerdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: d4c7f868-17aa-47b9-98b7-8040b246e973
+          hippo:availability: []
+          hippo:related___pathreference: []
+          hippostd:retainable: false
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2022-01-19T11:33:41.006-05:00
+          hippostdpubwf:lastModificationDate: 2022-01-19T11:33:41.006-05:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 6e12359f-dab2-4c49-9449-446137df0691
+          hippotranslation:locale: en
+          myproject:title: Living Room Furniture Ideas
+          /myproject:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+          /myproject:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 7f1c6efe-dc30-4354-b65e-2fb2b06bfc25
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /myproject:link:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        /living-room-furniture-ideas-banner[2]:
+          jcr:primaryType: myproject:bannerdocument
+          jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+          jcr:uuid: 3ef47e80-39b2-48ae-9ef0-00f69f9e589d
+          hippo:availability: [preview]
+          hippo:related___pathreference: []
+          hippostd:retainable: false
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2022-01-19T11:33:41.006-05:00
+          hippostdpubwf:lastModificationDate: 2022-01-19T11:33:56.688-05:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 6e12359f-dab2-4c49-9449-446137df0691
+          hippotranslation:locale: en
+          myproject:title: Living Room Furniture Ideas
+          /myproject:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+          /myproject:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 7f1c6efe-dc30-4354-b65e-2fb2b06bfc25
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /myproject:link:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        /living-room-furniture-ideas-banner[3]:
+          jcr:primaryType: myproject:bannerdocument
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 1081f3b1-ba3d-4967-9561-3ad9d7c7c02e
+          hippo:availability: [live]
+          hippo:related___pathreference: []
+          hippostd:retainable: false
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2022-01-19T11:33:41.006-05:00
+          hippostdpubwf:lastModificationDate: 2022-01-19T11:33:56.688-05:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2022-01-19T11:33:57.728-05:00
+          hippotranslation:id: 6e12359f-dab2-4c49-9449-446137df0691
+          hippotranslation:locale: en
+          myproject:title: Living Room Furniture Ideas
+          /myproject:content:
+            jcr:primaryType: hippostd:html
+            hippostd:content: ''
+          /myproject:image:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 7f1c6efe-dc30-4354-b65e-2fb2b06bfc25
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /myproject:link:
+            jcr:primaryType: hippo:mirror
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /bedroom-furniture-ideas-banner:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+      jcr:uuid: c4504ba9-2a78-4311-89bb-b32a911fbe6c
+      hippo:name: Bedroom Furniture Ideas Banner
+      hippo:versionHistory: 964ac6a9-831e-43d9-a3a8-8fceb5a3d963
+      /bedroom-furniture-ideas-banner[1]:
+        jcr:primaryType: myproject:bannerdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: d767e7ad-ab46-4381-a5b7-2a925508e849
+        hippo:availability: []
+        hippo:related___pathreference: []
+        hippostd:retainable: false
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2022-01-19T11:34:33.621-05:00
+        hippostdpubwf:lastModificationDate: 2022-01-19T11:34:33.621-05:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: f7516325-21d5-4f4b-ba30-57e4d790e520
+        hippotranslation:locale: en
+        myproject:title: Bedroom Furniture Ideas
+        /myproject:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: ''
+        /myproject:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 8dae826a-068b-49b5-8d8b-85842a8f832a
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /myproject:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+      /bedroom-furniture-ideas-banner[2]:
+        jcr:primaryType: myproject:bannerdocument
+        jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+        jcr:uuid: ec0d427c-1b12-4e33-95f1-29be82d4b985
+        hippo:availability: [preview]
+        hippo:related___pathreference: []
+        hippostd:retainable: false
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2022-01-19T11:34:33.621-05:00
+        hippostdpubwf:lastModificationDate: 2022-01-19T11:34:47.184-05:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: f7516325-21d5-4f4b-ba30-57e4d790e520
+        hippotranslation:locale: en
+        myproject:title: Bedroom Furniture Ideas
+        /myproject:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: ''
+        /myproject:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 8dae826a-068b-49b5-8d8b-85842a8f832a
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /myproject:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+      /bedroom-furniture-ideas-banner[3]:
+        jcr:primaryType: myproject:bannerdocument
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: c0b70e09-eb07-46ce-ab53-fa590e901b31
+        hippo:availability: [live]
+        hippo:related___pathreference: []
+        hippostd:retainable: false
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2022-01-19T11:34:33.621-05:00
+        hippostdpubwf:lastModificationDate: 2022-01-19T11:34:47.184-05:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2022-01-19T11:34:48.368-05:00
+        hippotranslation:id: f7516325-21d5-4f4b-ba30-57e4d790e520
+        hippotranslation:locale: en
+        myproject:title: Bedroom Furniture Ideas
+        /myproject:content:
+          jcr:primaryType: hippostd:html
+          hippostd:content: ''
+        /myproject:image:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 8dae826a-068b-49b5-8d8b-85842a8f832a
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /myproject:link:
+          jcr:primaryType: hippo:mirror
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe

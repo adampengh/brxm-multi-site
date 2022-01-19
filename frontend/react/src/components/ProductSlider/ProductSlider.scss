@@ -1,0 +1,135 @@
+// ================================================
+// Slick Slider
+// ================================================
+.product-slider {
+    display: block;
+    max-width: 1180px;
+    margin: 2rem auto;
+
+    img {
+        width: 100%;
+    }
+
+    .slick {
+        // ------------------------------------------------
+        // Slider
+        // ------------------------------------------------
+        &-slider {
+            position: relative;
+            // ------------------------------------------------
+            // Slide
+            // ------------------------------------------------
+            .slide {
+                position: relative;
+                margin-left: 8px;
+                margin-right: 8px;
+                &__text {
+                    position: absolute;
+                    background: rgba(0, 0, 0, 0.3);
+                    bottom: 0px;
+                    left: 0;
+                    margin: 0;
+                    right: 0;
+                    padding: 12px 0 12px 16px;
+                    color: #fff;
+                    font-style: italic;
+                    font-size: 16px;
+                    &::after {
+                        content: "\2192";
+                        position: absolute;
+                        right: 16px;
+                        font-size: 24px;
+                        top: 50%;
+                        transform: translateY(-50%);
+                    }
+                }
+            }
+
+            // ------------------------------------------------
+            // Dots
+            // ------------------------------------------------
+            &.dots-dots {
+
+            }
+            &.dots-bars {
+                .slick-dots {
+                    bottom: 16px;
+                    li {
+                        height: auto;
+                        width: auto;
+                        button {
+                            height: 2px;
+                            padding: 0;
+                            width: 64px;
+                            &:before {
+                                background-color: white;
+                                color: white;
+                                content: "";
+                                height: 2px;
+                                width: 64px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+
+        // ------------------------------------------------
+        // Arrows
+        // ------------------------------------------------
+        &-arrow {
+            background: rgb(255, 255, 255) !important;
+            border-radius: 0;
+            display: block;
+            height: 36px;
+            opacity: 0.5;
+            top: 50%;
+            transition: all 0.3s ease-in-out;
+            width: 36px;
+            z-index: 1;
+            @media screen and (max-width: 1024px) {
+                height: 36px;
+                width: 36px;
+            }
+            &:hover {
+                opacity: 1;
+            }
+            &:before {
+                border-color: rgb(0, 0, 0);
+                opacity: 1;
+                border-image: initial;
+                border-style: solid;
+                border-width: 0px 2px 2px 0px;
+                cursor: pointer;
+                display: inline-block;
+                font-size: 0;
+                height: 8px;
+                padding: 5px;
+                width: 8px;
+                @media screen and (max-width: 1024px) {
+                    height: 4px;
+                    width: 4px;
+                }
+            }
+        }
+        &-prev {
+            left: 8px;
+            padding-left: 8px;
+            &:before {
+                transform: rotate(135deg);
+            }
+        }
+        &-next {
+            padding-right: 8px;
+            right: 6px;
+            &:before {
+                transform: rotate(-45deg);
+            }
+        }
+
+
+
+    }
+}
+

@@ -12,8 +12,6 @@ export const FlexibleGrid = ({ component, page }: BrProps) => {
         return null;
     }
 
-    console.log(document.getData());
-
     const {
         flexibleGridItem
     } = document.getData();
@@ -33,7 +31,6 @@ export const FlexibleGrid = ({ component, page }: BrProps) => {
 
 
 const FlexibleGridItem = ({ item }: any) => {
-    console.log('item', item);
     return (
         <a className='flexible-grid__item' href={item.link}>
             <div className='flexible-grid__item-img'>

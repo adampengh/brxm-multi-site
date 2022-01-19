@@ -101,3 +101,8 @@ definitions:
       /en:
         jcr:primaryType: hipposys:resourcebundle
         jcr:name: Category Page
+    /hippo:configuration/hippo:translations/hippo:types/myproject:PageMetadata:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        jcr:name: Page Metadata

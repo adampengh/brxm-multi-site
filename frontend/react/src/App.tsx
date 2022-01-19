@@ -35,6 +35,7 @@ import {
     ProductDetail,
     ProductDetailCustomContent,
     ProductGridCategory,
+    ProductSlider,
     SlickSlider,
 } from './components';
 
@@ -98,6 +99,7 @@ export default class App extends React.Component<RouteComponentProps, ErrorState
             ProductDetail,
             ProductDetailCustomContent,
             ProductGridCategory,
+            ProductSlider,
             SlickSlider,
         };
 
@@ -143,9 +145,11 @@ export default class App extends React.Component<RouteComponentProps, ErrorState
                                 graphqlServiceUrl={getGraphqlServiceUrl(page!)}
                                 existingToken={token}>
                                 <Header />
-                                    <main id='main' className="">
-                                        <BrComponent path="main" />
-                                    </main>
+                                <main id='main' className="">
+                                    <BrComponent path="top" />
+                                    <BrComponent path="main" />
+                                    <BrComponent path="bottom" />
+                                </main>
                                 <Footer />
                                 {previewMode && <PreviewModal /> }
                         </CommerceConnectorProvider>

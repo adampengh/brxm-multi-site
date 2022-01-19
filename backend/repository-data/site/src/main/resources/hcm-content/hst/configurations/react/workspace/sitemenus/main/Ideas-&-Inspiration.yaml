@@ -1,0 +1,38 @@
+/hst:hst/hst:configurations/react/hst:workspace/hst:sitemenus/main/Ideas & Inspiration:
+  jcr:primaryType: hst:sitemenuitem
+  hst:externallink: /ideas-and-inspiration
+  hst:parameternames: [Banner Name]
+  hst:parametervalues: ['']
+  hst:repobased: false
+  /Column 1:
+    jcr:primaryType: hst:sitemenuitem
+    hst:parameternames: [Banner Name]
+    hst:parametervalues: ['']
+    hst:repobased: false
+    /Living Room:
+      jcr:primaryType: hst:sitemenuitem
+      hst:parameternames: [Banner Name]
+      hst:parametervalues: ['']
+      hst:repobased: false
+      /Living Room Furniture Ideas:
+        jcr:primaryType: hst:sitemenuitem
+        hst:parameternames: [Banner Name]
+        hst:parametervalues: ['']
+        hst:referencesitemapitem: ideas-and-inspiration/living-room-furniture-ideas/index
+        hst:repobased: false
+  /Column 2:
+    jcr:primaryType: hst:sitemenuitem
+    hst:parameternames: [Banner Name]
+    hst:parametervalues: ['']
+    hst:repobased: false
+    /Bedroom:
+      jcr:primaryType: hst:sitemenuitem
+      hst:parameternames: [Banner Name]
+      hst:parametervalues: ['']
+      hst:repobased: false
+      /Bedroom Furniture Ideas:
+        jcr:primaryType: hst:sitemenuitem
+        hst:parameternames: [Banner Name]
+        hst:parametervalues: ['']
+        hst:referencesitemapitem: ideas-and-inspiration/bedroom-furniture-ideas
+        hst:repobased: false

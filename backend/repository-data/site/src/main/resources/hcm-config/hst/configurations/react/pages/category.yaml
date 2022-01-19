@@ -8,3 +8,6 @@ definitions:
         /ProductGridCategory:
           jcr:primaryType: hst:component
           hst:referencecomponent: hst:components/ProductGridCategory
+          hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsDocumentComponent
+          hst:parameternames: [document]
+          hst:parametervalues: ['pages/categories/${1}']

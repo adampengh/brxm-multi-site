@@ -6,29 +6,31 @@
   hippostd:foldertype: [new-navigationBanner-document]
   hippotranslation:id: 47708ec0-a386-4261-baea-8b1aa233d984
   hippotranslation:locale: en
-  /mens-navigation-banner:
+  /bed-and-bath-navigation-banner:
     jcr:primaryType: hippo:handle
     jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
-    jcr:uuid: 09aefdba-16fc-4140-845a-185b44c751ca
-    hippo:name: Mens Navigation Banner
-    hippo:versionHistory: f8f5e61e-d259-4b99-bd0f-aba2466e111d
-    /mens-navigation-banner[1]:
+    jcr:uuid: 007aa369-abee-43a1-8740-3ab49dc43c10
+    hippo:name: Bed and Bath Navigation Banner
+    hippo:versionHistory: 7e174d7f-1ef8-4123-a199-ada61038fd16
+    /bed-and-bath-navigation-banner[1]:
       jcr:primaryType: myproject:navigationBanner
       jcr:mixinTypes: ['mix:referenceable']
-      jcr:uuid: 47741c70-887c-4923-b9ea-ef0ad35ea48a
+      jcr:uuid: 1a8bd46a-7738-452b-ad37-8cf6a9f0a80d
       hippo:availability: []
       hippostd:retainable: false
       hippostd:state: draft
+      hippostd:transferable: false
       hippostdpubwf:createdBy: admin
-      hippostdpubwf:creationDate: 2021-10-01T08:45:17.718-04:00
-      hippostdpubwf:lastModificationDate: 2021-10-01T19:20:15.901-04:00
+      hippostdpubwf:creationDate: 2022-01-19T10:48:55.693-05:00
+      hippostdpubwf:lastModificationDate: 2022-01-19T10:52:26.495-05:00
       hippostdpubwf:lastModifiedBy: admin
-      hippotranslation:id: 9299bbd9-2ebc-4ad5-a3f4-e28d6a4daa64
+      hippotranslation:id: fccfd63c-418b-42c9-ab69-5109e50b14bc
       hippotranslation:locale: en
-      myproject:heading: New Mens Styles
-      /myproject:imageCompound[1]:
+      myproject:heading: New Bed and Bath
+      myproject:link: /c/new-bed-and-bath
+      /myproject:imageCompound:
         jcr:primaryType: myproject:imageCompound
-        myproject:altText: Man running up stairs
+        myproject:altText: Pacific Home Lemon Verbena Bath and Body Collection
         /myproject:mobileImage:
           jcr:primaryType: hippogallerypicker:imagelink
           hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
@@ -37,42 +39,28 @@
           hippo:values: []
         /myproject:desktopImage:
           jcr:primaryType: hippogallerypicker:imagelink
-          hippo:docbase: b04a1853-0b78-4802-b610-4cb8a2a371b3
+          hippo:docbase: ece5a652-3019-40ae-8fe4-88ad1bb3fe74
           hippo:facets: []
           hippo:modes: []
           hippo:values: []
-      /myproject:imageCompound[2]:
-        jcr:primaryType: myproject:imageCompound
-        myproject:altText: Woman running up stairs
-        /myproject:mobileImage:
-          jcr:primaryType: hippogallerypicker:imagelink
-          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
-          hippo:facets: []
-          hippo:modes: []
-          hippo:values: []
-        /myproject:desktopImage:
-          jcr:primaryType: hippogallerypicker:imagelink
-          hippo:docbase: cbf82abb-09cb-4adf-b67e-a867fbd477a1
-          hippo:facets: []
-          hippo:modes: []
-          hippo:values: []
-    /mens-navigation-banner[2]:
+    /bed-and-bath-navigation-banner[2]:
       jcr:primaryType: myproject:navigationBanner
       jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
-      jcr:uuid: b4552fb1-7515-4fa2-8a44-ab3fd72e2ae5
+      jcr:uuid: 118c1a8a-bc11-43ce-a281-e5fd25d1f8c1
       hippo:availability: [preview]
       hippostd:retainable: false
       hippostd:state: unpublished
       hippostdpubwf:createdBy: admin
-      hippostdpubwf:creationDate: 2021-10-01T08:45:17.718-04:00
-      hippostdpubwf:lastModificationDate: 2021-10-01T19:20:28.305-04:00
+      hippostdpubwf:creationDate: 2022-01-19T10:48:55.693-05:00
+      hippostdpubwf:lastModificationDate: 2022-01-19T10:52:06.708-05:00
       hippostdpubwf:lastModifiedBy: admin
-      hippotranslation:id: 9299bbd9-2ebc-4ad5-a3f4-e28d6a4daa64
+      hippotranslation:id: fccfd63c-418b-42c9-ab69-5109e50b14bc
       hippotranslation:locale: en
-      myproject:heading: New Mens Styles
-      /myproject:imageCompound[1]:
+      myproject:heading: New Bed and Bath
+      myproject:link: /c/new-bed-and-bath
+      /myproject:imageCompound:
         jcr:primaryType: myproject:imageCompound
-        myproject:altText: Man running up stairs
+        myproject:altText: Pacific Home Lemon Verbena Bath and Body Collection
         /myproject:mobileImage:
           jcr:primaryType: hippogallerypicker:imagelink
           hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
@@ -81,93 +69,29 @@
           hippo:values: []
         /myproject:desktopImage:
           jcr:primaryType: hippogallerypicker:imagelink
-          hippo:docbase: b04a1853-0b78-4802-b610-4cb8a2a371b3
+          hippo:docbase: ece5a652-3019-40ae-8fe4-88ad1bb3fe74
           hippo:facets: []
           hippo:modes: []
           hippo:values: []
-      /myproject:imageCompound[2]:
-        jcr:primaryType: myproject:imageCompound
-        myproject:altText: Woman running up stairs
-        /myproject:mobileImage:
-          jcr:primaryType: hippogallerypicker:imagelink
-          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
-          hippo:facets: []
-          hippo:modes: []
-          hippo:values: []
-        /myproject:desktopImage:
-          jcr:primaryType: hippogallerypicker:imagelink
-          hippo:docbase: cbf82abb-09cb-4adf-b67e-a867fbd477a1
-          hippo:facets: []
-          hippo:modes: []
-          hippo:values: []
-    /mens-navigation-banner[3]:
+    /bed-and-bath-navigation-banner[3]:
       jcr:primaryType: myproject:navigationBanner
       jcr:mixinTypes: ['mix:referenceable']
-      jcr:uuid: 9391469d-260c-4d0d-b13a-4555cabd2143
+      jcr:uuid: e8f4fdfe-ed78-449f-bbf9-4605934db8ad
       hippo:availability: [live]
       hippostd:retainable: false
       hippostd:state: published
       hippostdpubwf:createdBy: admin
-      hippostdpubwf:creationDate: 2021-10-01T08:45:17.718-04:00
-      hippostdpubwf:lastModificationDate: 2021-10-01T19:20:28.305-04:00
+      hippostdpubwf:creationDate: 2022-01-19T10:48:55.693-05:00
+      hippostdpubwf:lastModificationDate: 2022-01-19T10:52:06.708-05:00
       hippostdpubwf:lastModifiedBy: admin
-      hippostdpubwf:publicationDate: 2021-10-01T19:20:29.752-04:00
-      hippotranslation:id: 9299bbd9-2ebc-4ad5-a3f4-e28d6a4daa64
+      hippostdpubwf:publicationDate: 2022-01-19T10:52:08.038-05:00
+      hippotranslation:id: fccfd63c-418b-42c9-ab69-5109e50b14bc
       hippotranslation:locale: en
-      myproject:heading: New Mens Styles
-      /myproject:imageCompound[1]:
-        jcr:primaryType: myproject:imageCompound
-        myproject:altText: Man running up stairs
-        /myproject:mobileImage:
-          jcr:primaryType: hippogallerypicker:imagelink
-          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
-          hippo:facets: []
-          hippo:modes: []
-          hippo:values: []
-        /myproject:desktopImage:
-          jcr:primaryType: hippogallerypicker:imagelink
-          hippo:docbase: b04a1853-0b78-4802-b610-4cb8a2a371b3
-          hippo:facets: []
-          hippo:modes: []
-          hippo:values: []
-      /myproject:imageCompound[2]:
-        jcr:primaryType: myproject:imageCompound
-        myproject:altText: Woman running up stairs
-        /myproject:mobileImage:
-          jcr:primaryType: hippogallerypicker:imagelink
-          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
-          hippo:facets: []
-          hippo:modes: []
-          hippo:values: []
-        /myproject:desktopImage:
-          jcr:primaryType: hippogallerypicker:imagelink
-          hippo:docbase: cbf82abb-09cb-4adf-b67e-a867fbd477a1
-          hippo:facets: []
-          hippo:modes: []
-          hippo:values: []
-  /womens-navigation-banner:
-    jcr:primaryType: hippo:handle
-    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
-    jcr:uuid: 6590ad91-62be-4d88-9071-216e36b8002d
-    hippo:name: Womens Navigation Banner
-    hippo:versionHistory: 7ff5b34c-6a68-435d-952b-0cbe7d941ce8
-    /womens-navigation-banner[1]:
-      jcr:primaryType: myproject:navigationBanner
-      jcr:mixinTypes: ['mix:versionable']
-      jcr:uuid: 602b4bf1-71a4-439e-b091-67c4fde4063a
-      hippo:availability: [preview]
-      hippostd:retainable: false
-      hippostd:state: unpublished
-      hippostdpubwf:createdBy: admin
-      hippostdpubwf:creationDate: 2021-10-01T08:45:17.718-04:00
-      hippostdpubwf:lastModificationDate: 2021-10-01T18:38:40.694-04:00
-      hippostdpubwf:lastModifiedBy: admin
-      hippotranslation:id: 14f4a1d5-3060-468d-bfa9-598a0c55232c
-      hippotranslation:locale: en
-      myproject:heading: New Womens Styles
+      myproject:heading: New Bed and Bath
+      myproject:link: /c/new-bed-and-bath
       /myproject:imageCompound:
         jcr:primaryType: myproject:imageCompound
-        myproject:altText: Woman running up stairs
+        myproject:altText: Pacific Home Lemon Verbena Bath and Body Collection
         /myproject:mobileImage:
           jcr:primaryType: hippogallerypicker:imagelink
           hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
@@ -176,27 +100,34 @@
           hippo:values: []
         /myproject:desktopImage:
           jcr:primaryType: hippogallerypicker:imagelink
-          hippo:docbase: cbf82abb-09cb-4adf-b67e-a867fbd477a1
+          hippo:docbase: ece5a652-3019-40ae-8fe4-88ad1bb3fe74
           hippo:facets: []
           hippo:modes: []
           hippo:values: []
-    /womens-navigation-banner[2]:
+  /furniture-navigation-banner:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: ac42766f-6aed-4fb3-9f50-bf5f3328cd57
+    hippo:name: Furniture Navigation Banner
+    hippo:versionHistory: 361e0de9-6c86-4ccd-b196-fa6024f16878
+    /furniture-navigation-banner[1]:
       jcr:primaryType: myproject:navigationBanner
       jcr:mixinTypes: ['mix:referenceable']
-      jcr:uuid: e8ab4526-a6f3-4196-8eb5-ddaabf22ca34
+      jcr:uuid: 5c4ea2e1-0ad3-438c-8233-0c4d81325a73
       hippo:availability: []
       hippostd:retainable: false
       hippostd:state: draft
       hippostdpubwf:createdBy: admin
-      hippostdpubwf:creationDate: 2021-10-01T08:45:17.718-04:00
-      hippostdpubwf:lastModificationDate: 2021-10-01T18:38:40.767-04:00
+      hippostdpubwf:creationDate: 2022-01-19T10:56:12.945-05:00
+      hippostdpubwf:lastModificationDate: 2022-01-19T11:01:20.715-05:00
       hippostdpubwf:lastModifiedBy: admin
-      hippotranslation:id: 14f4a1d5-3060-468d-bfa9-598a0c55232c
+      hippotranslation:id: 8701403d-557a-4703-9aa5-f8783701129f
       hippotranslation:locale: en
-      myproject:heading: New Womens Styles
+      myproject:heading: Living Room Furniture
+      myproject:link: /c/living-room-furniture
       /myproject:imageCompound:
         jcr:primaryType: myproject:imageCompound
-        myproject:altText: Woman running up stairs
+        myproject:altText: Blue sofa
         /myproject:mobileImage:
           jcr:primaryType: hippogallerypicker:imagelink
           hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
@@ -205,94 +136,28 @@
           hippo:values: []
         /myproject:desktopImage:
           jcr:primaryType: hippogallerypicker:imagelink
-          hippo:docbase: cbf82abb-09cb-4adf-b67e-a867fbd477a1
+          hippo:docbase: 7f1c6efe-dc30-4354-b65e-2fb2b06bfc25
           hippo:facets: []
           hippo:modes: []
           hippo:values: []
-    /womens-navigation-banner[3]:
-      jcr:primaryType: myproject:navigationBanner
-      jcr:mixinTypes: ['mix:referenceable']
-      jcr:uuid: f5aa60c5-16b4-4ca9-b3da-35fab0666135
-      hippo:availability: [live]
-      hippostd:retainable: false
-      hippostd:state: published
-      hippostdpubwf:createdBy: admin
-      hippostdpubwf:creationDate: 2021-10-01T08:45:17.718-04:00
-      hippostdpubwf:lastModificationDate: 2021-10-01T18:38:40.694-04:00
-      hippostdpubwf:lastModifiedBy: admin
-      hippostdpubwf:publicationDate: 2021-10-01T18:38:42.679-04:00
-      hippotranslation:id: 14f4a1d5-3060-468d-bfa9-598a0c55232c
-      hippotranslation:locale: en
-      myproject:heading: New Womens Styles
-      /myproject:imageCompound:
-        jcr:primaryType: myproject:imageCompound
-        myproject:altText: Woman running up stairs
-        /myproject:mobileImage:
-          jcr:primaryType: hippogallerypicker:imagelink
-          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
-          hippo:facets: []
-          hippo:modes: []
-          hippo:values: []
-        /myproject:desktopImage:
-          jcr:primaryType: hippogallerypicker:imagelink
-          hippo:docbase: cbf82abb-09cb-4adf-b67e-a867fbd477a1
-          hippo:facets: []
-          hippo:modes: []
-          hippo:values: []
-  /pantry-navigation-banner:
-    jcr:primaryType: hippo:handle
-    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
-    jcr:uuid: 1b6dee85-5986-4706-b0d2-4052ac93198a
-    hippo:name: Pantry Navigation Banner
-    hippo:versionHistory: e2d4f915-b067-4c4d-82b5-2be22d292497
-    /pantry-navigation-banner[1]:
-      jcr:primaryType: myproject:navigationBanner
-      jcr:mixinTypes: ['mix:referenceable']
-      jcr:uuid: a7d2136f-3a6f-4a40-a095-671e895b87eb
-      hippo:availability: []
-      hippostd:retainable: false
-      hippostd:state: draft
-      hippostdpubwf:createdBy: admin
-      hippostdpubwf:creationDate: 2021-10-15T09:54:49.937-04:00
-      hippostdpubwf:lastModificationDate: 2021-10-15T10:02:34.626-04:00
-      hippostdpubwf:lastModifiedBy: admin
-      hippotranslation:id: baf905fd-ca79-4de5-99a9-00eba70aebf7
-      hippotranslation:locale: en
-      myproject:heading: Baby Store
-      myproject:link: /c/2-17u/baby-store
-      /myproject:imageCompound:
-        jcr:primaryType: myproject:imageCompound
-        myproject:altText: Diapers
-        /myproject:mobileImage:
-          jcr:primaryType: hippogallerypicker:imagelink
-          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
-          hippo:facets: []
-          hippo:modes: []
-          hippo:values: []
-        /myproject:desktopImage:
-          jcr:primaryType: hippogallerypicker:imagelink
-          hippo:docbase: 43897936-ac11-4966-a2c6-249a850c2373
-          hippo:facets: []
-          hippo:modes: []
-          hippo:values: []
-    /pantry-navigation-banner[2]:
+    /furniture-navigation-banner[2]:
       jcr:primaryType: myproject:navigationBanner
       jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
-      jcr:uuid: 4f01f188-ec61-400d-8234-aa4f1a6fa94c
+      jcr:uuid: dcc77ba9-0e0e-494c-9fb1-fab093d81056
       hippo:availability: [preview]
       hippostd:retainable: false
       hippostd:state: unpublished
       hippostdpubwf:createdBy: admin
-      hippostdpubwf:creationDate: 2021-10-15T09:54:49.937-04:00
-      hippostdpubwf:lastModificationDate: 2021-10-15T10:02:34.589-04:00
+      hippostdpubwf:creationDate: 2022-01-19T10:56:12.945-05:00
+      hippostdpubwf:lastModificationDate: 2022-01-19T11:01:24.533-05:00
       hippostdpubwf:lastModifiedBy: admin
-      hippotranslation:id: baf905fd-ca79-4de5-99a9-00eba70aebf7
+      hippotranslation:id: 8701403d-557a-4703-9aa5-f8783701129f
       hippotranslation:locale: en
-      myproject:heading: Baby Store
-      myproject:link: /c/2-17u/baby-store
+      myproject:heading: Living Room Furniture
+      myproject:link: /c/living-room-furniture
       /myproject:imageCompound:
         jcr:primaryType: myproject:imageCompound
-        myproject:altText: Diapers
+        myproject:altText: Blue sofa
         /myproject:mobileImage:
           jcr:primaryType: hippogallerypicker:imagelink
           hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
@@ -301,29 +166,29 @@
           hippo:values: []
         /myproject:desktopImage:
           jcr:primaryType: hippogallerypicker:imagelink
-          hippo:docbase: 43897936-ac11-4966-a2c6-249a850c2373
+          hippo:docbase: 7f1c6efe-dc30-4354-b65e-2fb2b06bfc25
           hippo:facets: []
           hippo:modes: []
           hippo:values: []
-    /pantry-navigation-banner[3]:
+    /furniture-navigation-banner[3]:
       jcr:primaryType: myproject:navigationBanner
       jcr:mixinTypes: ['mix:referenceable']
-      jcr:uuid: 5520cb86-dd83-42b9-b0ce-4c408adfe7ea
+      jcr:uuid: 42299d89-f26d-49f6-a2e6-314583c38063
       hippo:availability: [live]
       hippostd:retainable: false
       hippostd:state: published
       hippostdpubwf:createdBy: admin
-      hippostdpubwf:creationDate: 2021-10-15T09:54:49.937-04:00
-      hippostdpubwf:lastModificationDate: 2021-10-15T10:02:34.589-04:00
+      hippostdpubwf:creationDate: 2022-01-19T10:56:12.945-05:00
+      hippostdpubwf:lastModificationDate: 2022-01-19T11:01:24.533-05:00
       hippostdpubwf:lastModifiedBy: admin
-      hippostdpubwf:publicationDate: 2021-10-15T10:02:36.675-04:00
-      hippotranslation:id: baf905fd-ca79-4de5-99a9-00eba70aebf7
+      hippostdpubwf:publicationDate: 2022-01-19T11:01:25.646-05:00
+      hippotranslation:id: 8701403d-557a-4703-9aa5-f8783701129f
       hippotranslation:locale: en
-      myproject:heading: Baby Store
-      myproject:link: /c/2-17u/baby-store
+      myproject:heading: Living Room Furniture
+      myproject:link: /c/living-room-furniture
       /myproject:imageCompound:
         jcr:primaryType: myproject:imageCompound
-        myproject:altText: Diapers
+        myproject:altText: Blue sofa
         /myproject:mobileImage:
           jcr:primaryType: hippogallerypicker:imagelink
           hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
@@ -332,7 +197,7 @@
           hippo:values: []
         /myproject:desktopImage:
           jcr:primaryType: hippogallerypicker:imagelink
-          hippo:docbase: 43897936-ac11-4966-a2c6-249a850c2373
+          hippo:docbase: 7f1c6efe-dc30-4354-b65e-2fb2b06bfc25
           hippo:facets: []
           hippo:modes: []
           hippo:values: []

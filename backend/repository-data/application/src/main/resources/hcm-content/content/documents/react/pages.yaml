@@ -1,13 +1,12 @@
 /content/documents/react/pages:
-  .meta:order-before: news
+  .meta:order-before: banners
   jcr:primaryType: hippostd:folder
   jcr:mixinTypes: ['hippo:named', 'hippostd:xpagefolder', 'hippotranslation:translated',
     'mix:versionable']
   jcr:uuid: 8060c09a-d2fc-4227-ad3b-63cdab84ec04
   hippo:name: Pages
   hippostd:channelid: react
-  hippostd:foldertype: [new-experiencePage-document, new-experiencePage-folder, new-CategoryPage-document,
-    new-CategoryPage-folder]
+  hippostd:foldertype: [new-experiencePage-document, new-experiencePage-folder]
   hippotranslation:id: c17bd7ca-443b-4cbb-9e8e-5e70c1447333
   hippotranslation:locale: en
   /homepage:
@@ -15,7 +14,7 @@
     jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
     jcr:uuid: 543bc2aa-7bb5-435b-9598-928481adf265
     hippo:name: Homepage
-    hippo:versionHistory: 22a3375a-0cc7-4f09-8a5c-3f7ce01f7c47
+    hippo:versionHistory: 17e9cfc4-e227-426c-bff6-d35406f4b34c
     /homepage[1]:
       jcr:primaryType: myproject:experiencePage
       jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable']
@@ -39,7 +38,7 @@
       hippostd:state: unpublished
       hippostdpubwf:createdBy: admin
       hippostdpubwf:creationDate: 2021-09-12T19:04:55.890-04:00
-      hippostdpubwf:lastModificationDate: 2021-11-29T11:19:15.976-05:00
+      hippostdpubwf:lastModificationDate: 2022-01-19T11:28:01.556-05:00
       hippostdpubwf:lastModifiedBy: admin
       hippotranslation:id: 658f2f01-1822-4e9c-9d8d-e23a741e4635
       hippotranslation:locale: en
@@ -52,7 +51,25 @@
           jcr:primaryType: hst:containercomponent
           jcr:uuid: d9c62e4f-7ce5-4e76-bf02-539f1d3037a8
           hippo:identifier: 221593d9-2e6f-40c9-a6e0-eabc982b820f
-          hst:lastmodified: 2021-11-29T11:19:15.975-05:00
+          hst:lastmodified: 2022-01-19T16:28:01.556Z
+          /banner:
+            jcr:primaryType: hst:containeritemcomponent
+            jcr:uuid: a3b773af-6801-4dd9-a2b6-a2053aea0464
+            hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsBannerComponent
+            hst:iconpath: images/essentials/catalog-component-icons/banner.svg
+            hst:label: Banner
+            hst:parameternames: [document, org.hippoecm.hst.core.component.template]
+            hst:parametervalues: [banners/banner1, 'webfile:/freemarker/hstdefault/essentials-banner.ftl']
+            hst:template: essentials-banner
+          /banner1:
+            jcr:primaryType: hst:containeritemcomponent
+            jcr:uuid: 9ba5235a-8445-4e27-ae1f-5bcb92977b1f
+            hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsBannerComponent
+            hst:iconpath: images/essentials/catalog-component-icons/banner.svg
+            hst:label: Banner
+            hst:parameternames: [document, org.hippoecm.hst.core.component.template]
+            hst:parametervalues: [banners/banner2, 'webfile:/freemarker/hstdefault/essentials-banner.ftl']
+            hst:template: essentials-banner
     /homepage[3]:
       jcr:primaryType: myproject:experiencePage
       jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable']
@@ -62,112 +79,1182 @@
       hippostd:state: published
       hippostdpubwf:createdBy: admin
       hippostdpubwf:creationDate: 2021-09-12T19:04:55.890-04:00
-      hippostdpubwf:lastModificationDate: 2021-11-29T11:19:15.976-05:00
+      hippostdpubwf:lastModificationDate: 2022-01-19T11:28:01.556-05:00
       hippostdpubwf:lastModifiedBy: admin
-      hippostdpubwf:publicationDate: 2021-11-29T11:19:20.463-05:00
+      hippostdpubwf:publicationDate: 2022-01-19T11:28:06.133-05:00
       hippotranslation:id: 658f2f01-1822-4e9c-9d8d-e23a741e4635
       hippotranslation:locale: en
       myproject:pageTitle: React Homepage
       /hst:xpage:
         jcr:primaryType: hst:xpage
-        jcr:uuid: f270424b-eaf8-4af9-a1f1-a1cfd4141d4d
+        jcr:uuid: 80d9d000-a898-4220-ac21-6b8738602ad4
         hst:pageref: single-column
         /17891158-a805-4fa0-a5c8-80dc4b3274ff:
           jcr:primaryType: hst:containercomponent
-          jcr:uuid: 3e4c5b41-c5e1-4282-ade9-1185f5618047
+          jcr:uuid: 222adbd9-9995-48a4-8171-b7ef6ede9ea6
           hippo:identifier: 221593d9-2e6f-40c9-a6e0-eabc982b820f
-          hst:lastmodified: 2021-11-29T11:19:15.975-05:00
-  /men:
+          hst:lastmodified: 2022-01-19T16:28:01.556Z
+          /banner:
+            jcr:primaryType: hst:containeritemcomponent
+            jcr:uuid: 3c9ef854-bf35-48aa-93fd-57106412ec42
+            hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsBannerComponent
+            hst:iconpath: images/essentials/catalog-component-icons/banner.svg
+            hst:label: Banner
+            hst:parameternames: [document, org.hippoecm.hst.core.component.template]
+            hst:parametervalues: [banners/banner1, 'webfile:/freemarker/hstdefault/essentials-banner.ftl']
+            hst:template: essentials-banner
+          /banner1:
+            jcr:primaryType: hst:containeritemcomponent
+            jcr:uuid: 26f0f68d-e8c6-4891-b41c-0e574f0ea5d4
+            hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsBannerComponent
+            hst:iconpath: images/essentials/catalog-component-icons/banner.svg
+            hst:label: Banner
+            hst:parameternames: [document, org.hippoecm.hst.core.component.template]
+            hst:parametervalues: [banners/banner2, 'webfile:/freemarker/hstdefault/essentials-banner.ftl']
+            hst:template: essentials-banner
+  /categories:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippo:named', 'hippostd:xpagefolder', 'hippotranslation:translated',
+      'mix:referenceable', 'mix:versionable']
+    jcr:uuid: c8a938d1-30ca-48d3-bf18-7ddacc971d5c
+    hippo:name: Categories
+    hippostd:channelid: react
+    hippostd:foldertype: [new-experiencePage-document, new-experiencePage-folder]
+    hippotranslation:id: 2dea2fcb-37de-4dfb-8c0e-8bfeb8d9350d
+    hippotranslation:locale: en
+    /bed-and-bath:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+      jcr:uuid: bbcd80bf-aa76-4941-af8f-f40cbc71df76
+      hippo:name: Bed and Bath
+      hippo:versionHistory: 1cb7dc68-2349-4e58-af37-6d4f1899cf68
+      /bed-and-bath[1]:
+        jcr:primaryType: myproject:experiencePage
+        jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable']
+        jcr:uuid: fb66cd26-dc1c-43f8-9648-43df5cdd2292
+        hippo:availability: []
+        hippostd:retainable: false
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2022-01-19T10:22:45.253-05:00
+        hippostdpubwf:lastModificationDate: 2022-01-19T11:08:35.843-05:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 5f75c92b-fc1b-4787-818e-aa3bff3cc63e
+        hippotranslation:locale: en
+        myproject:connectorid: '116975'
+        /myproject:pageMetadata:
+          jcr:primaryType: myproject:PageMetadata
+          myproject:canonicalUrl: ''
+          myproject:metaDescription: ''
+          myproject:metaKeywords: ['']
+          myproject:ogTitle: ''
+          myproject:ogType: ''
+          myproject:pageTitle: Bed & Bath
+          /myproject:ogImage:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+      /bed-and-bath[2]:
+        jcr:primaryType: myproject:experiencePage
+        jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable', 'mix:versionable']
+        jcr:uuid: e69829f5-69ba-4742-9521-bfb36554c6de
+        hippo:availability: [preview]
+        hippostd:retainable: false
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2022-01-19T10:22:45.253-05:00
+        hippostdpubwf:lastModificationDate: 2022-01-19T11:21:07.500-05:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 5f75c92b-fc1b-4787-818e-aa3bff3cc63e
+        hippotranslation:locale: en
+        myproject:connectorid: '116975'
+        /hst:xpage:
+          jcr:primaryType: hst:xpage
+          jcr:uuid: ddcd84eb-0f11-47be-83af-81dd83b2a2eb
+          hst:pageref: category-page
+          /6dc76817-d36d-46a3-84b5-458b002a6f8b:
+            jcr:primaryType: hst:containercomponent
+            jcr:uuid: 81a994d8-3219-447c-9984-c0962c2e92c6
+            hippo:identifier: eecefcce-55cf-49fb-9df5-d24ce5371138
+            hst:lastmodified: 2022-01-19T11:18:43.633-05:00
+          /983bffd1-a5f4-4c6c-9b85-52ff56a69341:
+            jcr:primaryType: hst:containercomponent
+            jcr:uuid: ed3d48b9-a4b6-4c2d-bbd2-405914a3d67c
+            hippo:identifier: 5004f249-1252-43b3-a21a-41d0f65046af
+            hst:lastmodified: 2022-01-19T16:21:07.500Z
+            /ProductSlider:
+              jcr:primaryType: hst:containeritemcomponent
+              jcr:uuid: 22d30f4e-4102-44ea-805b-3b44fe8af9ac
+              hst:componentdefinition: hst:components/common-catalog/ProductSlider
+              hst:parameternames: [dots, infinite, document, arrows, vertical, rows,
+                pauseOnDotsHover, autoplay, dotsStyle, slidesPerRow, fade, pauseOnFocus,
+                pauseOnHover, slidesToScroll, slidesToShow, autoplaySpeed]
+              hst:parametervalues: ['on', 'on', page-content/category-content/featured-products-all-bed-and-bath,
+                'on', 'off', '1', 'off', 'off', dots, '1', 'off', 'off', 'off', '1',
+                '4', '3000']
+        /myproject:pageMetadata:
+          jcr:primaryType: myproject:PageMetadata
+          myproject:canonicalUrl: ''
+          myproject:metaDescription: ''
+          myproject:metaKeywords: ['']
+          myproject:ogTitle: ''
+          myproject:ogType: ''
+          myproject:pageTitle: Bed & Bath
+          /myproject:ogImage:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+      /bed-and-bath[3]:
+        jcr:primaryType: myproject:experiencePage
+        jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable']
+        jcr:uuid: 29895cdf-589d-46fe-b3ee-8c78e99a7ce0
+        hippo:availability: [live]
+        hippostd:retainable: false
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2022-01-19T10:22:45.253-05:00
+        hippostdpubwf:lastModificationDate: 2022-01-19T11:21:07.500-05:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2022-01-19T11:21:09.545-05:00
+        hippotranslation:id: 5f75c92b-fc1b-4787-818e-aa3bff3cc63e
+        hippotranslation:locale: en
+        myproject:connectorid: '116975'
+        /hst:xpage:
+          jcr:primaryType: hst:xpage
+          jcr:uuid: 7eec2f06-aaca-4da8-ad33-eaccaee2d02b
+          hst:pageref: category-page
+          /6dc76817-d36d-46a3-84b5-458b002a6f8b:
+            jcr:primaryType: hst:containercomponent
+            jcr:uuid: 7f2f26a5-9fb2-4ad7-bb16-58f1e32a5e76
+            hippo:identifier: eecefcce-55cf-49fb-9df5-d24ce5371138
+            hst:lastmodified: 2022-01-19T11:18:43.633-05:00
+          /983bffd1-a5f4-4c6c-9b85-52ff56a69341:
+            jcr:primaryType: hst:containercomponent
+            jcr:uuid: 573c38bb-e588-4ce9-8435-1a516ad9252d
+            hippo:identifier: 5004f249-1252-43b3-a21a-41d0f65046af
+            hst:lastmodified: 2022-01-19T16:21:07.500Z
+            /ProductSlider:
+              jcr:primaryType: hst:containeritemcomponent
+              jcr:uuid: 2b13af32-f588-4ef3-ae4c-8b245a5ecffd
+              hst:componentdefinition: hst:components/common-catalog/ProductSlider
+              hst:parameternames: [dots, infinite, document, arrows, vertical, rows,
+                pauseOnDotsHover, autoplay, dotsStyle, slidesPerRow, fade, pauseOnFocus,
+                pauseOnHover, slidesToScroll, slidesToShow, autoplaySpeed]
+              hst:parametervalues: ['on', 'on', page-content/category-content/featured-products-all-bed-and-bath,
+                'on', 'off', '1', 'off', 'off', dots, '1', 'off', 'off', 'off', '1',
+                '4', '3000']
+        /myproject:pageMetadata:
+          jcr:primaryType: myproject:PageMetadata
+          myproject:canonicalUrl: ''
+          myproject:metaDescription: ''
+          myproject:metaKeywords: ['']
+          myproject:ogTitle: ''
+          myproject:ogType: ''
+          myproject:pageTitle: Bed & Bath
+          /myproject:ogImage:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+    /new-bed-and-bath:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+      jcr:uuid: eaf8db8e-898f-451b-a9d9-7662cff037a0
+      hippo:name: New Bed and Bath
+      hippo:versionHistory: e9dbfe98-1789-463e-83d8-218983fdb913
+      /new-bed-and-bath[1]:
+        jcr:primaryType: myproject:experiencePage
+        jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable']
+        jcr:uuid: 0c9942c4-f747-4368-a335-566473ebbdcf
+        hippo:availability: []
+        hippostd:retainable: false
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2022-01-19T10:25:49.680-05:00
+        hippostdpubwf:lastModificationDate: 2022-01-19T10:26:33.629-05:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: a0f21aeb-043a-4807-9abb-160f4e361a81
+        hippotranslation:locale: en
+        myproject:connectorid: '117410'
+        /myproject:pageMetadata:
+          jcr:primaryType: myproject:PageMetadata
+          myproject:canonicalUrl: ''
+          myproject:metaDescription: ''
+          myproject:metaKeywords: ['']
+          myproject:ogTitle: ''
+          myproject:ogType: ''
+          myproject:pageTitle: New Bed and Bath
+          /myproject:ogImage:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+      /new-bed-and-bath[2]:
+        jcr:primaryType: myproject:experiencePage
+        jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable', 'mix:versionable']
+        jcr:uuid: 68a9fa77-6077-4245-a215-bc40ab3d1a38
+        hippo:availability: [preview]
+        hippostd:retainable: false
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2022-01-19T10:25:49.680-05:00
+        hippostdpubwf:lastModificationDate: 2022-01-19T10:26:42.127-05:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: a0f21aeb-043a-4807-9abb-160f4e361a81
+        hippotranslation:locale: en
+        myproject:connectorid: '117410'
+        /hst:xpage:
+          jcr:primaryType: hst:xpage
+          jcr:uuid: 79fb99e5-396d-4edc-9693-0014e9c28354
+          hst:pageref: category-page
+          /6dc76817-d36d-46a3-84b5-458b002a6f8b:
+            jcr:primaryType: hst:containercomponent
+            jcr:uuid: 46f3b45f-4f3c-4fbd-b406-4ab9c8c6bb08
+            hippo:identifier: 2d4458a5-e0f8-45de-b2fa-9b3def57a6a6
+          /983bffd1-a5f4-4c6c-9b85-52ff56a69341:
+            jcr:primaryType: hst:containercomponent
+            jcr:uuid: 34c3b9b9-4dd4-4bb0-8d31-ab66be631086
+            hippo:identifier: f367f01f-86e2-4ee7-81c3-f313065fc455
+        /myproject:pageMetadata:
+          jcr:primaryType: myproject:PageMetadata
+          myproject:canonicalUrl: ''
+          myproject:metaDescription: ''
+          myproject:metaKeywords: ['']
+          myproject:ogTitle: ''
+          myproject:ogType: ''
+          myproject:pageTitle: New Bed and Bath
+          /myproject:ogImage:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+      /new-bed-and-bath[3]:
+        jcr:primaryType: myproject:experiencePage
+        jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable']
+        jcr:uuid: 5660d9c6-d27b-4d85-8bb5-b49c31fe2b97
+        hippo:availability: [live]
+        hippostd:retainable: false
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2022-01-19T10:25:49.680-05:00
+        hippostdpubwf:lastModificationDate: 2022-01-19T10:26:42.127-05:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2022-01-19T10:26:47.802-05:00
+        hippotranslation:id: a0f21aeb-043a-4807-9abb-160f4e361a81
+        hippotranslation:locale: en
+        myproject:connectorid: '117410'
+        /hst:xpage:
+          jcr:primaryType: hst:xpage
+          jcr:uuid: 63cd261d-41d4-4371-b3ff-0a3a5ace9720
+          hst:pageref: category-page
+          /6dc76817-d36d-46a3-84b5-458b002a6f8b:
+            jcr:primaryType: hst:containercomponent
+            jcr:uuid: 82ad0546-3d76-45e4-81c1-cebd668f04f8
+            hippo:identifier: 2d4458a5-e0f8-45de-b2fa-9b3def57a6a6
+          /983bffd1-a5f4-4c6c-9b85-52ff56a69341:
+            jcr:primaryType: hst:containercomponent
+            jcr:uuid: 13cf2725-c906-4bbb-9231-3ecb3bb7cff8
+            hippo:identifier: f367f01f-86e2-4ee7-81c3-f313065fc455
+        /myproject:pageMetadata:
+          jcr:primaryType: myproject:PageMetadata
+          myproject:canonicalUrl: ''
+          myproject:metaDescription: ''
+          myproject:metaKeywords: ['']
+          myproject:ogTitle: ''
+          myproject:ogType: ''
+          myproject:pageTitle: New Bed and Bath
+          /myproject:ogImage:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+    /shop-all-furniture:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+      jcr:uuid: 149044d8-8319-4864-8233-8d36b0c362b5
+      hippo:name: Shop All Furniture
+      hippo:versionHistory: e145ee98-f333-416e-87d0-b1620241600f
+      /shop-all-furniture[1]:
+        jcr:primaryType: myproject:experiencePage
+        jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable']
+        jcr:uuid: 731a31c0-8d08-44b2-af67-98368aaa69fa
+        hippo:availability: []
+        hippostd:retainable: false
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2022-01-19T10:27:57.272-05:00
+        hippostdpubwf:lastModificationDate: 2022-01-19T10:27:57.272-05:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 711476ec-4203-4185-8e7f-e9ed9547c16c
+        hippotranslation:locale: en
+        myproject:connectorid: '116745'
+        /myproject:pageMetadata:
+          jcr:primaryType: myproject:PageMetadata
+          myproject:canonicalUrl: ''
+          myproject:metaDescription: ''
+          myproject:metaKeywords: ['']
+          myproject:ogTitle: ''
+          myproject:ogType: ''
+          myproject:pageTitle: All Furniture
+          /myproject:ogImage:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+      /shop-all-furniture[2]:
+        jcr:primaryType: myproject:experiencePage
+        jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable', 'mix:versionable']
+        jcr:uuid: 3f1cb193-da72-4b6e-8a9d-8fa3afc54083
+        hippo:availability: [preview]
+        hippostd:retainable: false
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2022-01-19T10:27:57.272-05:00
+        hippostdpubwf:lastModificationDate: 2022-01-19T11:08:00.916-05:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 711476ec-4203-4185-8e7f-e9ed9547c16c
+        hippotranslation:locale: en
+        myproject:connectorid: '116745'
+        /myproject:pageMetadata:
+          jcr:primaryType: myproject:PageMetadata
+          myproject:canonicalUrl: ''
+          myproject:metaDescription: ''
+          myproject:metaKeywords: ['']
+          myproject:ogTitle: ''
+          myproject:ogType: ''
+          myproject:pageTitle: All Furniture
+          /myproject:ogImage:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /hst:xpage:
+          jcr:primaryType: hst:xpage
+          jcr:uuid: 419eee14-0aff-445e-8304-f808365f3e4f
+          hst:pageref: category-page
+          /6dc76817-d36d-46a3-84b5-458b002a6f8b:
+            jcr:primaryType: hst:containercomponent
+            jcr:uuid: f0dcf747-d1ce-42d2-a0e4-711bcddd8d74
+            hippo:identifier: f605c59d-c9d0-4869-9df7-250a1d6fb4af
+            hst:lastmodified: 2022-01-19T11:08:00.915-05:00
+          /983bffd1-a5f4-4c6c-9b85-52ff56a69341:
+            jcr:primaryType: hst:containercomponent
+            jcr:uuid: ef0e9cc5-2a38-4b33-a45e-e6de5de20037
+            hippo:identifier: 32c15fe7-6262-4897-b529-37124660211d
+      /shop-all-furniture[3]:
+        jcr:primaryType: myproject:experiencePage
+        jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable']
+        jcr:uuid: 2850ede8-1626-4f62-be7b-831157eb758b
+        hippo:availability: [live]
+        hippostd:retainable: false
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2022-01-19T10:27:57.272-05:00
+        hippostdpubwf:lastModificationDate: 2022-01-19T11:08:00.916-05:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2022-01-19T11:08:04.389-05:00
+        hippotranslation:id: 711476ec-4203-4185-8e7f-e9ed9547c16c
+        hippotranslation:locale: en
+        myproject:connectorid: '116745'
+        /myproject:pageMetadata:
+          jcr:primaryType: myproject:PageMetadata
+          myproject:canonicalUrl: ''
+          myproject:metaDescription: ''
+          myproject:metaKeywords: ['']
+          myproject:ogTitle: ''
+          myproject:ogType: ''
+          myproject:pageTitle: All Furniture
+          /myproject:ogImage:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /hst:xpage:
+          jcr:primaryType: hst:xpage
+          jcr:uuid: b1252b85-c111-4ff6-9f4d-cf5e50674213
+          hst:pageref: category-page
+          /6dc76817-d36d-46a3-84b5-458b002a6f8b:
+            jcr:primaryType: hst:containercomponent
+            jcr:uuid: 858c1e5b-7c87-4a20-b35a-7d7567459ac2
+            hippo:identifier: f605c59d-c9d0-4869-9df7-250a1d6fb4af
+            hst:lastmodified: 2022-01-19T11:08:00.915-05:00
+          /983bffd1-a5f4-4c6c-9b85-52ff56a69341:
+            jcr:primaryType: hst:containercomponent
+            jcr:uuid: eb4fe0f7-9948-4f56-9026-e1eeb0f60c78
+            hippo:identifier: 32c15fe7-6262-4897-b529-37124660211d
+    /living-room-furniture:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+      jcr:uuid: 1761c8ca-b8ab-45b6-a859-0e290e0b3438
+      hippo:name: Living Room Furniture
+      hippo:versionHistory: 98a29003-d4b8-450b-996a-d1fab52887a3
+      /living-room-furniture[1]:
+        jcr:primaryType: myproject:experiencePage
+        jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable']
+        jcr:uuid: 6a955a99-1bf8-4534-b544-7203b673417a
+        hippo:availability: []
+        hippostd:retainable: false
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2022-01-19T10:28:54.768-05:00
+        hippostdpubwf:lastModificationDate: 2022-01-19T10:28:54.768-05:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: ab66fd54-6b93-42be-ab4d-44ac0ff0221d
+        hippotranslation:locale: en
+        myproject:connectorid: '116754'
+        /myproject:pageMetadata:
+          jcr:primaryType: myproject:PageMetadata
+          myproject:canonicalUrl: ''
+          myproject:metaDescription: ''
+          myproject:metaKeywords: ['']
+          myproject:ogTitle: ''
+          myproject:ogType: ''
+          myproject:pageTitle: Living Room Furniture
+          /myproject:ogImage:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+      /living-room-furniture[2]:
+        jcr:primaryType: myproject:experiencePage
+        jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable', 'mix:versionable']
+        jcr:uuid: bf820193-adf5-4f55-8d63-4d41d5db3946
+        hippo:availability: [preview]
+        hippostd:retainable: false
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2022-01-19T10:28:54.768-05:00
+        hippostdpubwf:lastModificationDate: 2022-01-19T10:29:07.467-05:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: ab66fd54-6b93-42be-ab4d-44ac0ff0221d
+        hippotranslation:locale: en
+        myproject:connectorid: '116754'
+        /myproject:pageMetadata:
+          jcr:primaryType: myproject:PageMetadata
+          myproject:canonicalUrl: ''
+          myproject:metaDescription: ''
+          myproject:metaKeywords: ['']
+          myproject:ogTitle: ''
+          myproject:ogType: ''
+          myproject:pageTitle: Living Room Furniture
+          /myproject:ogImage:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /hst:xpage:
+          jcr:primaryType: hst:xpage
+          jcr:uuid: e73c7723-8a96-450f-a4dc-b89ab4344837
+          hst:pageref: category-page
+          /6dc76817-d36d-46a3-84b5-458b002a6f8b:
+            jcr:primaryType: hst:containercomponent
+            jcr:uuid: de646380-9881-4146-a7b8-0608bd71e6ac
+            hippo:identifier: 1ca14311-a335-4d92-9b14-aceed386e48d
+          /983bffd1-a5f4-4c6c-9b85-52ff56a69341:
+            jcr:primaryType: hst:containercomponent
+            jcr:uuid: 6a869fbb-abf3-409b-9e5d-d26da9917715
+            hippo:identifier: f5eb989e-c7ec-4771-89b1-e614061902b3
+      /living-room-furniture[3]:
+        jcr:primaryType: myproject:experiencePage
+        jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable']
+        jcr:uuid: 430034e8-319c-4c55-9585-e21c851fffe1
+        hippo:availability: [live]
+        hippostd:retainable: false
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2022-01-19T10:28:54.768-05:00
+        hippostdpubwf:lastModificationDate: 2022-01-19T10:29:07.467-05:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2022-01-19T10:29:18.616-05:00
+        hippotranslation:id: ab66fd54-6b93-42be-ab4d-44ac0ff0221d
+        hippotranslation:locale: en
+        myproject:connectorid: '116754'
+        /myproject:pageMetadata:
+          jcr:primaryType: myproject:PageMetadata
+          myproject:canonicalUrl: ''
+          myproject:metaDescription: ''
+          myproject:metaKeywords: ['']
+          myproject:ogTitle: ''
+          myproject:ogType: ''
+          myproject:pageTitle: Living Room Furniture
+          /myproject:ogImage:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /hst:xpage:
+          jcr:primaryType: hst:xpage
+          jcr:uuid: 26bde1c3-857f-4ebf-8572-922f16563dca
+          hst:pageref: category-page
+          /6dc76817-d36d-46a3-84b5-458b002a6f8b:
+            jcr:primaryType: hst:containercomponent
+            jcr:uuid: aee347d6-dd59-4bea-9d5e-2d3f8eb4a955
+            hippo:identifier: 1ca14311-a335-4d92-9b14-aceed386e48d
+          /983bffd1-a5f4-4c6c-9b85-52ff56a69341:
+            jcr:primaryType: hst:containercomponent
+            jcr:uuid: 8f540db6-d53c-4848-b220-c13fb5cea6a4
+            hippo:identifier: f5eb989e-c7ec-4771-89b1-e614061902b3
+    /bedroom-furniture:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+      jcr:uuid: f01fa34f-b39a-4827-90e2-70107ee65602
+      hippo:name: Bedroom Furniture
+      hippo:versionHistory: 2dd26022-bc3d-44c8-8ef3-f6003463dc4f
+      /bedroom-furniture[1]:
+        jcr:primaryType: myproject:experiencePage
+        jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable']
+        jcr:uuid: d8cc5937-eab1-47c0-9d78-5169f8e84d2a
+        hippo:availability: []
+        hippostd:retainable: false
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2022-01-19T10:32:13.347-05:00
+        hippostdpubwf:lastModificationDate: 2022-01-19T10:32:13.347-05:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 0da9ae81-ea57-4dd6-bbf3-21d3ed9fbfbe
+        hippotranslation:locale: en
+        myproject:connectorid: '116774'
+        /myproject:pageMetadata:
+          jcr:primaryType: myproject:PageMetadata
+          myproject:canonicalUrl: ''
+          myproject:metaDescription: ''
+          myproject:metaKeywords: ['']
+          myproject:ogTitle: ''
+          myproject:ogType: ''
+          myproject:pageTitle: Bedroom Furniture
+          /myproject:ogImage:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+      /bedroom-furniture[2]:
+        jcr:primaryType: myproject:experiencePage
+        jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable', 'mix:versionable']
+        jcr:uuid: 7abebe9c-8ff6-4b4c-8e1e-c0e03260e111
+        hippo:availability: [preview]
+        hippostd:retainable: false
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2022-01-19T10:32:13.347-05:00
+        hippostdpubwf:lastModificationDate: 2022-01-19T10:32:26.776-05:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 0da9ae81-ea57-4dd6-bbf3-21d3ed9fbfbe
+        hippotranslation:locale: en
+        myproject:connectorid: '116774'
+        /myproject:pageMetadata:
+          jcr:primaryType: myproject:PageMetadata
+          myproject:canonicalUrl: ''
+          myproject:metaDescription: ''
+          myproject:metaKeywords: ['']
+          myproject:ogTitle: ''
+          myproject:ogType: ''
+          myproject:pageTitle: Bedroom Furniture
+          /myproject:ogImage:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /hst:xpage:
+          jcr:primaryType: hst:xpage
+          jcr:uuid: 1e6d95a6-2166-4825-8c4a-860a5a897158
+          hst:pageref: category-page
+          /6dc76817-d36d-46a3-84b5-458b002a6f8b:
+            jcr:primaryType: hst:containercomponent
+            jcr:uuid: ebe806b0-be53-4dd4-bbb4-1257d1ceaa2f
+            hippo:identifier: 8086a144-6ded-4735-a001-0c9fa97e3c15
+          /983bffd1-a5f4-4c6c-9b85-52ff56a69341:
+            jcr:primaryType: hst:containercomponent
+            jcr:uuid: 53d367d1-9358-4c5c-aa57-7c018bdb90d6
+            hippo:identifier: 3599608b-84b4-4203-b792-4210fe8f4fea
+      /bedroom-furniture[3]:
+        jcr:primaryType: myproject:experiencePage
+        jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable']
+        jcr:uuid: 915cfca0-f736-4b05-9a12-6740468f7ee1
+        hippo:availability: [live]
+        hippostd:retainable: false
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2022-01-19T10:32:13.347-05:00
+        hippostdpubwf:lastModificationDate: 2022-01-19T10:32:26.776-05:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2022-01-19T10:32:35.371-05:00
+        hippotranslation:id: 0da9ae81-ea57-4dd6-bbf3-21d3ed9fbfbe
+        hippotranslation:locale: en
+        myproject:connectorid: '116774'
+        /myproject:pageMetadata:
+          jcr:primaryType: myproject:PageMetadata
+          myproject:canonicalUrl: ''
+          myproject:metaDescription: ''
+          myproject:metaKeywords: ['']
+          myproject:ogTitle: ''
+          myproject:ogType: ''
+          myproject:pageTitle: Bedroom Furniture
+          /myproject:ogImage:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /hst:xpage:
+          jcr:primaryType: hst:xpage
+          jcr:uuid: fb2a5d6e-beca-46f6-93a6-47ddad33b111
+          hst:pageref: category-page
+          /6dc76817-d36d-46a3-84b5-458b002a6f8b:
+            jcr:primaryType: hst:containercomponent
+            jcr:uuid: 475c4c2a-e31d-4b0e-a582-766167504edc
+            hippo:identifier: 8086a144-6ded-4735-a001-0c9fa97e3c15
+          /983bffd1-a5f4-4c6c-9b85-52ff56a69341:
+            jcr:primaryType: hst:containercomponent
+            jcr:uuid: 6ea0215e-661e-4942-a8d9-92a6ea472563
+            hippo:identifier: 3599608b-84b4-4203-b792-4210fe8f4fea
+  /bed-and-bath:
     jcr:primaryType: hippo:handle
     jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
-    jcr:uuid: 0d98e119-1bb2-434f-a871-57f3679e9696
-    hippo:name: Men
-    hippo:versionHistory: bc65d370-e81e-45a4-ac5d-06be08b83968
-    /men[1]:
+    jcr:uuid: 5c14b33a-8a3b-4043-8270-2a34ddbffb57
+    hippo:name: Bed and Bath
+    hippo:versionHistory: 887258b0-1d4a-45e5-b01c-680161c6d699
+    /bed-and-bath[1]:
       jcr:primaryType: myproject:experiencePage
       jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable']
-      jcr:uuid: 6f180996-cbaf-445b-98a1-456ba5e61b0d
+      jcr:uuid: b308f3bc-3b61-4680-bb87-4b1f72f1e7dd
       hippo:availability: []
       hippostd:retainable: false
       hippostd:state: draft
-      hippostd:transferable: false
       hippostdpubwf:createdBy: admin
-      hippostdpubwf:creationDate: 2021-10-02T18:35:47.571-04:00
-      hippostdpubwf:lastModificationDate: 2021-10-02T18:36:10.223-04:00
+      hippostdpubwf:creationDate: 2022-01-19T10:42:44.049-05:00
+      hippostdpubwf:lastModificationDate: 2022-01-19T11:02:07.801-05:00
       hippostdpubwf:lastModifiedBy: admin
-      hippotranslation:id: 119a6ce6-3325-4996-a1ed-233f80e8c142
+      hippotranslation:id: 80313dea-987d-4fa6-a1d3-c93083c8ce66
       hippotranslation:locale: en
-      myproject:pageTitle: Men Homepage
-    /men[2]:
+      myproject:connectorid: ''
+      /myproject:pageMetadata:
+        jcr:primaryType: myproject:PageMetadata
+        myproject:canonicalUrl: ''
+        myproject:metaDescription: ''
+        myproject:metaKeywords: ['']
+        myproject:ogTitle: ''
+        myproject:ogType: ''
+        myproject:pageTitle: Bed & Bath - Category Landing Page
+        /myproject:ogImage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+    /bed-and-bath[2]:
       jcr:primaryType: myproject:experiencePage
       jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable', 'mix:versionable']
-      jcr:uuid: 2fda1989-1556-4651-b4d5-5009a396d02e
+      jcr:uuid: 10849449-a18c-4758-a1e9-5d89ca32ae86
       hippo:availability: [preview]
       hippostd:retainable: false
       hippostd:state: unpublished
       hippostdpubwf:createdBy: admin
-      hippostdpubwf:creationDate: 2021-10-02T18:35:47.571-04:00
-      hippostdpubwf:lastModificationDate: 2021-10-03T11:44:35.346-04:00
+      hippostdpubwf:creationDate: 2022-01-19T10:42:44.049-05:00
+      hippostdpubwf:lastModificationDate: 2022-01-19T11:02:13.101-05:00
       hippostdpubwf:lastModifiedBy: admin
-      hippotranslation:id: 119a6ce6-3325-4996-a1ed-233f80e8c142
+      hippotranslation:id: 80313dea-987d-4fa6-a1d3-c93083c8ce66
       hippotranslation:locale: en
-      myproject:pageTitle: Men Homepage
+      myproject:connectorid: ''
       /hst:xpage:
         jcr:primaryType: hst:xpage
-        jcr:uuid: d7334244-dc3e-4aa6-b8fc-c951eae8302b
+        jcr:uuid: eb32227d-daa8-4428-83c8-74465ae99a3d
         hst:pageref: single-column
         /17891158-a805-4fa0-a5c8-80dc4b3274ff:
           jcr:primaryType: hst:containercomponent
-          jcr:uuid: 732cdf91-f307-4477-aad2-f65348971ee5
-          hippo:identifier: 00ed6e27-5fbe-4184-ae08-38de3772183c
-          hst:lastmodified: 2021-10-03T15:44:35.346Z
+          jcr:uuid: 557ef10e-53f9-408c-a2b5-397dd9423575
+          hippo:identifier: c67dfc9e-fd4e-4d27-9c5e-9077f66a1ce0
+          hst:lastmodified: 2022-01-19T15:59:55.458Z
           /banner:
             jcr:primaryType: hst:containeritemcomponent
-            jcr:uuid: 842eb385-d44e-4b4e-933b-6a8fa187b588
+            jcr:uuid: 0ef82627-8486-45d3-a3fc-695c91904826
             hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsBannerComponent
             hst:iconpath: images/essentials/catalog-component-icons/banner.svg
             hst:label: Banner
             hst:parameternames: [document, org.hippoecm.hst.core.component.template]
-            hst:parametervalues: [banners/banner1, 'webfile:/freemarker/hstdefault/essentials-banner.ftl']
+            hst:parametervalues: [page-content/category-landing-pages/bed-and-bath/bed-and-bath-banner,
+              'webfile:/freemarker/hstdefault/essentials-banner.ftl']
             hst:template: essentials-banner
-    /men[3]:
+      /myproject:pageMetadata:
+        jcr:primaryType: myproject:PageMetadata
+        myproject:canonicalUrl: ''
+        myproject:metaDescription: ''
+        myproject:metaKeywords: ['']
+        myproject:ogTitle: ''
+        myproject:ogType: ''
+        myproject:pageTitle: Bed & Bath - Category Landing Page
+        /myproject:ogImage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+    /bed-and-bath[3]:
       jcr:primaryType: myproject:experiencePage
       jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable']
-      jcr:uuid: 3c89f746-8b07-4f66-9b72-1745f71af41b
+      jcr:uuid: 97ac55e1-c46b-4d52-97fd-fda05a02af77
       hippo:availability: [live]
       hippostd:retainable: false
       hippostd:state: published
       hippostdpubwf:createdBy: admin
-      hippostdpubwf:creationDate: 2021-10-02T18:35:47.571-04:00
-      hippostdpubwf:lastModificationDate: 2021-10-03T11:44:35.346-04:00
+      hippostdpubwf:creationDate: 2022-01-19T10:42:44.049-05:00
+      hippostdpubwf:lastModificationDate: 2022-01-19T11:02:13.101-05:00
       hippostdpubwf:lastModifiedBy: admin
-      hippostdpubwf:publicationDate: 2021-10-18T09:00:52.683-04:00
-      hippotranslation:id: 119a6ce6-3325-4996-a1ed-233f80e8c142
+      hippostdpubwf:publicationDate: 2022-01-19T11:02:14.399-05:00
+      hippotranslation:id: 80313dea-987d-4fa6-a1d3-c93083c8ce66
       hippotranslation:locale: en
-      myproject:pageTitle: Men Homepage
+      myproject:connectorid: ''
       /hst:xpage:
         jcr:primaryType: hst:xpage
-        jcr:uuid: 871b5dc4-0f54-4687-95c2-1ef64c3ab627
+        jcr:uuid: e6d18028-3d32-4ad7-bebc-48d702ebd16b
         hst:pageref: single-column
         /17891158-a805-4fa0-a5c8-80dc4b3274ff:
           jcr:primaryType: hst:containercomponent
-          jcr:uuid: 07a8777a-739a-42a8-b160-4803f32416fb
-          hippo:identifier: 00ed6e27-5fbe-4184-ae08-38de3772183c
-          hst:lastmodified: 2021-10-03T15:44:35.346Z
+          jcr:uuid: 755f6bc0-f2b7-4807-9669-c5a6aaff2be9
+          hippo:identifier: c67dfc9e-fd4e-4d27-9c5e-9077f66a1ce0
+          hst:lastmodified: 2022-01-19T15:59:55.458Z
           /banner:
             jcr:primaryType: hst:containeritemcomponent
-            jcr:uuid: 52c0ef8a-c3af-4e1a-a561-edb82dd21521
+            jcr:uuid: ff4b80b6-52be-4f45-aa9c-f062f785b494
             hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsBannerComponent
             hst:iconpath: images/essentials/catalog-component-icons/banner.svg
             hst:label: Banner
             hst:parameternames: [document, org.hippoecm.hst.core.component.template]
-            hst:parametervalues: [banners/banner1, 'webfile:/freemarker/hstdefault/essentials-banner.ftl']
+            hst:parametervalues: [page-content/category-landing-pages/bed-and-bath/bed-and-bath-banner,
+              'webfile:/freemarker/hstdefault/essentials-banner.ftl']
             hst:template: essentials-banner
-  /categories:
+      /myproject:pageMetadata:
+        jcr:primaryType: myproject:PageMetadata
+        myproject:canonicalUrl: ''
+        myproject:metaDescription: ''
+        myproject:metaKeywords: ['']
+        myproject:ogTitle: ''
+        myproject:ogType: ''
+        myproject:pageTitle: Bed & Bath - Category Landing Page
+        /myproject:ogImage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+  /ideas-and-inspiration:
     jcr:primaryType: hippostd:folder
-    jcr:mixinTypes: ['hippo:named', 'hippostd:xpagefolder', 'hippotranslation:translated']
-    hippo:name: Categories
+    jcr:mixinTypes: ['hippo:named', 'hippostd:xpagefolder', 'hippotranslation:translated',
+      'mix:versionable']
+    jcr:uuid: bdbb5866-7dbb-474c-b88e-760045b02e69
+    hippo:name: Ideas and Inspiration
     hippostd:channelid: react
-    hippostd:foldertype: [new-CategoryPage-document, new-CategoryPage-folder]
-    hippotranslation:id: 2dea2fcb-37de-4dfb-8c0e-8bfeb8d9350d
+    hippostd:foldertype: [new-experiencePage-document, new-experiencePage-folder]
+    hippotranslation:id: 9765c701-9976-4e23-853e-2fc953054f71
     hippotranslation:locale: en
+    /index:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+      jcr:uuid: 2fb588b2-d0a8-42b7-bf99-18be3666aed5
+      hippo:name: Index
+      hippo:versionHistory: 5a814eed-d0bd-4063-94dd-508da17a5912
+      /index[1]:
+        jcr:primaryType: myproject:experiencePage
+        jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable']
+        jcr:uuid: 24ab21ad-4abc-48d1-815d-cca2f40563f5
+        hippo:availability: []
+        hippostd:retainable: false
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2022-01-19T11:30:41.958-05:00
+        hippostdpubwf:lastModificationDate: 2022-01-19T11:30:41.958-05:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 0918568b-8ae9-4787-bd27-5ffd28294e4a
+        hippotranslation:locale: en
+        myproject:connectorid: ''
+        /myproject:pageMetadata:
+          jcr:primaryType: myproject:PageMetadata
+          myproject:canonicalUrl: ''
+          myproject:metaDescription: ''
+          myproject:metaKeywords: ['']
+          myproject:ogTitle: ''
+          myproject:ogType: ''
+          myproject:pageTitle: Ideas and Inspiration
+          /myproject:ogImage:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+      /index[2]:
+        jcr:primaryType: myproject:experiencePage
+        jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable', 'mix:versionable']
+        jcr:uuid: 8ab477bc-f4e8-4feb-92af-da145bc05466
+        hippo:availability: [preview]
+        hippostd:retainable: false
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2022-01-19T11:30:41.958-05:00
+        hippostdpubwf:lastModificationDate: 2022-01-19T11:31:43.716-05:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 0918568b-8ae9-4787-bd27-5ffd28294e4a
+        hippotranslation:locale: en
+        myproject:connectorid: ''
+        /myproject:pageMetadata:
+          jcr:primaryType: myproject:PageMetadata
+          myproject:canonicalUrl: ''
+          myproject:metaDescription: ''
+          myproject:metaKeywords: ['']
+          myproject:ogTitle: ''
+          myproject:ogType: ''
+          myproject:pageTitle: Ideas and Inspiration
+          /myproject:ogImage:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /hst:xpage:
+          jcr:primaryType: hst:xpage
+          jcr:uuid: eb45a3f8-8260-4f7e-86b2-8070497e2413
+          hst:pageref: single-column
+          /17891158-a805-4fa0-a5c8-80dc4b3274ff:
+            jcr:primaryType: hst:containercomponent
+            jcr:uuid: 7a5bc205-a887-4b5e-af09-f275bd66d83f
+            hippo:identifier: 415d373a-452e-4961-9ef7-27dad30619b3
+            hst:lastmodified: 2022-01-19T16:31:43.716Z
+            /banner:
+              jcr:primaryType: hst:containeritemcomponent
+              jcr:uuid: ba1a1d9c-1262-4985-aefb-cd2dbe8ff3dc
+              hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsBannerComponent
+              hst:iconpath: images/essentials/catalog-component-icons/banner.svg
+              hst:label: Banner
+              hst:parameternames: [document, org.hippoecm.hst.core.component.template]
+              hst:parametervalues: [page-content/ideas-and-inspiration/ideas-and-inspiration-banner,
+                'webfile:/freemarker/hstdefault/essentials-banner.ftl']
+              hst:template: essentials-banner
+      /index[3]:
+        jcr:primaryType: myproject:experiencePage
+        jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable']
+        jcr:uuid: 7eaa9295-7003-4a6c-963a-dfe5106daaab
+        hippo:availability: [live]
+        hippostd:retainable: false
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2022-01-19T11:30:41.958-05:00
+        hippostdpubwf:lastModificationDate: 2022-01-19T11:31:43.716-05:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2022-01-19T11:31:46.871-05:00
+        hippotranslation:id: 0918568b-8ae9-4787-bd27-5ffd28294e4a
+        hippotranslation:locale: en
+        myproject:connectorid: ''
+        /myproject:pageMetadata:
+          jcr:primaryType: myproject:PageMetadata
+          myproject:canonicalUrl: ''
+          myproject:metaDescription: ''
+          myproject:metaKeywords: ['']
+          myproject:ogTitle: ''
+          myproject:ogType: ''
+          myproject:pageTitle: Ideas and Inspiration
+          /myproject:ogImage:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /hst:xpage:
+          jcr:primaryType: hst:xpage
+          jcr:uuid: 8770a739-78c8-4ea1-a65a-642979a3d022
+          hst:pageref: single-column
+          /17891158-a805-4fa0-a5c8-80dc4b3274ff:
+            jcr:primaryType: hst:containercomponent
+            jcr:uuid: 5df3ffe6-373f-428f-80ca-302f846c17bd
+            hippo:identifier: 415d373a-452e-4961-9ef7-27dad30619b3
+            hst:lastmodified: 2022-01-19T16:31:43.716Z
+            /banner:
+              jcr:primaryType: hst:containeritemcomponent
+              jcr:uuid: 78264d58-1922-439b-a60a-383a911fa0a6
+              hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsBannerComponent
+              hst:iconpath: images/essentials/catalog-component-icons/banner.svg
+              hst:label: Banner
+              hst:parameternames: [document, org.hippoecm.hst.core.component.template]
+              hst:parametervalues: [page-content/ideas-and-inspiration/ideas-and-inspiration-banner,
+                'webfile:/freemarker/hstdefault/essentials-banner.ftl']
+              hst:template: essentials-banner
+    /living-room-furniture-ideas:
+      jcr:primaryType: hippostd:folder
+      jcr:mixinTypes: ['hippo:named', 'hippostd:xpagefolder', 'hippotranslation:translated',
+        'mix:versionable']
+      jcr:uuid: 3a706072-703e-4b57-8b37-287bfd173df3
+      hippo:name: Living Room Furniture Ideas
+      hippostd:channelid: react
+      hippostd:foldertype: [new-experiencePage-document, new-experiencePage-folder]
+      hippotranslation:id: 862fe8e2-8c61-4116-b337-91c13bd6e613
+      hippotranslation:locale: en
+      /index:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['hippo:versionInfo', 'mix:referenceable']
+        jcr:uuid: 1235e708-a15c-497c-9f0f-d23ea076fca1
+        hippo:versionHistory: 983c472a-3ce8-467a-b326-26f067491cbf
+        /index[1]:
+          jcr:primaryType: myproject:experiencePage
+          jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable']
+          jcr:uuid: ea0c3908-2896-4c96-bc72-83067c2e60d9
+          hippo:availability: []
+          hippostd:retainable: false
+          hippostd:state: draft
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2022-01-19T11:44:31.659-05:00
+          hippostdpubwf:lastModificationDate: 2022-01-19T11:44:31.660-05:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 714aba1e-fcbc-4e45-965a-f18284f2b1a0
+          hippotranslation:locale: en
+          myproject:connectorid: ''
+          /myproject:pageMetadata:
+            jcr:primaryType: myproject:PageMetadata
+            myproject:canonicalUrl: ''
+            myproject:metaDescription: ''
+            myproject:metaKeywords: ['']
+            myproject:ogTitle: ''
+            myproject:ogType: ''
+            myproject:pageTitle: Living Room Furniture Ideas
+            /myproject:ogImage:
+              jcr:primaryType: hippogallerypicker:imagelink
+              hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+        /index[2]:
+          jcr:primaryType: myproject:experiencePage
+          jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable', 'mix:versionable']
+          jcr:uuid: 6f8ccf49-4941-48b9-be0c-dd2264288d22
+          hippo:availability: [preview]
+          hippostd:retainable: false
+          hippostd:state: unpublished
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2022-01-19T11:44:31.659-05:00
+          hippostdpubwf:lastModificationDate: 2022-01-19T11:49:38.398-05:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippotranslation:id: 714aba1e-fcbc-4e45-965a-f18284f2b1a0
+          hippotranslation:locale: en
+          myproject:connectorid: ''
+          /myproject:pageMetadata:
+            jcr:primaryType: myproject:PageMetadata
+            myproject:canonicalUrl: ''
+            myproject:metaDescription: ''
+            myproject:metaKeywords: ['']
+            myproject:ogTitle: ''
+            myproject:ogType: ''
+            myproject:pageTitle: Living Room Furniture Ideas
+            /myproject:ogImage:
+              jcr:primaryType: hippogallerypicker:imagelink
+              hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+          /hst:xpage:
+            jcr:primaryType: hst:xpage
+            jcr:uuid: 5b40bda6-632e-4263-a91d-4e8b64d8f588
+            hst:pageref: single-column
+            /17891158-a805-4fa0-a5c8-80dc4b3274ff:
+              jcr:primaryType: hst:containercomponent
+              jcr:uuid: 2b12ff07-2c6e-4f03-859a-7b0ad23ecb33
+              hippo:identifier: a6730e10-b9f6-4a06-b142-5f5c4ef6c6f4
+              hst:lastmodified: 2022-01-19T16:49:38.398Z
+              /banner:
+                jcr:primaryType: hst:containeritemcomponent
+                jcr:uuid: 45a98885-58c0-4f72-a145-6d1857d915bc
+                hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsBannerComponent
+                hst:iconpath: images/essentials/catalog-component-icons/banner.svg
+                hst:label: Banner
+                hst:parameternames: [document, org.hippoecm.hst.core.component.template]
+                hst:parametervalues: [page-content/ideas-and-inspiration/living-room-furniture-ideas/living-room-furniture-ideas-banner,
+                  'webfile:/freemarker/hstdefault/essentials-banner.ftl']
+                hst:template: essentials-banner
+        /index[3]:
+          jcr:primaryType: myproject:experiencePage
+          jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable']
+          jcr:uuid: 57ba18ee-a94f-466b-b28d-de6d9d83d2ad
+          hippo:availability: [live]
+          hippostd:retainable: false
+          hippostd:state: published
+          hippostdpubwf:createdBy: admin
+          hippostdpubwf:creationDate: 2022-01-19T11:44:31.659-05:00
+          hippostdpubwf:lastModificationDate: 2022-01-19T11:49:38.398-05:00
+          hippostdpubwf:lastModifiedBy: admin
+          hippostdpubwf:publicationDate: 2022-01-19T11:49:40.807-05:00
+          hippotranslation:id: 714aba1e-fcbc-4e45-965a-f18284f2b1a0
+          hippotranslation:locale: en
+          myproject:connectorid: ''
+          /myproject:pageMetadata:
+            jcr:primaryType: myproject:PageMetadata
+            myproject:canonicalUrl: ''
+            myproject:metaDescription: ''
+            myproject:metaKeywords: ['']
+            myproject:ogTitle: ''
+            myproject:ogType: ''
+            myproject:pageTitle: Living Room Furniture Ideas
+            /myproject:ogImage:
+              jcr:primaryType: hippogallerypicker:imagelink
+              hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
+          /hst:xpage:
+            jcr:primaryType: hst:xpage
+            jcr:uuid: 7a2f5ca0-01d0-4b61-896b-3e3d2f9b051d
+            hst:pageref: single-column
+            /17891158-a805-4fa0-a5c8-80dc4b3274ff:
+              jcr:primaryType: hst:containercomponent
+              jcr:uuid: d5022053-0d07-4779-9092-4f8834443ffc
+              hippo:identifier: a6730e10-b9f6-4a06-b142-5f5c4ef6c6f4
+              hst:lastmodified: 2022-01-19T16:49:38.398Z
+              /banner:
+                jcr:primaryType: hst:containeritemcomponent
+                jcr:uuid: 49caf699-71cc-40f2-9bce-4b7f07140fea
+                hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsBannerComponent
+                hst:iconpath: images/essentials/catalog-component-icons/banner.svg
+                hst:label: Banner
+                hst:parameternames: [document, org.hippoecm.hst.core.component.template]
+                hst:parametervalues: [page-content/ideas-and-inspiration/living-room-furniture-ideas/living-room-furniture-ideas-banner,
+                  'webfile:/freemarker/hstdefault/essentials-banner.ftl']
+                hst:template: essentials-banner
+    /bedroom-furniture-ideas:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+      jcr:uuid: 4466a4de-b852-438d-b02a-cd7b5b1027e2
+      hippo:name: Bedroom Furniture Ideas
+      hippo:versionHistory: 409bf305-dac6-4ee7-b3e1-bab9c41d0ae8
+      /bedroom-furniture-ideas[1]:
+        jcr:primaryType: myproject:experiencePage
+        jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable']
+        jcr:uuid: c6a7e160-2f27-43d6-8712-1c0184e20115
+        hippo:availability: []
+        hippostd:retainable: false
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2022-01-19T11:33:14.740-05:00
+        hippostdpubwf:lastModificationDate: 2022-01-19T11:33:14.740-05:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 7461ccc7-afa8-4fa3-aff9-32b88cdce41b
+        hippotranslation:locale: en
+        myproject:connectorid: ''
+        /myproject:pageMetadata:
+          jcr:primaryType: myproject:PageMetadata
+          myproject:canonicalUrl: ''
+          myproject:metaDescription: ''
+          myproject:metaKeywords: ['']
+          myproject:ogTitle: ''
+          myproject:ogType: ''
+          myproject:pageTitle: Bedroom Furniture Ideas
+          /myproject:ogImage:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+      /bedroom-furniture-ideas[2]:
+        jcr:primaryType: myproject:experiencePage
+        jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable', 'mix:versionable']
+        jcr:uuid: 8352ccba-80a2-4eb6-b170-502254aac3fb
+        hippo:availability: [preview]
+        hippostd:retainable: false
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2022-01-19T11:33:14.740-05:00
+        hippostdpubwf:lastModificationDate: 2022-01-19T11:35:00.029-05:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 7461ccc7-afa8-4fa3-aff9-32b88cdce41b
+        hippotranslation:locale: en
+        myproject:connectorid: ''
+        /myproject:pageMetadata:
+          jcr:primaryType: myproject:PageMetadata
+          myproject:canonicalUrl: ''
+          myproject:metaDescription: ''
+          myproject:metaKeywords: ['']
+          myproject:ogTitle: ''
+          myproject:ogType: ''
+          myproject:pageTitle: Bedroom Furniture Ideas
+          /myproject:ogImage:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /hst:xpage:
+          jcr:primaryType: hst:xpage
+          jcr:uuid: 8a2545eb-1259-47d5-a6e7-b6c54938e6c2
+          hst:pageref: single-column
+          /17891158-a805-4fa0-a5c8-80dc4b3274ff:
+            jcr:primaryType: hst:containercomponent
+            jcr:uuid: 772c2501-8758-433b-acd0-fff45c3ba282
+            hippo:identifier: 0d843417-9db9-4565-8da3-9cb04d05fa67
+            hst:lastmodified: 2022-01-19T16:35:00.029Z
+            /banner:
+              jcr:primaryType: hst:containeritemcomponent
+              jcr:uuid: c60d6296-829d-4dde-a6ce-d4eb5d0620b2
+              hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsBannerComponent
+              hst:iconpath: images/essentials/catalog-component-icons/banner.svg
+              hst:label: Banner
+              hst:parameternames: [document, org.hippoecm.hst.core.component.template]
+              hst:parametervalues: [page-content/ideas-and-inspiration/bedroom-furniture-ideas-banner,
+                'webfile:/freemarker/hstdefault/essentials-banner.ftl']
+              hst:template: essentials-banner
+      /bedroom-furniture-ideas[3]:
+        jcr:primaryType: myproject:experiencePage
+        jcr:mixinTypes: ['hst:xpagemixin', 'mix:referenceable']
+        jcr:uuid: f605da1f-ac13-49ad-9dec-d7b9a4cf4619
+        hippo:availability: [live]
+        hippostd:retainable: false
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2022-01-19T11:33:14.740-05:00
+        hippostdpubwf:lastModificationDate: 2022-01-19T11:35:00.029-05:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2022-01-19T11:35:01.849-05:00
+        hippotranslation:id: 7461ccc7-afa8-4fa3-aff9-32b88cdce41b
+        hippotranslation:locale: en
+        myproject:connectorid: ''
+        /myproject:pageMetadata:
+          jcr:primaryType: myproject:PageMetadata
+          myproject:canonicalUrl: ''
+          myproject:metaDescription: ''
+          myproject:metaKeywords: ['']
+          myproject:ogTitle: ''
+          myproject:ogType: ''
+          myproject:pageTitle: Bedroom Furniture Ideas
+          /myproject:ogImage:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /hst:xpage:
+          jcr:primaryType: hst:xpage
+          jcr:uuid: c8bb7d08-c246-4f7e-a578-179a8365f4f9
+          hst:pageref: single-column
+          /17891158-a805-4fa0-a5c8-80dc4b3274ff:
+            jcr:primaryType: hst:containercomponent
+            jcr:uuid: a03592e6-e599-4216-8b68-cb31933dee0b
+            hippo:identifier: 0d843417-9db9-4565-8da3-9cb04d05fa67
+            hst:lastmodified: 2022-01-19T16:35:00.029Z
+            /banner:
+              jcr:primaryType: hst:containeritemcomponent
+              jcr:uuid: 01e8ae12-ebf2-4127-a090-aca8ee243d9d
+              hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsBannerComponent
+              hst:iconpath: images/essentials/catalog-component-icons/banner.svg
+              hst:label: Banner
+              hst:parameternames: [document, org.hippoecm.hst.core.component.template]
+              hst:parametervalues: [page-content/ideas-and-inspiration/bedroom-furniture-ideas-banner,
+                'webfile:/freemarker/hstdefault/essentials-banner.ftl']
+              hst:template: essentials-banner

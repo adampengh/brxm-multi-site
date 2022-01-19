@@ -1,4 +1,5 @@
 /content/documents/react/product-detail-custom-content:
+  .meta:order-before: page-content
   jcr:primaryType: hippostd:folder
   jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
   jcr:uuid: 561e1fcb-b8f2-4c3f-a0b0-93600b0dc367
@@ -6,237 +7,108 @@
   hippostd:foldertype: [new-ProductDetailCustomContent-document]
   hippotranslation:id: bea1e7c7-9ee5-49d2-802d-332e21aa25a8
   hippotranslation:locale: en
-  /141618:
+  /80123fam:
     jcr:primaryType: hippo:handle
-    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
-    jcr:uuid: d607ec4b-8171-472c-ba97-9fa7b04a8898
-    hippo:name: 141618 (Nature Valley Granola Bars, Crunchy, Oats 'n Honey, Value
-      Pack)
-    hippo:versionHistory: 7a47f2dd-6488-4c92-a47e-0bc290943e7f
-    /141618[1]:
+    jcr:mixinTypes: ['hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: e6f9410c-a2fd-415e-9327-098b5228dc75
+    hippo:versionHistory: b614ff90-d191-479e-9ff3-8c8398ec6cdd
+    /80123fam[1]:
       jcr:primaryType: myproject:ProductDetailCustomContent
       jcr:mixinTypes: ['mix:referenceable']
-      jcr:uuid: dfc7c1f3-18a4-48d9-a11d-a10f3ab56310
+      jcr:uuid: de3257e2-16b8-4bea-93b1-d4e438230907
       hippo:availability: []
       hippostd:retainable: false
       hippostd:state: draft
-      hippostd:transferable: false
       hippostdpubwf:createdBy: admin
-      hippostdpubwf:creationDate: 2021-10-15T10:58:58.930-04:00
-      hippostdpubwf:lastModificationDate: 2021-10-15T12:29:34.207-04:00
+      hippostdpubwf:creationDate: 2022-01-19T10:20:07.110-05:00
+      hippostdpubwf:lastModificationDate: 2022-01-19T10:21:09.232-05:00
       hippostdpubwf:lastModifiedBy: admin
-      hippotranslation:id: f1b622e0-58c3-4ae7-8532-7d563e3ebf4e
+      hippotranslation:id: 66aa057c-d36f-4ab8-a788-b555cceceb0d
       hippotranslation:locale: en
       /myproject:productDetailCustomContentCompounds[1]:
         jcr:primaryType: myproject:ProductDetailCustomContentCompound
         myproject:tabLabel: Description
         /myproject:tabContent:
           jcr:primaryType: hippostd:html
-          hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipiscing
-            elit. Praesent urna dui, porttitor fermentum augue at, ullamcorper blandit
-            sapien. Aenean nec imperdiet sapien. Donec euismod eget dolor vitae convallis.&nbsp;</p>
+          hippostd:content: |-
+            <h2>This is a heading</h2>
+
+            <p>This is some text.</p>
       /myproject:productDetailCustomContentCompounds[2]:
         jcr:primaryType: myproject:ProductDetailCustomContentCompound
-        myproject:tabLabel: Nutritional Highlights
+        myproject:tabLabel: Care Instructions
         /myproject:tabContent:
           jcr:primaryType: hippostd:html
           hippostd:content: |-
-            <ul>
-             <li>Low-Fat</li>
-             <li>High Protein</li>
-            </ul>
-    /141618[2]:
+            <h2>This is another heading</h2>
+
+            <p>This is some other text.</p>
+
+            <p>&nbsp;</p>
+    /80123fam[2]:
       jcr:primaryType: myproject:ProductDetailCustomContent
       jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
-      jcr:uuid: fcaf4198-cfa4-4d3c-93ef-a9b2b143c6e6
+      jcr:uuid: 541db619-29d8-492e-902a-cabf586345d7
       hippo:availability: [preview]
       hippostd:retainable: false
       hippostd:state: unpublished
       hippostdpubwf:createdBy: admin
-      hippostdpubwf:creationDate: 2021-10-15T10:58:58.930-04:00
-      hippostdpubwf:lastModificationDate: 2021-10-15T10:59:56.651-04:00
+      hippostdpubwf:creationDate: 2022-01-19T10:20:07.110-05:00
+      hippostdpubwf:lastModificationDate: 2022-01-19T10:21:22.532-05:00
       hippostdpubwf:lastModifiedBy: admin
-      hippotranslation:id: f1b622e0-58c3-4ae7-8532-7d563e3ebf4e
+      hippotranslation:id: 66aa057c-d36f-4ab8-a788-b555cceceb0d
       hippotranslation:locale: en
       /myproject:productDetailCustomContentCompounds[1]:
         jcr:primaryType: myproject:ProductDetailCustomContentCompound
         myproject:tabLabel: Description
         /myproject:tabContent:
           jcr:primaryType: hippostd:html
-          hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipiscing
-            elit. Praesent urna dui, porttitor fermentum augue at, ullamcorper blandit
-            sapien. Aenean nec imperdiet sapien. Donec euismod eget dolor vitae convallis.
-            Praesent blandit odio sit amet mi vehicula, dapibus auctor diam lobortis.
-            Integer at egestas nisl. Maecenas vel metus tellus. Proin porta tortor
-            sed sem sodales, non imperdiet nisi suscipit. Aenean nec aliquet arcu.
-            Donec in arcu a ante egestas facilisis ut vel turpis. Nullam ut fringilla
-            tellus. Mauris convallis condimentum orci, gravida fermentum dui tempus
-            quis.</p>
+          hippostd:content: |-
+            <h2>This is a heading</h2>
+
+            <p>This is some text.</p>
       /myproject:productDetailCustomContentCompounds[2]:
         jcr:primaryType: myproject:ProductDetailCustomContentCompound
-        myproject:tabLabel: Nutritional Highlights
+        myproject:tabLabel: Care Instructions
         /myproject:tabContent:
           jcr:primaryType: hippostd:html
           hippostd:content: |-
-            <ul>
-             <li>Low-Fat</li>
-             <li>High Protein</li>
-            </ul>
-    /141618[3]:
+            <h2>This is another heading</h2>
+
+            <p>This is some other text.</p>
+
+            <p>&nbsp;</p>
+    /80123fam[3]:
       jcr:primaryType: myproject:ProductDetailCustomContent
       jcr:mixinTypes: ['mix:referenceable']
-      jcr:uuid: 07056d6f-617f-4323-8dca-e608ad26f6ee
+      jcr:uuid: 69d1dca5-d4c5-45c8-883e-510023223350
       hippo:availability: [live]
       hippostd:retainable: false
       hippostd:state: published
       hippostdpubwf:createdBy: admin
-      hippostdpubwf:creationDate: 2021-10-15T10:58:58.930-04:00
-      hippostdpubwf:lastModificationDate: 2021-10-15T10:59:56.651-04:00
+      hippostdpubwf:creationDate: 2022-01-19T10:20:07.110-05:00
+      hippostdpubwf:lastModificationDate: 2022-01-19T10:21:22.532-05:00
       hippostdpubwf:lastModifiedBy: admin
-      hippostdpubwf:publicationDate: 2021-10-15T12:29:53.250-04:00
-      hippotranslation:id: f1b622e0-58c3-4ae7-8532-7d563e3ebf4e
+      hippostdpubwf:publicationDate: 2022-01-19T10:21:24.013-05:00
+      hippotranslation:id: 66aa057c-d36f-4ab8-a788-b555cceceb0d
       hippotranslation:locale: en
       /myproject:productDetailCustomContentCompounds[1]:
         jcr:primaryType: myproject:ProductDetailCustomContentCompound
         myproject:tabLabel: Description
         /myproject:tabContent:
           jcr:primaryType: hippostd:html
-          hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipiscing
-            elit. Praesent urna dui, porttitor fermentum augue at, ullamcorper blandit
-            sapien. Aenean nec imperdiet sapien. Donec euismod eget dolor vitae convallis.
-            Praesent blandit odio sit amet mi vehicula, dapibus auctor diam lobortis.
-            Integer at egestas nisl. Maecenas vel metus tellus. Proin porta tortor
-            sed sem sodales, non imperdiet nisi suscipit. Aenean nec aliquet arcu.
-            Donec in arcu a ante egestas facilisis ut vel turpis. Nullam ut fringilla
-            tellus. Mauris convallis condimentum orci, gravida fermentum dui tempus
-            quis.</p>
+          hippostd:content: |-
+            <h2>This is a heading</h2>
+
+            <p>This is some text.</p>
       /myproject:productDetailCustomContentCompounds[2]:
         jcr:primaryType: myproject:ProductDetailCustomContentCompound
-        myproject:tabLabel: Nutritional Highlights
+        myproject:tabLabel: Care Instructions
         /myproject:tabContent:
           jcr:primaryType: hippostd:html
           hippostd:content: |-
-            <ul>
-             <li>Low-Fat</li>
-             <li>High Protein</li>
-            </ul>
-  /181590:
-    jcr:primaryType: hippo:handle
-    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
-    jcr:uuid: f80c9cd6-4b13-4305-9411-fd3b5492557c
-    hippo:name: 181590 (Happy Tot Super Morning, Stage 4, Organic Bananas, Blueberries,
-      Yogurt & Oats)
-    hippo:versionHistory: 0f50ad21-e437-4e40-9c8e-93d57e31593f
-    /181590[1]:
-      jcr:primaryType: myproject:ProductDetailCustomContent
-      jcr:mixinTypes: ['mix:versionable']
-      jcr:uuid: 9a573b15-e3d1-4f01-b79a-80e705eb9175
-      hippo:availability: [preview]
-      hippostd:retainable: false
-      hippostd:state: unpublished
-      hippostdpubwf:createdBy: admin
-      hippostdpubwf:creationDate: 2021-10-15T10:58:58.930-04:00
-      hippostdpubwf:lastModificationDate: 2021-10-15T10:59:56.651-04:00
-      hippostdpubwf:lastModifiedBy: admin
-      hippotranslation:id: 53c2fbe7-3df0-49c5-9e2d-74b988162f2a
-      hippotranslation:locale: en
-      /myproject:productDetailCustomContentCompounds[1]:
-        jcr:primaryType: myproject:ProductDetailCustomContentCompound
-        myproject:tabLabel: Description
-        /myproject:tabContent:
-          jcr:primaryType: hippostd:html
-          hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipiscing
-            elit. Praesent urna dui, porttitor fermentum augue at, ullamcorper blandit
-            sapien. Aenean nec imperdiet sapien. Donec euismod eget dolor vitae convallis.
-            Praesent blandit odio sit amet mi vehicula, dapibus auctor diam lobortis.
-            Integer at egestas nisl. Maecenas vel metus tellus. Proin porta tortor
-            sed sem sodales, non imperdiet nisi suscipit. Aenean nec aliquet arcu.
-            Donec in arcu a ante egestas facilisis ut vel turpis. Nullam ut fringilla
-            tellus. Mauris convallis condimentum orci, gravida fermentum dui tempus
-            quis.</p>
-      /myproject:productDetailCustomContentCompounds[2]:
-        jcr:primaryType: myproject:ProductDetailCustomContentCompound
-        myproject:tabLabel: Nutritional Highlights
-        /myproject:tabContent:
-          jcr:primaryType: hippostd:html
-          hippostd:content: |-
-            <ul>
-             <li>Low-Fat</li>
-             <li>High Protein</li>
-            </ul>
-    /181590[2]:
-      jcr:primaryType: myproject:ProductDetailCustomContent
-      jcr:mixinTypes: ['mix:referenceable']
-      jcr:uuid: 763cd495-e514-4e11-ac84-324bdc74e506
-      hippo:availability: [live]
-      hippostd:retainable: false
-      hippostd:state: published
-      hippostdpubwf:createdBy: admin
-      hippostdpubwf:creationDate: 2021-10-15T10:58:58.930-04:00
-      hippostdpubwf:lastModificationDate: 2021-10-15T10:59:56.651-04:00
-      hippostdpubwf:lastModifiedBy: admin
-      hippostdpubwf:publicationDate: 2021-10-15T12:28:44.131-04:00
-      hippotranslation:id: 53c2fbe7-3df0-49c5-9e2d-74b988162f2a
-      hippotranslation:locale: en
-      /myproject:productDetailCustomContentCompounds[1]:
-        jcr:primaryType: myproject:ProductDetailCustomContentCompound
-        myproject:tabLabel: Description
-        /myproject:tabContent:
-          jcr:primaryType: hippostd:html
-          hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipiscing
-            elit. Praesent urna dui, porttitor fermentum augue at, ullamcorper blandit
-            sapien. Aenean nec imperdiet sapien. Donec euismod eget dolor vitae convallis.
-            Praesent blandit odio sit amet mi vehicula, dapibus auctor diam lobortis.
-            Integer at egestas nisl. Maecenas vel metus tellus. Proin porta tortor
-            sed sem sodales, non imperdiet nisi suscipit. Aenean nec aliquet arcu.
-            Donec in arcu a ante egestas facilisis ut vel turpis. Nullam ut fringilla
-            tellus. Mauris convallis condimentum orci, gravida fermentum dui tempus
-            quis.</p>
-      /myproject:productDetailCustomContentCompounds[2]:
-        jcr:primaryType: myproject:ProductDetailCustomContentCompound
-        myproject:tabLabel: Nutritional Highlights
-        /myproject:tabContent:
-          jcr:primaryType: hippostd:html
-          hippostd:content: |-
-            <ul>
-             <li>Low-Fat</li>
-             <li>High Protein</li>
-            </ul>
-    /181590[3]:
-      jcr:primaryType: myproject:ProductDetailCustomContent
-      jcr:mixinTypes: ['mix:referenceable']
-      jcr:uuid: 22cf4906-0565-4c44-8a5e-a437d34ea910
-      hippo:availability: []
-      hippostd:retainable: false
-      hippostd:state: draft
-      hippostd:transferable: false
-      hippostdpubwf:createdBy: admin
-      hippostdpubwf:creationDate: 2021-10-15T10:58:58.930-04:00
-      hippostdpubwf:lastModificationDate: 2021-10-15T12:28:41.162-04:00
-      hippostdpubwf:lastModifiedBy: admin
-      hippotranslation:id: 53c2fbe7-3df0-49c5-9e2d-74b988162f2a
-      hippotranslation:locale: en
-      /myproject:productDetailCustomContentCompounds[1]:
-        jcr:primaryType: myproject:ProductDetailCustomContentCompound
-        myproject:tabLabel: Description
-        /myproject:tabContent:
-          jcr:primaryType: hippostd:html
-          hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipiscing
-            elit. Praesent urna dui, porttitor fermentum augue at, ullamcorper blandit
-            sapien. Aenean nec imperdiet sapien. Donec euismod eget dolor vitae convallis.
-            Praesent blandit odio sit amet mi vehicula, dapibus auctor diam lobortis.
-            Integer at egestas nisl. Maecenas vel metus tellus. Proin porta tortor
-            sed sem sodales, non imperdiet nisi suscipit. Aenean nec aliquet arcu.
-            Donec in arcu a ante egestas facilisis ut vel turpis. Nullam ut fringilla
-            tellus. Mauris convallis condimentum orci, gravida fermentum dui tempus
-            quis.</p>
-      /myproject:productDetailCustomContentCompounds[2]:
-        jcr:primaryType: myproject:ProductDetailCustomContentCompound
-        myproject:tabLabel: Nutritional Highlights
-        /myproject:tabContent:
-          jcr:primaryType: hippostd:html
-          hippostd:content: |-
-            <ul>
-             <li>Low-Fat</li>
-             <li>High Protein</li>
-            </ul>
+            <h2>This is another heading</h2>
+
+            <p>This is some other text.</p>
+
+            <p>&nbsp;</p>

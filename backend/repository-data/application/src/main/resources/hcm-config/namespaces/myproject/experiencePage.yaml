@@ -11,19 +11,26 @@ definitions:
         /hipposysedit:nodetype:
           jcr:primaryType: hipposysedit:nodetype
           jcr:mixinTypes: ['mix:referenceable', 'hipposysedit:remodel']
-          jcr:uuid: 39b7a4b4-5d34-40f1-ac09-06b9639d74c4
+          jcr:uuid: 46440566-885e-4c35-8dec-0b07c7f63b57
           hipposysedit:node: true
           hipposysedit:supertype: ['myproject:basedocument', 'hippostd:relaxed', 'hippotranslation:translated']
           hipposysedit:uri: http://www.myproject.com/myproject/nt/1.0
-          /pageTitle:
+          /pageMetadata:
             jcr:primaryType: hipposysedit:field
             hipposysedit:mandatory: false
             hipposysedit:multiple: false
             hipposysedit:ordered: false
-            hipposysedit:path: myproject:pageTitle
+            hipposysedit:path: myproject:pageMetadata
             hipposysedit:primary: false
-            hipposysedit:type: String
-            hipposysedit:validators: [required]
+            hipposysedit:type: myproject:PageMetadata
+          /connectorid:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: myproject:connectorid
+            hipposysedit:primary: false
+            hipposysedit:type: OpenUiString
       /hipposysedit:prototypes:
         jcr:primaryType: hipposysedit:prototypeset
         /hipposysedit:prototype:
@@ -35,10 +42,24 @@ definitions:
           hippotranslation:id: document-type-locale-id
           hippotranslation:locale: document-type-locale
           jcr:mixinTypes: ['mix:referenceable']
-          myproject:pageTitle: ''
-          jcr:uuid: bd14d9f1-fc7f-4eac-897e-98381e5267c7
+          jcr:uuid: 2d3ce729-4fc5-4a04-a51b-f46f3510c406
           hippostdpubwf:lastModificationDate: 2021-09-12T18:50:38.026-04:00
           hippostdpubwf:creationDate: 2021-09-12T18:50:38.027-04:00
+          myproject:connectorid: ''
+          /myproject:pageMetadata:
+            jcr:primaryType: myproject:PageMetadata
+            myproject:canonicalUrl: ''
+            myproject:metaDescription: ''
+            myproject:metaKeywords: ['']
+            myproject:ogTitle: ''
+            myproject:ogType: ''
+            myproject:pageTitle: ''
+            /myproject:ogImage:
+              jcr:primaryType: hippogallerypicker:imagelink
+              hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+              hippo:facets: []
+              hippo:modes: []
+              hippo:values: []
       /editor:templates:
         jcr:primaryType: editor:templateset
         /_default_:
@@ -50,12 +71,22 @@ definitions:
             jcr:primaryType: frontend:plugin
             item: ${cluster.id}.field
             plugin.class: org.hippoecm.frontend.service.render.ListViewPlugin
-          /pageTitle:
+          /pageMetadata:
             jcr:primaryType: frontend:plugin
-            caption: Page Title
-            field: pageTitle
+            caption: Page Metadata
+            field: pageMetadata
+            hint: ''
+            plugin.class: org.hippoecm.frontend.editor.plugins.field.NodeFieldPlugin
+            wicket.id: ${cluster.id}.field
+            /cluster.options:
+              jcr:primaryType: frontend:pluginconfig
+          /connectorid:
+            jcr:primaryType: frontend:plugin
+            caption: Category
+            field: connectorid
             hint: ''
             plugin.class: org.hippoecm.frontend.editor.plugins.field.PropertyFieldPlugin
             wicket.id: ${cluster.id}.field
             /cluster.options:
               jcr:primaryType: frontend:pluginconfig
+              ui.extension: commerceCategoryPicker

@@ -2,5 +2,6 @@ definitions:
   config:
     /hst:hst/hst:configurations/react/hst:components/ProductGridCategory:
       jcr:primaryType: hst:component
-      hst:parameternames: [categoryId]
-      hst:parametervalues: ['${1}']
+      hst:parameternames: [categoryId, document]
+      hst:parametervalues: ['${1}', 'pages/categories/${1}']
+      hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsDocumentComponent

@@ -22,10 +22,16 @@
 [myproject:FlexibleGridItem] > hippo:compound, hippostd:relaxed
   orderable
 
+[myproject:PageMetadata] > hippo:compound, hippostd:relaxed
+  orderable
+
 [myproject:ProductDetailCustomContent] > hippostd:relaxed, hippotranslation:translated, myproject:basedocument
   orderable
 
 [myproject:ProductDetailCustomContentCompound] > hippo:compound, hippostd:relaxed
+  orderable
+
+[myproject:ProductSlider] > hippostd:relaxed, hippotranslation:translated, myproject:basedocument
   orderable
 
 [myproject:bannerdocument] > hippostd:relaxed, hippotranslation:translated, myproject:basedocument
@@ -41,6 +47,12 @@
   orderable
 
 [myproject:newsdocument] > hippostd:relaxed, hippotranslation:translated, myproject:basedocument
+  orderable
+
+[myproject:productCompound] > hippo:compound, hippostd:relaxed
+  orderable
+
+[myproject:productVariantCompound] > hippo:compound, hippostd:relaxed
   orderable
 
 [myproject:slickSlider] > hippostd:relaxed, hippotranslation:translated, myproject:basedocument

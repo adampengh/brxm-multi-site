@@ -89,3 +89,112 @@
           resource: /content/gallery/react/navigation-banners/nathan-dumlao-keiqezjlmus-unsplash.jpg/nathan-dumlao-KeiQeZJLmus-unsplash_original.jpg
         jcr:lastModified: 2021-10-15T09:54:59.916-04:00
         jcr:mimeType: image/jpeg
+  /44126fam_xxx_v1.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 4b209773-2322-4d54-974e-a1cd7872afa3
+    hippo:name: 44126fam_XXX_v1.jpg
+    /44126fam_xxx_v1.jpg:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: 44126fam_XXX_v1.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: 44126fam_XXX_v1.jpg
+        hippogallery:height: 60
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/react/navigation-banners/44126fam_xxx_v1.jpg/44126fam_XXX_v1_thumbnail.jpg
+        jcr:lastModified: 2022-01-19T10:49:47.947-05:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 315
+        hippogallery:width: 315
+        jcr:data:
+          type: binary
+          resource: /content/gallery/react/navigation-banners/44126fam_xxx_v1.jpg/44126fam_XXX_v1_original.jpg
+        jcr:lastModified: 2022-01-19T10:49:47.947-05:00
+        jcr:mimeType: image/jpeg
+  /bed-and-bath.jpg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: ece5a652-3019-40ae-8fe4-88ad1bb3fe74
+    /bed-and-bath.jpg:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: bed-and-bath.jpg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: bed-and-bath.jpg
+        hippogallery:height: 40
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/react/navigation-banners/bed-and-bath.jpg/bed-and-bath_thumbnail.jpg
+        jcr:lastModified: 2022-01-19T10:51:53.082-05:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 800
+        hippogallery:width: 1200
+        jcr:data:
+          type: binary
+          resource: /content/gallery/react/navigation-banners/bed-and-bath.jpg/bed-and-bath_original.jpg
+        jcr:lastModified: 2022-01-19T10:51:53.082-05:00
+        jcr:mimeType: image/jpeg
+  /amazon-rivet-furniture-1533048038.jpeg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 7f1c6efe-dc30-4354-b65e-2fb2b06bfc25
+    /amazon-rivet-furniture-1533048038.jpeg:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: amazon-rivet-furniture-1533048038.jpeg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: amazon-rivet-furniture-1533048038.jpeg
+        hippogallery:height: 30
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/react/navigation-banners/amazon-rivet-furniture-1533048038.jpeg/amazon-rivet-furniture-1533048038_thumbnail.jpeg
+        jcr:lastModified: 2022-01-19T10:56:42.577-05:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 602
+        hippogallery:width: 1200
+        jcr:data:
+          type: binary
+          resource: /content/gallery/react/navigation-banners/amazon-rivet-furniture-1533048038.jpeg/amazon-rivet-furniture-1533048038_original.jpeg
+        jcr:lastModified: 2022-01-19T10:56:42.577-05:00
+        jcr:mimeType: image/jpeg
+  /maxresdefault.jpeg:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 8dae826a-068b-49b5-8d8b-85842a8f832a
+    /maxresdefault.jpeg:
+      jcr:primaryType: hippogallery:imageset
+      hippo:availability: [live, preview]
+      hippogallery:filename: maxresdefault.jpeg
+      /hippogallery:thumbnail:
+        jcr:primaryType: hippogallery:image
+        hippo:filename: maxresdefault.jpeg
+        hippogallery:height: 33
+        hippogallery:width: 60
+        jcr:data:
+          type: binary
+          resource: /content/gallery/react/navigation-banners/maxresdefault.jpeg/maxresdefault_thumbnail.jpeg
+        jcr:lastModified: 2022-01-19T11:34:40.556-05:00
+        jcr:mimeType: image/jpeg
+      /hippogallery:original:
+        jcr:primaryType: hippogallery:image
+        hippogallery:height: 720
+        hippogallery:width: 1280
+        jcr:data:
+          type: binary
+          resource: /content/gallery/react/navigation-banners/maxresdefault.jpeg/maxresdefault_original.jpeg
+        jcr:lastModified: 2022-01-19T11:34:40.556-05:00
+        jcr:mimeType: image/jpeg

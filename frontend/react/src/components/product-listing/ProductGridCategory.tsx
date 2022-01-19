@@ -32,12 +32,16 @@ import FacetList from './FacetList';
 import ProductCard from './ProductCard';
 import './ProductListing.scss';
 
+
 export function ProductGridCategory({ page, component }: BrProps) {
   let {
     pageSize,
     categoryId = ''
   } = component.getParameters();
 
+  // If there is an associated category page document, check for the categorypicker value
+  const { document: documentRef } = component.getModels();
+  const document = documentRef && page.getContent(documentRef);
 
   const connector = getConnector(page);
   const smViewId = getSmViewId(page);
@@ -46,13 +50,13 @@ export function ProductGridCategory({ page, component }: BrProps) {
   return (
     <div className="container">
       <CategoryDetail
-        categoryId={categoryId}
+        categoryId={document?.getData()?.connectorid || categoryId}
         connector={connector}
         smViewId={smViewId}
         brUid2={cookies._br_uid_2}
       />
       <ProductGridCategoryHandler
-        categoryId={categoryId}
+        categoryId={document?.getData()?.connectorid || categoryId}
         connector={connector}
         pageSize={(pageSize as unknown) as number || 9}
         smViewId={smViewId}

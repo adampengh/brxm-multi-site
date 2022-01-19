@@ -23,7 +23,6 @@ export function ProductDetailCustomContent({ page, component }: BrProps) {
             <Tabs defaultActiveKey={productDetailCustomContentCompounds[0].tabLabel} id="uncontrolled-tab-example" className="mb-3">
                 {productDetailCustomContentCompounds.map((compound: any, index: number) => (
                     <Tab eventKey={compound.tabLabel} title={compound.tabLabel} key={index} className="p-3">
-                        <h3>{compound.tabLabel}</h3>
                         <div dangerouslySetInnerHTML={{ __html: compound.tabContent.value }} />
                     </Tab>
                 ))}
