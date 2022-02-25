@@ -1,0 +1,203 @@
+/content/documents/vue/navigation-banners:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: f3ccd924-9490-4905-b180-348ab8ea5b4e
+  hippo:name: Navigation Banners
+  hippostd:foldertype: [new-navigationBanner-document]
+  hippotranslation:id: 47708ec0-a386-4261-baea-8b1aa233d984
+  hippotranslation:locale: en
+  /bed-and-bath-navigation-banner:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: c4321a3e-10a0-472d-83e8-fab02dd2603c
+    hippo:name: Bed and Bath Navigation Banner
+    hippo:versionHistory: 7e174d7f-1ef8-4123-a199-ada61038fd16
+    /bed-and-bath-navigation-banner[1]:
+      jcr:primaryType: myproject:navigationBanner
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 922cfedd-1197-4df6-8b8b-a40c78da602e
+      hippo:availability: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostd:transferable: false
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2022-01-19T10:48:55.693-05:00
+      hippostdpubwf:lastModificationDate: 2022-01-19T10:52:26.495-05:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: fccfd63c-418b-42c9-ab69-5109e50b14bc
+      hippotranslation:locale: en
+      myproject:heading: New Bed and Bath
+      myproject:link: /c/new-bed-and-bath
+      /myproject:imageCompound:
+        jcr:primaryType: myproject:imageCompound
+        myproject:altText: Pacific Home Lemon Verbena Bath and Body Collection
+        /myproject:mobileImage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /myproject:desktopImage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: ece5a652-3019-40ae-8fe4-88ad1bb3fe74
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+    /bed-and-bath-navigation-banner[2]:
+      jcr:primaryType: myproject:navigationBanner
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 79f1f2bf-db93-401a-98ba-ad81d0d2c8e1
+      hippo:availability: [preview]
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2022-01-19T10:48:55.693-05:00
+      hippostdpubwf:lastModificationDate: 2022-01-19T10:52:06.708-05:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: fccfd63c-418b-42c9-ab69-5109e50b14bc
+      hippotranslation:locale: en
+      myproject:heading: New Bed and Bath
+      myproject:link: /c/new-bed-and-bath
+      /myproject:imageCompound:
+        jcr:primaryType: myproject:imageCompound
+        myproject:altText: Pacific Home Lemon Verbena Bath and Body Collection
+        /myproject:mobileImage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /myproject:desktopImage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: ece5a652-3019-40ae-8fe4-88ad1bb3fe74
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+    /bed-and-bath-navigation-banner[3]:
+      jcr:primaryType: myproject:navigationBanner
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: f7cdca9e-13eb-4105-bd5c-79fd2cbc74f7
+      hippo:availability: [live]
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2022-01-19T10:48:55.693-05:00
+      hippostdpubwf:lastModificationDate: 2022-01-19T10:52:06.708-05:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2022-01-19T10:52:08.038-05:00
+      hippotranslation:id: fccfd63c-418b-42c9-ab69-5109e50b14bc
+      hippotranslation:locale: en
+      myproject:heading: New Bed and Bath
+      myproject:link: /c/new-bed-and-bath
+      /myproject:imageCompound:
+        jcr:primaryType: myproject:imageCompound
+        myproject:altText: Pacific Home Lemon Verbena Bath and Body Collection
+        /myproject:mobileImage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /myproject:desktopImage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: ece5a652-3019-40ae-8fe4-88ad1bb3fe74
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+  /furniture-navigation-banner:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 2f468b95-2afd-482b-8de3-91335f4be46a
+    hippo:name: Furniture Navigation Banner
+    hippo:versionHistory: 361e0de9-6c86-4ccd-b196-fa6024f16878
+    /furniture-navigation-banner[1]:
+      jcr:primaryType: myproject:navigationBanner
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: d836aae5-ffaf-46fc-8834-41dbadcdf00b
+      hippo:availability: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2022-01-19T10:56:12.945-05:00
+      hippostdpubwf:lastModificationDate: 2022-01-19T11:01:20.715-05:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 8701403d-557a-4703-9aa5-f8783701129f
+      hippotranslation:locale: en
+      myproject:heading: Living Room Furniture
+      myproject:link: /c/living-room-furniture
+      /myproject:imageCompound:
+        jcr:primaryType: myproject:imageCompound
+        myproject:altText: Blue sofa
+        /myproject:mobileImage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /myproject:desktopImage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 7f1c6efe-dc30-4354-b65e-2fb2b06bfc25
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+    /furniture-navigation-banner[2]:
+      jcr:primaryType: myproject:navigationBanner
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: d74fc2af-7b10-4946-aca4-dd824366e583
+      hippo:availability: [preview]
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2022-01-19T10:56:12.945-05:00
+      hippostdpubwf:lastModificationDate: 2022-01-19T11:01:24.533-05:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 8701403d-557a-4703-9aa5-f8783701129f
+      hippotranslation:locale: en
+      myproject:heading: Living Room Furniture
+      myproject:link: /c/living-room-furniture
+      /myproject:imageCompound:
+        jcr:primaryType: myproject:imageCompound
+        myproject:altText: Blue sofa
+        /myproject:mobileImage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /myproject:desktopImage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 7f1c6efe-dc30-4354-b65e-2fb2b06bfc25
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+    /furniture-navigation-banner[3]:
+      jcr:primaryType: myproject:navigationBanner
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 2c4bdda6-6a6b-4a0f-beb0-63787963abf8
+      hippo:availability: [live]
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2022-01-19T10:56:12.945-05:00
+      hippostdpubwf:lastModificationDate: 2022-01-19T11:01:24.533-05:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2022-01-19T11:01:25.646-05:00
+      hippotranslation:id: 8701403d-557a-4703-9aa5-f8783701129f
+      hippotranslation:locale: en
+      myproject:heading: Living Room Furniture
+      myproject:link: /c/living-room-furniture
+      /myproject:imageCompound:
+        jcr:primaryType: myproject:imageCompound
+        myproject:altText: Blue sofa
+        /myproject:mobileImage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []
+        /myproject:desktopImage:
+          jcr:primaryType: hippogallerypicker:imagelink
+          hippo:docbase: 7f1c6efe-dc30-4354-b65e-2fb2b06bfc25
+          hippo:facets: []
+          hippo:modes: []
+          hippo:values: []

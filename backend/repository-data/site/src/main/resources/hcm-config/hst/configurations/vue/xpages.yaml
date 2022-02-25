@@ -1,0 +1,28 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/vue/hst:xpages:
+      jcr:primaryType: hst:xpages
+      /single-column:
+        jcr:primaryType: hst:xpage
+        hst:label: Single Column Page
+        hst:referencecomponent: hst:abstractpages/base
+        /main:
+          jcr:primaryType: hst:containercomponent
+          hippo:identifier: 17891158-a805-4fa0-a5c8-80dc4b3274ff
+          hst:xtype: hst.vbox
+      /category-page:
+        jcr:primaryType: hst:xpage
+        hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsDocumentComponent
+        hst:label: Category Page Layout
+        hst:referencecomponent: hst:abstractpages/base
+        /top:
+          jcr:primaryType: hst:containercomponent
+          hippo:identifier: 6dc76817-d36d-46a3-84b5-458b002a6f8b
+        /main:
+          jcr:primaryType: hst:component
+          /ProductGridCategory:
+            jcr:primaryType: hst:component
+            hst:referencecomponent: hst:components/ProductGridCategory
+        /bottom:
+          jcr:primaryType: hst:containercomponent
+          hippo:identifier: 983bffd1-a5f4-4c6c-9b85-52ff56a69341

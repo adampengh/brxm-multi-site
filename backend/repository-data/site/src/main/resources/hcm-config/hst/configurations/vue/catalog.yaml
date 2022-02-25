@@ -1,0 +1,19 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/vue/hst:catalog:
+      jcr:primaryType: hst:catalog
+      /vue-catalog:
+        jcr:primaryType: hst:containeritempackage
+        /Hero:
+          jcr:primaryType: hst:componentdefinition
+          hst:componentclassname: org.hippoecm.hst.component.support.bean.dynamic.BaseHstDynamicComponent
+          hst:xtype: hst.nomarkup
+          hst:ctype: Hero
+          hst:iconpath: images/essentials/catalog-component-icons/banner.svg
+          hst:label: Hero
+          /document:
+            jcr:primaryType: hst:dynamicparameter
+            /hst:fieldconfig:
+              jcr:primaryType: hst:jcrpath
+              hst:relative: true
+              hst:pickerconfiguration: cms-pickers/documents-only

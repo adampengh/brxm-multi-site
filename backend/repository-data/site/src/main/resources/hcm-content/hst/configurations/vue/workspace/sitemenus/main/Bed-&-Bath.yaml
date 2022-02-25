@@ -1,0 +1,43 @@
+/hst:hst/hst:configurations/vue/hst:workspace/hst:sitemenus/main/Bed & Bath:
+  jcr:primaryType: hst:sitemenuitem
+  hst:parameternames: [Banner Name]
+  hst:parametervalues: [bed-and-bath-navigation-banner]
+  hst:referencesitemapitem: bed-and-bath
+  hst:repobased: false
+  /Column 1:
+    jcr:primaryType: hst:sitemenuitem
+    hst:parameternames: [Banner Name]
+    hst:parametervalues: ['']
+    hst:repobased: false
+    /Bed & Bath:
+      jcr:primaryType: hst:sitemenuitem
+      hst:parameternames: [Banner Name]
+      hst:parametervalues: ['']
+      hst:repobased: false
+      /All Bed & Bath:
+        jcr:primaryType: hst:sitemenuitem
+        hst:parameternames: [Banner Name]
+        hst:parametervalues: ['']
+        hst:referencesitemapitem: c/bed-and-bath
+        hst:repobased: false
+      /New Bed and Bath:
+        jcr:primaryType: hst:sitemenuitem
+        hst:parameternames: [Banner Name]
+        hst:parametervalues: ['']
+        hst:referencesitemapitem: c/new-bed-and-bath
+        hst:repobased: false
+  /Column 2:
+    jcr:primaryType: hst:sitemenuitem
+    hst:parameternames: [Banner Name]
+    hst:parametervalues: ['']
+    hst:repobased: false
+  /Column 3:
+    jcr:primaryType: hst:sitemenuitem
+    hst:parameternames: [Banner Name]
+    hst:parametervalues: ['']
+    hst:repobased: false
+  /Column 4:
+    jcr:primaryType: hst:sitemenuitem
+    hst:parameternames: [Banner Name]
+    hst:parametervalues: ['']
+    hst:repobased: false

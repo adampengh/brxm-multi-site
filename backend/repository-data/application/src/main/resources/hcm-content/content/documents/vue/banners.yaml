@@ -1,0 +1,168 @@
+/content/documents/vue/banners:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+  jcr:uuid: 9c33a6f4-796a-41df-88d5-528764962d62
+  hippostd:foldertype: [new-banner-document, new-banner-folder]
+  hippotranslation:id: 691cfd48-9afc-4455-8632-f8ffc7fffd88
+  hippotranslation:locale: en
+  /banner1:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 8707504d-3149-4bd0-839b-ca0309e171f9
+    /banner1:
+      jcr:primaryType: myproject:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 4a8288c5-87c4-44fa-a22b-8253dceb2b55
+      hippo:availability: [live, preview]
+      hippostd:holder: admin
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-03-20T17:00:00+01:00
+      hippostdpubwf:lastModificationDate: 2014-03-20T17:04:00+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2014-03-20T17:04:00+01:00
+      hippotranslation:id: a399afbc-e26b-4c65-be2f-0cd17464ce86
+      hippotranslation:locale: en
+      myproject:title: Sample banner
+      /myproject:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+          ex ea commodo consequat.</p>
+      /myproject:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 9e440e6d-e93a-4d5f-913b-9c3b0867c812
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /myproject:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /banner2:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: b0a617b6-d106-4db3-beb9-0759d5b16243
+    hippo:name: banner2
+    /banner2:
+      jcr:primaryType: myproject:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 083c1089-cace-4479-88b1-0ebd50f24dda
+      hippo:availability: [live, preview]
+      hippostd:holder: admin
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-03-20T17:00:00+01:00
+      hippostdpubwf:lastModificationDate: 2014-03-20T17:04:00+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2014-03-20T17:04:00+01:00
+      hippotranslation:id: 71962cc4-971b-4247-87a0-9aff2f099205
+      hippotranslation:locale: en
+      myproject:title: Sample banner 2
+      /myproject:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+          ex ea commodo consequat.</p>
+      /myproject:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: dc6c2247-d3f4-4be0-976e-749b69927eee
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /myproject:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /page-not-found:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: a00393d5-93e6-40b4-845a-a97e259f27d1
+    hippo:name: Page Not Found
+    hippo:versionHistory: 8a75a87d-5904-4d19-ac64-d259c7c732e8
+    /page-not-found[1]:
+      jcr:primaryType: myproject:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 3310825b-3e8d-4169-90e4-da90cf988353
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostd:transferable: false
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-09-12T19:10:45.955-04:00
+      hippostdpubwf:lastModificationDate: 2021-09-30T14:43:26.852-04:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: bfa28b57-1150-45d1-998b-112ba4728058
+      hippotranslation:locale: en
+      myproject:title: 404 - Page Not Found
+      /myproject:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p><img src="https://via.placeholder.com/1600x900" alt="Placeholder"
+          /></p>
+      /myproject:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /myproject:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /page-not-found[2]:
+      jcr:primaryType: myproject:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 51e145b4-4d18-4370-9e13-989a64dbe349
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-09-12T19:10:45.955-04:00
+      hippostdpubwf:lastModificationDate: 2021-09-30T14:42:56.228-04:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: bfa28b57-1150-45d1-998b-112ba4728058
+      hippotranslation:locale: en
+      myproject:title: 404 - Page Not Found
+      /myproject:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p><img src="https://via.placeholder.com/1600x900" alt="Placeholder"
+          /></p>
+      /myproject:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /myproject:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /page-not-found[3]:
+      jcr:primaryType: myproject:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: cef0dd88-c7eb-49b8-bb61-1a6bec2334c7
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-09-12T19:10:45.955-04:00
+      hippostdpubwf:lastModificationDate: 2021-09-30T14:42:56.228-04:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2021-09-30T14:43:26.676-04:00
+      hippotranslation:id: bfa28b57-1150-45d1-998b-112ba4728058
+      hippotranslation:locale: en
+      myproject:title: 404 - Page Not Found
+      /myproject:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p><img src="https://via.placeholder.com/1600x900" alt="Placeholder"
+          /></p>
+      /myproject:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /myproject:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe

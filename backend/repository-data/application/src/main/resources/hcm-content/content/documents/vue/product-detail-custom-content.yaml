@@ -1,0 +1,114 @@
+/content/documents/vue/product-detail-custom-content:
+  .meta:order-before: page-content
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 6ff5adaf-8286-4793-85ed-c95715ed2bac
+  hippo:name: Product Detail Custom Content
+  hippostd:foldertype: [new-ProductDetailCustomContent-document]
+  hippotranslation:id: bea1e7c7-9ee5-49d2-802d-332e21aa25a8
+  hippotranslation:locale: en
+  /80123fam:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: d68c6eea-c602-4269-9fd3-37bffab4516e
+    hippo:versionHistory: b614ff90-d191-479e-9ff3-8c8398ec6cdd
+    /80123fam[1]:
+      jcr:primaryType: myproject:ProductDetailCustomContent
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 341a76dc-0238-4587-929a-ad7e931eec6c
+      hippo:availability: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2022-01-19T10:20:07.110-05:00
+      hippostdpubwf:lastModificationDate: 2022-01-19T10:21:09.232-05:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 66aa057c-d36f-4ab8-a788-b555cceceb0d
+      hippotranslation:locale: en
+      /myproject:productDetailCustomContentCompounds[1]:
+        jcr:primaryType: myproject:ProductDetailCustomContentCompound
+        myproject:tabLabel: Description
+        /myproject:tabContent:
+          jcr:primaryType: hippostd:html
+          hippostd:content: |-
+            <h2>This is a heading</h2>
+
+            <p>This is some text.</p>
+      /myproject:productDetailCustomContentCompounds[2]:
+        jcr:primaryType: myproject:ProductDetailCustomContentCompound
+        myproject:tabLabel: Care Instructions
+        /myproject:tabContent:
+          jcr:primaryType: hippostd:html
+          hippostd:content: |-
+            <h2>This is another heading</h2>
+
+            <p>This is some other text.</p>
+
+            <p>&nbsp;</p>
+    /80123fam[2]:
+      jcr:primaryType: myproject:ProductDetailCustomContent
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: dc82ac07-4807-48ad-a617-3d8169707ccb
+      hippo:availability: [preview]
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2022-01-19T10:20:07.110-05:00
+      hippostdpubwf:lastModificationDate: 2022-01-19T10:21:22.532-05:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 66aa057c-d36f-4ab8-a788-b555cceceb0d
+      hippotranslation:locale: en
+      /myproject:productDetailCustomContentCompounds[1]:
+        jcr:primaryType: myproject:ProductDetailCustomContentCompound
+        myproject:tabLabel: Description
+        /myproject:tabContent:
+          jcr:primaryType: hippostd:html
+          hippostd:content: |-
+            <h2>This is a heading</h2>
+
+            <p>This is some text.</p>
+      /myproject:productDetailCustomContentCompounds[2]:
+        jcr:primaryType: myproject:ProductDetailCustomContentCompound
+        myproject:tabLabel: Care Instructions
+        /myproject:tabContent:
+          jcr:primaryType: hippostd:html
+          hippostd:content: |-
+            <h2>This is another heading</h2>
+
+            <p>This is some other text.</p>
+
+            <p>&nbsp;</p>
+    /80123fam[3]:
+      jcr:primaryType: myproject:ProductDetailCustomContent
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: be2f0fc9-c1d5-4ba8-bcc1-1e4fb32ef11e
+      hippo:availability: [live]
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2022-01-19T10:20:07.110-05:00
+      hippostdpubwf:lastModificationDate: 2022-01-19T10:21:22.532-05:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2022-01-19T10:21:24.013-05:00
+      hippotranslation:id: 66aa057c-d36f-4ab8-a788-b555cceceb0d
+      hippotranslation:locale: en
+      /myproject:productDetailCustomContentCompounds[1]:
+        jcr:primaryType: myproject:ProductDetailCustomContentCompound
+        myproject:tabLabel: Description
+        /myproject:tabContent:
+          jcr:primaryType: hippostd:html
+          hippostd:content: |-
+            <h2>This is a heading</h2>
+
+            <p>This is some text.</p>
+      /myproject:productDetailCustomContentCompounds[2]:
+        jcr:primaryType: myproject:ProductDetailCustomContentCompound
+        myproject:tabLabel: Care Instructions
+        /myproject:tabContent:
+          jcr:primaryType: hippostd:html
+          hippostd:content: |-
+            <h2>This is another heading</h2>
+
+            <p>This is some other text.</p>
+
+            <p>&nbsp;</p>

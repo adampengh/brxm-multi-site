@@ -1,0 +1,5 @@
+/hst:hst/hst:configurations/vue/hst:workspace/hst:sitemenus/main/hst:prototypeitem:
+  .meta:order-before: Ideas & Inspiration
+  jcr:primaryType: hst:sitemenuitem
+  hst:parameternames: [Banner Name]
+  hst:parametervalues: ['']

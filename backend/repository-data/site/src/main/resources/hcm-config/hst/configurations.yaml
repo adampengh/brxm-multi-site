@@ -345,3 +345,6 @@ definitions:
       /react:
         jcr:primaryType: hst:configuration
         hst:inheritsfrom: [../common]
+      /vue:
+        jcr:primaryType: hst:configuration
+        hst:inheritsfrom: [../common]

@@ -1,0 +1,15 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/vue/hst:pages/product-detail:
+      jcr:primaryType: hst:component
+      hst:referencecomponent: hst:abstractpages/base
+      /main:
+        jcr:primaryType: hst:component
+        /ProductDetail:
+          jcr:primaryType: hst:component
+          hst:referencecomponent: hst:components/ProductDetail
+        /ProductDetailCustomContent:
+          jcr:primaryType: hst:component
+          hst:componentclassname: com.myproject.components.ProductDetailCustomContent
+          hst:parameternames: [productId]
+          hst:parametervalues: ['${1}']

@@ -1,0 +1,232 @@
+/content/documents/vue/sample-components:
+  .meta:order-before: navigation-banners
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: b4a5a4fb-610f-4ccd-bdda-4ff56bc4c7e5
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: d754987e-7693-473c-ba8e-f3d660dff79b
+  hippotranslation:locale: en
+  /pantry-slider:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 5dec2556-d980-4318-b4ef-be3ae3fe8979
+    hippo:name: Pantry Slider
+    hippo:versionHistory: 31b596b7-4bb2-4be4-9efb-2cceef3e0c42
+    /pantry-slider[1]:
+      jcr:primaryType: myproject:slickSlider
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: e13b9635-4fe8-4bb2-a4b8-9c1ce2d5f481
+      hippo:availability: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostd:transferable: false
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-10-15T09:49:41.124-04:00
+      hippostdpubwf:lastModificationDate: 2021-10-15T12:09:57.626-04:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 9baa8082-1734-4430-aae9-610c608a7733
+      hippotranslation:locale: en
+      /myproject:slide:
+        jcr:primaryType: myproject:slickSliderCompound
+        /myproject:image:
+          jcr:primaryType: myproject:imageCompound
+          myproject:altText: Baby Store
+          /myproject:mobileImage:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /myproject:desktopImage:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: f50d7597-f6c6-4ad2-b604-dbf785f1bdcf
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /myproject:text:
+          jcr:primaryType: hippostd:html
+          hippostd:content: ''
+    /pantry-slider[2]:
+      jcr:primaryType: myproject:slickSlider
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: ef9e25c6-6492-45c4-ad66-6230ca9bd6d7
+      hippo:availability: [preview]
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-10-15T09:49:41.124-04:00
+      hippostdpubwf:lastModificationDate: 2021-10-15T09:50:21.836-04:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 9baa8082-1734-4430-aae9-610c608a7733
+      hippotranslation:locale: en
+      /myproject:slide:
+        jcr:primaryType: myproject:slickSliderCompound
+        /myproject:image:
+          jcr:primaryType: myproject:imageCompound
+          myproject:altText: Baby Store
+          /myproject:mobileImage:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /myproject:desktopImage:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: f50d7597-f6c6-4ad2-b604-dbf785f1bdcf
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /myproject:text:
+          jcr:primaryType: hippostd:html
+          hippostd:content: ''
+    /pantry-slider[3]:
+      jcr:primaryType: myproject:slickSlider
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 4644a963-b4c2-43e8-99fa-b53d8fedb8b0
+      hippo:availability: [live]
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-10-15T09:49:41.124-04:00
+      hippostdpubwf:lastModificationDate: 2021-10-15T09:50:21.836-04:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2021-10-15T09:50:25.176-04:00
+      hippotranslation:id: 9baa8082-1734-4430-aae9-610c608a7733
+      hippotranslation:locale: en
+      /myproject:slide:
+        jcr:primaryType: myproject:slickSliderCompound
+        /myproject:image:
+          jcr:primaryType: myproject:imageCompound
+          myproject:altText: Baby Store
+          /myproject:mobileImage:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /myproject:desktopImage:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: f50d7597-f6c6-4ad2-b604-dbf785f1bdcf
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /myproject:text:
+          jcr:primaryType: hippostd:html
+          hippostd:content: ''
+  /hero-components:
+    jcr:primaryType: hippostd:folder
+    jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
+    jcr:uuid: 973488cb-a7dd-4d63-83a8-43caba6b80a8
+    hippo:name: hero components
+    hippostd:foldertype: [new-translated-folder, new-document]
+    hippotranslation:id: a86dae99-e57a-42d7-aee9-c7a19db588d9
+    hippotranslation:locale: en
+    /vue-hero:
+      jcr:primaryType: hippo:handle
+      jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+      jcr:uuid: 4b9625d6-a513-4f7e-be48-bf618b38c54f
+      hippo:name: Vue Hero
+      hippo:versionHistory: 52b59288-8c95-476b-8b6f-092bc8e4ac56
+      /vue-hero[1]:
+        jcr:primaryType: myproject:Hero
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 376dd2e7-2751-4be7-ac1e-bcdd89d37075
+        hippo:availability: []
+        hippostd:retainable: false
+        hippostd:state: draft
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2022-02-03T11:40:51.765-05:00
+        hippostdpubwf:lastModificationDate: 2022-02-03T11:40:51.765-05:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 665e502d-74d7-4987-bfe5-3aebaef9ec7f
+        hippotranslation:locale: en
+        /myproject:imageCompound:
+          jcr:primaryType: myproject:imageCompound
+          myproject:altText: Lake with mountains
+          /myproject:mobileImage:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 0ca0c1fb-9281-4583-8886-6c9f08ffb29e
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /myproject:desktopImage:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 0ca0c1fb-9281-4583-8886-6c9f08ffb29e
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /myproject:text:
+          jcr:primaryType: hippostd:html
+          hippostd:content: |-
+            <h3>Hero Heading</h3>
+
+            <p>This is some hero sub-text</p>
+      /vue-hero[2]:
+        jcr:primaryType: myproject:Hero
+        jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+        jcr:uuid: b69e3ee9-8146-41b2-9565-083ee64029db
+        hippo:availability: [preview]
+        hippostd:retainable: false
+        hippostd:state: unpublished
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2022-02-03T11:40:51.765-05:00
+        hippostdpubwf:lastModificationDate: 2022-02-03T11:41:27.324-05:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippotranslation:id: 665e502d-74d7-4987-bfe5-3aebaef9ec7f
+        hippotranslation:locale: en
+        /myproject:imageCompound:
+          jcr:primaryType: myproject:imageCompound
+          myproject:altText: Lake with mountains
+          /myproject:mobileImage:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 0ca0c1fb-9281-4583-8886-6c9f08ffb29e
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /myproject:desktopImage:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 0ca0c1fb-9281-4583-8886-6c9f08ffb29e
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /myproject:text:
+          jcr:primaryType: hippostd:html
+          hippostd:content: |-
+            <h3>Hero Heading</h3>
+
+            <p>This is some hero sub-text</p>
+      /vue-hero[3]:
+        jcr:primaryType: myproject:Hero
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: e9586456-3a17-435c-9ad3-0ec2e8435764
+        hippo:availability: [live]
+        hippostd:retainable: false
+        hippostd:state: published
+        hippostdpubwf:createdBy: admin
+        hippostdpubwf:creationDate: 2022-02-03T11:40:51.765-05:00
+        hippostdpubwf:lastModificationDate: 2022-02-03T11:41:27.324-05:00
+        hippostdpubwf:lastModifiedBy: admin
+        hippostdpubwf:publicationDate: 2022-02-03T11:41:29.823-05:00
+        hippotranslation:id: 665e502d-74d7-4987-bfe5-3aebaef9ec7f
+        hippotranslation:locale: en
+        /myproject:imageCompound:
+          jcr:primaryType: myproject:imageCompound
+          myproject:altText: Lake with mountains
+          /myproject:mobileImage:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 0ca0c1fb-9281-4583-8886-6c9f08ffb29e
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+          /myproject:desktopImage:
+            jcr:primaryType: hippogallerypicker:imagelink
+            hippo:docbase: 0ca0c1fb-9281-4583-8886-6c9f08ffb29e
+            hippo:facets: []
+            hippo:modes: []
+            hippo:values: []
+        /myproject:text:
+          jcr:primaryType: hippostd:html
+          hippostd:content: |-
+            <h3>Hero Heading</h3>
+
+            <p>This is some hero sub-text</p>

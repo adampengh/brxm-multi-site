@@ -64,3 +64,9 @@ interface Pageable {
   totalPages: number;
   visiblePages: number;
 }
+
+interface ImageCompound {
+  desktopImage: import('@bloomreach/spa-sdk').Reference;
+  mobileImage?: import('@bloomreach/spa-sdk').Reference;
+  altText: string;
+}

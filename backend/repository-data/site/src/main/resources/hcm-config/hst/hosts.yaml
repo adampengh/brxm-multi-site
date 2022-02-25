@@ -12,6 +12,9 @@ definitions:
           jcr:primaryType: hst:mount
           hst:homepage: root
           hst:mountpoint: /hst:myproject/hst:sites/myproject
+          hst:pagemodelapi: resourceapi
+          hst:responseheaders: ['Access-Control-Allow-Origin: *', 'Access-Control-Allow-Credentials:
+              true']
           /react:
             .meta:residual-child-node-category: content
             jcr:primaryType: hst:mount
@@ -26,3 +29,11 @@ definitions:
               hst:type: preview
               hst:pagemodelapi: resourceapi
               hst:mountpoint: /hst:myproject/hst:sites/react
+          /vue:
+            .meta:residual-child-node-category: content
+            jcr:primaryType: hst:mount
+            hst:homepage: homepage
+            hst:mountpoint: /hst:myproject/hst:sites/vue
+            hst:pagemodelapi: resourceapi
+            hst:responseheaders: ['Access-Control-Allow-Origin: *', 'Access-Control-Allow-Credentials:
+                true']

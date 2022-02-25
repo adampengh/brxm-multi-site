@@ -1,0 +1,9 @@
+/content/documents/vue:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['frontend:orderChildFolders', 'hippo:named', 'hippotranslation:translated',
+    'mix:versionable']
+  jcr:uuid: 75375d96-d2a7-4673-9548-73a87c37392e
+  hippo:name: Vue
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: f34d6318-f2cc-489b-98ba-fa2139ea619e
+  hippotranslation:locale: en

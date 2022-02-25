@@ -1,0 +1,13 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/vue/hst:pages/category:
+      jcr:primaryType: hst:component
+      hst:referencecomponent: hst:abstractpages/base
+      /main:
+        jcr:primaryType: hst:component
+        /ProductGridCategory:
+          jcr:primaryType: hst:component
+          hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsDocumentComponent
+          hst:parameternames: [document]
+          hst:parametervalues: ['pages/categories/${1}']
+          hst:referencecomponent: hst:components/ProductGridCategory

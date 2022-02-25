@@ -54,6 +54,7 @@ import { Route } from 'vue-router';
 
 import Banner from './components/BrBanner.vue';
 import Content from './components/BrContent.vue';
+import Hero from './components/BrHero.vue';
 import Menu from './components/BrMenu.vue';
 import NewsList from './components/BrNewsList.vue';
 
@@ -66,10 +67,12 @@ import NewsList from './components/BrNewsList.vue';
         endpointQueryParameter: 'endpoint',
         httpClient: axios,
         path: this.$route.fullPath,
+        debug: true,
       },
       mapping: {
         Banner,
         Content,
+        Hero,
         menu: Menu,
         'News List': NewsList,
         'Simple Content': Content,

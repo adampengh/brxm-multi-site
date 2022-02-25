@@ -22,6 +22,9 @@
 [myproject:FlexibleGridItem] > hippo:compound, hippostd:relaxed
   orderable
 
+[myproject:Hero] > hippostd:relaxed, hippotranslation:translated, myproject:basedocument
+  orderable
+
 [myproject:PageMetadata] > hippo:compound, hippostd:relaxed
   orderable
 
